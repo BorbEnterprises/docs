@@ -40,5 +40,4 @@ These links go to documentation about various mods we've created.
 # Web Services
 These links go to documentation for various web services provided by Donut Team.
 
-* [Donut Team API v1](donut-team-api/v1/intro.md)
 * [Donut Team Forum](donut-team-forum/versions/all-versions.md) (Version History Only)
