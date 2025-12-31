@@ -36,8 +36,3 @@ These links go to documentation about various mods we've created.
 
 * [Donut Mod](donutmod/intro.md) (Version History Only)
 * [Roofed Family Sedan (Donut Mod Version)](mods/roofed-family-sedan.md)
-
-# Web Services
-These links go to documentation for various web services provided by Donut Team.
-
-* [Donut Team Forum](donut-team-forum/versions/all-versions.md) (Version History Only)
