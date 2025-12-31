@@ -1,0 +1,448 @@
+---
+title: Version 3.2
+description: "This update was released on March 29th, 2016."
+---
+
+**This update was released on March 29th, 2016.**
+
+# Codename
+The Rebalance Update
+
+# Original Text
+This is the original text of the changelog from [this TXT file](https://www.dropbox.com/s/asno8vytv7n7rnf/Donut%20Mod.txt?raw=1).
+
+- Settings
+	- Gameplay
+		- Difficulty
+			- Changed Name from "Diff" to "Difficulty".
+		- UI
+			- Removed.
+				- The mod will now always use Frosted.
+	- Advanced
+		- Disable New Gags
+			- Added. Disables all additional gags added by Donut Mod.
+		- Disable New Wasps
+			- Added. Disables all additional wasps added by Donut Mod.
+		- Disable Level 1 Mission 3
+			- Added. Disables Level 1 Mission 3.
+		
+- Language / Localization
+	- English
+		- Updated MSG_AUTO_LOADING_GAME_(PC) to say "saved game" instead of "savegame".
+		- Updated MSG_LOADING_GAME_(PC) to say "saved game" instead of "savegame".
+		
+- Rewards / Cars
+	- General
+		- Removed Car Camera Data from AI Only Cars.
+	- Level 1
+		- Family Sedan
+			- Now uses an entirely different model based off of Skinner's Sedan from the vanilla game.
+			- Added cooler and donut to the backseats, added Buzz Cola can to the cupholder.
+		- Plow King
+			- Added a duff crate, and a skunk to the snow pile inside the Plow King.
+		- Audi TT
+			- Added High Roof.
+		- Patty Wagon
+			- Fixed Handling.
+			- Added a Spinning Propeller.
+			- Added an Iris Transistion when entering the car.
+			- Tweaked the Cameras for the Vehicle.
+	- Level 2
+		- Grampa's Limo	
+			- Renamed to "Shriner's Cart" as this is the proper name.
+		- Catapult
+			- No longer spawns a husk.
+			- Now has an accurate collision model.
+		- Warthog
+			- Added custom vehicle sounds.
+	- Level 3
+		- Wasp Bike
+			- Added a Blackjacket color (appears randomly).
+	- Other
+		- Nuclear Bus, Mini UFO, Wasp Bike, Rusty Bucket
+			- No longer spawns a husk.
+		- Blackjacket (blakjack), classic, compact, hotrod, jmuscle, muscle, supercar
+			- Removed.
+
+- Levels
+	- General
+		- Fixed loading of level cars.
+		- Renamed secret ambient characters.
+	- Level 1
+		- Added Professor Frink as an ambient character and suppressed him as a driver.
+	- Level 2
+		- Cops are now stronger and faster on Hellfish.
+	- Level 3
+		- Cops are now stronger and faster on Hellfish.
+
+- Missions
+	- General
+		- All missions have recieved nerfing in Normal Mode in one way or another to better match the original game's difficulty.
+		- Most missions now have unique mission failed text.
+		- Most missions now have unique mission failed hint text.
+		- Most missions now have an intro camera animation.
+		- Most missions carstart locations have been adjusted so the car spawns on the ground and not in the air.
+	- L1M0
+		- Normal Mode
+			- Maximum Traffic for the whole mission has been set to 2. 
+			- All timers in the mission are completely removed. 
+			- Amount of ice cream that the Ice Cream Truck drops is now just 3.
+		- Hellfish Mode
+			- Timer to collect the ice cream from the truck reduced by 5 seconds.
+	- L1M1
+		- General
+			- Updated pre-mission.
+		- Normal Mode
+			- Maximum Traffic for the whole mission has been set to 2.
+			- Timer to get the Buzz Cola can has been removed. 
+			- Timer to get the Krusty Burger meal has been upped to 50. 
+			- Timer to get the Trash Can item has been upped to 40. 
+			- Timer to get to the school (fake) has been upped to 1:10. 
+				- This gives the player enough time to make it to the school fairly easily.
+				-...But not enough time for them to use the other route without a better car, similar to vanilla L2M1.
+		- Hellfish Mode
+			- Increased timer to "Drive to the School" to match that of Normal Mode.
+			- Increased Skinner's Hitpoints from 1.2 to 1.4.
+	- L1M2
+		- General
+			- The Duff Truck's driver has been changed from Jimbo to Jasper.
+			- "M2_start" now resumes playing in the stage on the way back to Flanders'.
+		- Normal Mode
+			- Traffic throughout entire mission has been set to 2.
+			- Timer to get the Tuxedo has been upped to 45. 
+			- Timer to Ned's Lawn Mower has been upped to 50.
+			- Timer to get to the Springfield Community Center is now 2:30.
+			- Timer to get the lawn chair is now 40.
+			- First Wiggum chase has been nerfed.
+				- Now uses a variant of L1cop.con seen in the "Pursuit" folder.
+				- Total distance to get away from Wiggum is either 140 to 150.
+				- Timer to get away from Wiggum is 2:00.
+			- Timer to get the family portrait has been upped to 3:00. 
+			- Timer to get to the Duff Truck has been removed. 
+			- Duff Truck chase still remains the same.
+			- Timer to get back to Ned's is removed.
+			- Wiggum's second chase has been nerfed. 
+				- Now uses a variant of L1cop.con seen in the "Pursuit" folder.
+				- Total distance to get away from Wiggum is either 140 to 150.
+				- Timer to get away from Wiggum has been upped to 1:50.
+			- Second timer to get back to Ned's has been removed. 
+		- Hellfish Mode
+			- Decreased to get Rod's Inhaler out of the Duff Truck by 20 seconds.
+	- L1M3
+		- Normal Mode
+			- Smithers uses a souped up version of his .con file from the vanilla L1M3.
+				- The only difference is that his hit points have been massively increased so he can no longer be destroyed.
+				- Smithers' vanilla con file is slightly slower than Skinner's, but considering the longer race it works.
+				- AI is also set to "target" to make the race signifigantly easier.
+			- Trash Collecting stage has been heavily re-worked.
+				- Trash outside in the parking lot has been removed.
+				- The trash cans floating in the platform section of the Power Plant have been removed.
+				- Trash cans in Mr. Burns' area have been left alone since otherwise you never visit there.
+			- Timer to get to the garbage truck has been increased to 1:50.
+			- Timer to get back to office has been increased to 1:50.
+		- Hellfish Mode
+			- Decreased the timer to collect the garbage inside the power plant by 25 seconds.
+			- Decreased the timer to reach the garbage truck by 5 seconds.
+	- L1M4
+		- General
+			- Removed the timer to reach the Simpsons House after escaping the van.
+		- Normal Mode
+			- Timer used for the destroy the coupling stage is identical to the one in the original.
+			- Timer to get back to Homer's Workstation is removed.
+			- Van chase has been nerfed considerably. 
+				- Van's AI uses Easycop.con in the Pusuit folder.
+					- Vanilla L1M5 uses a modified EasyChas.con file, so something similar should be used.
+			- Timer has been upped to 1:30.
+			- Distance meter has been increased to 150.
+			- Timer to get back home is removed.
+			- Following the Van stage is identical to Flowers By Irene.
+	- L1M5
+		- General
+			- Reverted to the old version of the mission.
+			- The forced car is now properly swapped out.
+			- Changed the spawn position of Homer, the Player Car, and Frink's car.
+		- Normal Mode
+			- Nuclear Waste Truck AI is re-adjusted.
+				- Uses a modified EasyChas.con
+			- Time to grab the barrel is now 2:20.
+				- This way the player has plenty of time to get the barrel back if they drop it.
+			- After grabbing the barrel, the game skips straight to the "Drive to Frink's House" stage.
+				- This way the player doesn't have to re-do too many stages if they drop the barrel.
+				- Timer has been bumped up to 3:00 so the player has plenty of time to get to Frink's.
+	- L1M6
+		- General
+			- The forced car is now properly swapped out.
+		- Normal Mode
+			- Timer in first stage has been bumped up to 255.
+				- The vanilla L1M6 gives you 18 seconds per item, so 18x14=252, which I rounded up to 255 to be a bit more fair.
+				- Traffic in first stage is limited to 2 to match original L2M7.
+			- Timer to get to the Community Center has been removed.
+				- Traffic in first stage is limited to 2 to match original L2M7.
+			- First Router Car stage has been nerfed.
+				- Uses L2M7's original .con file.
+				- Timer has been bumped up to two minutes to match the original L2M7.
+				- Traffic in first stage is limited to 2.
+			- Timer to get to the Kwik-E-Mart has been removed.
+				- Traffic has been bumped up to 3.
+			- Second Router Car stage has been nerfed.
+				- Uses original con file from L2M7.
+				- Timer has been bumped up to 2:00.
+				- Traffic is still limited to 3.
+			- Timer to get to the gas station has been removed.
+				- Traffic has been bumped up to 4.
+			- Final Router Car has been nerfed.
+				- Uses original con file form L2M7.
+				- Timer has been bumped up to 1:40.
+				- Traffic is still limited to 4.
+			- Time to get back to The Simpsons Household has been removed.
+				- Traffic is still limited to 4.
+		- Hellfish Mode
+			- Timer to knock the video games out of the truck decreased by 30 seconds.
+			- Timer to reach the Community Center decreased by 40 seconds.
+			- Timer to reach the Kwik-E-Mart decreased by 40 seconds.
+			- Timer to reach the gas station by the bridge decreased by 20 seconds.
+			- Timer to reach the Simpsons House decreased by 15 seconds.
+	- L1M7
+		- Normal Mode
+			- Traffic is now consistently nerfed to 2 throughout the whole mission.
+			- First stage now has a timer of 2:00.
+			- Nuclear Bus chase stage nerfed.
+				- Clearing it will now add a full minute to your timer.
+				- Nuclear Bus now uses a modified garbage.con file.
+			- Mr. Smithers stage has been nerfed.
+				- Now uses a modified L1M3 .con file.
+					- Uses 2.0 rather than 1.5 hitpoints.
+			- The Blue Nuclear Bus no longer harrasses you on this difficulty.
+			- Distance meter is now Hellfish only.
+		- Hellfish Mode
+			- Increased the mass of Smither's car to make him less of a pushover.
+	- L1SR1
+		- General
+			- Renamed from "Challenge 1: Suburbs Derby 1" to "Challenge 1: Trailer Park Derby".
+		- Normal Mode
+			- Duff Truck stage nerfed.
+				- Now uses a modified M6dump.con from Level 1's folder with hitpoints based off of M7dest.con.
+				- Timer has been bumped up to 1:50.
+			- Bonestorm Truck stage nerfed.
+				- Now uses a modified M6dump.con with the exact same hitpoints as M7dest.con from Level 2.
+			- Glasstruck Stage nerfed.
+				- Now uses a modified M3dest.con from vanilla L1M3.
+			- Mr. Plow Marge Stage nerfed.
+				- Now uses MedDest.con.
+	- L1SR2
+		- General
+			- Mission has been renamed from "Challenge 2: Suburbs Race 1" to "Challenge 2: Evergreen Race".
+			- Changed the starting position of the racers.
+			- Increased hitpoints on Firebird vehicle. 
+			- Added more waypoints to make the race more difficult.
+		- Normal Mode
+			- Firebird uses a modified AI_1st.con from EasyRace folder.
+			- Nuctruck uses a modified AI_3rd.con from EasyRace folder.
+		- Hellfish Mode
+			- Changed the Hellfish racers.
+	- L1BM1
+		- General
+			- The forced car is now properly swapped out.
+			- Removed the timer to drive back to Cletus' house after escaping Apu.
+		- Normal Mode
+			- Traffic stays at 2 until the cardboard stage is reached, which is 3.
+			- Timer to get to the Tomacco Field is now 1:00.
+			- Timer to collect the tomacco is now 0:50.
+			- Timer to get the cardboard tubes is now 1:50.
+			- Timer to get the flatmeat is now 2:00.
+			- Timer to get away from Apu is now 1:20.
+			- 30 seconds are now added to the timer after losing Apu and getting back to Cletus' Shack.
+	- L2M1
+		- General
+			- Completely revamped.
+	- L2M2
+		- Normal Mode
+			- Traffic is limited to 2.
+			- Increase timer for driving to Moe's.
+				- It's now identical to the original timer minus 10 seconds to accoimdate for the faster vehicle.
+			- Moe's car AI has been nerfed.
+				- Now uses a modified EasyChas.con.
+			- Increase timer for hitting Moe's car.
+				- Approximatley 2:25.
+				- Using Vanilla L1M6 as a base, approximatley 18 seconds are given per item.
+				- Using Chris' 8 fireworks, that gives you 144 seconds (2:24), which I decided to round to 2:25.
+			- Decrease number of fireworks to collect (about 8).
+			- Timer to get to the Police Station is now identical to the original.
+			- Stage where the player has to avoid Chief Wiggum for a brief amount of time is now removed.
+				- The game now has two stages identical to the original.
+	- L2M3
+		- Normal Mode
+			- Nerd Car has now been nerfed.
+				- Uses a modified MedDest.con to match the difficulty of the game's original race (which I personally found pretty demanding).
+			- Traffic is limited to two traffic cars in first stage.
+				- Hellfish still uses the original 3 car amount that was placed into the first stage.
+			- Timer to collect Professor Frink's junk is now 1:00.
+				- Took timer from vanilla L2M2, and added 15 more seconds to accomidate for the faster car.
+			- Professor Frink follow stage has been nerfed.
+				- Now uses a modified vanilla M4evade.con.
+				- Has AI set to "target".
+			- Items to collect have now been removed.
+	- L2M4
+		- Normal Mode
+			- Traffic has been nerfed.
+				- Uses two cars for the first couple of stages, then increases to three when hunting down Snake for some additional challenge.
+			- Bumblebee Man's car stage has been nerfed.
+				- Uses a modified MedDest.con.
+				- Timer has been decreased by ten seconds. Using Vanilla L1M6's logic, 100 seconds is a bit more generous than it needs to be.
+			- Snake stage has been nerfed.
+				- Now uses a modified version of his race con file from vanilla L2M4.
+				- This con file is actually pretty close to what we were originally using, but it had lower mass and a higher gas scale.
+				- Nerfed the gas scale though to match what we were originally using. Mass I left the same.
+		- Hellfish Mode
+			- Hit & Run's are now enabled to add challenge.
+	- L2M5
+		- Normal Mode
+			- Following Apu stage has been nerfed.
+				- Now uses EasyChas.con.
+				- Uses a shorter route that goes to the right of the Sit-N-Rotate.
+			- Timer to get back in Cletus' Truck has been removed.
+			- Getting away from Apu stage has been nerfed to match the difficulty of the original stage.
+		- Hellfish Mode
+			- Exclusive flatmeat collecting stage now has it's own stage message index rather than re-using the one from the previous stage.
+	- L2M6
+		- Normal Mode
+			- Monkey collecting stage at the start has been changed.
+				- Uses a much shorter, much more direct route that's easier for the player, rather than going through the Hospital.
+			- Van destruction stage has been nerfed.
+				- Difference is that the strength has been seriously nerfed. - Seems a bit tough for Normal Mode, though the time is fair.
+		- Hellfish Mode
+			- Decreased the hitpoints of the Animal Control Van from 5.0 to 4.5.
+	- L2M7
+		- Normal Mode
+			- Cell Phone Jerk stage has been nerfed.
+				- Cell Phone Car uses a duplicate of Level 2's M7dest.con.
+				- Timer has been decreased to 75 rather than 80.
+					- Again, using vanilla L1M6 as a base, you should get 72 seconds for all 4 items.
+					- However, 80 might be a bit too much and perhaps Level 2 at this point should be taxing you more for errors?
+				- Timer for the first cell phone stand stage has been increased to 90.
+					- Higher than the timer in the above stage.
+					- Because there's more items and generally there are more items in inconvenient locations.
+				- Timer to get to Moe's has been increased to 35 seconds.
+					- Uses timer to get from Moe's to Town Hall from vanilla L2M2, but cut by 5 seconds because of construction site shortcut.
+					- Also, it's later into the game.
+				- Timer for the second cell phone stand stage has been increased to 100.
+					- Using vanilla L2M6 as reference, 8 seconds per item and items are everywhere in this stage.
+					- Total time number (96) has been rounded to 100.
+					- Also thrown in inconvenient locations that might be a bit too much for the player.
+				- Timer to get to Try-N-Save has been increased to 40.
+					- To give a little more cushion time if the player ends up in a bad spot after destroying the stands.
+					- ...Or the last one they destroy is near the start.
+				- Timer for the third cell phone stand stage has been increased to 80.
+					- For similar reasons to second stage.
+				- Timer to get to Downtown has been increased to 70.
+					- Similar reasons for the Try-N-Save stage.
+				- Final cell phone stand stage has been signifigantly nerfed.
+					- All Cell Phone Cars have been removed. They seem like way too much for something so early in the game.
+					- Radical also lacks a stage like this one where cars you can't lose are harassing you while you're doing another objective.
+					- Timer has been bumped up to 170.
+				- Drone destruction stage has been nerfed.
+					- Uses a duplicate of vanilla Level 2's M7dest.con.
+		- Hellfish Mode
+			- Increased the timer to drive to Downtown by 10 seconds.
+	- L2SR1
+		- General
+			- Mission has been renamed from "Challenge 1: City Derby 1" to "Challenge 1: Downtown Derby".
+			- Classic Family Sedan now uses a new HUD Icon.
+	- L2SR2
+		- General
+			- Mission has been renamed from "Challenge 2: City Race 1" to "Challenge 2: Downtown Race".
+			- Changed Racers.
+		- Normal Mode
+			- Tweaked some of the racer's stats.
+		- Hellfish Mode
+			- Increased mass on Lisa's car.
+			- Increased hitpoints on Lisa's car.
+	- L2SR3
+		- Normal Mode
+			- Increased the timer to grab the newspapers to 1:25.
+			- Increased the timer to get back into your car to 0:50.
+			- Increased the timer to deliever the papers in the first part of downtown to 0:50.
+			- Changed the timer to get to the shady part of downtown to 1:10.
+			- Increased the timer to deliever the mail in the shady part of downtown to 1:30.
+	- L2BM1
+		- Normal Mode
+			- Changed timer to get to Moe's to 0:45.
+			- Timer to get back into your car has been changed to 0:30.
+			- Timer to get to the Krusty Burger has been increased to 0:30
+			- Timer to get back into your car has been changed to 0:30.
+			- Timer to get to the Hospital has been increased to 0:45.
+			- Timer to get the blood has been increased to 2:20.
+	- L3M1
+		- Normal Mode
+			- Traffic is limited to just two cars just like the vanilla mission.
+			- Timer to get to the Comic Book Shop has been upped to 1:10.
+				- This timer was taken from the vanilla L3M2's drive to the Planet Hype, with ten seconds added.
+				- There are multiple reasons for the 10 second increase:
+					- First time the player steps into Level 3.
+					- Player is taking control of an entirely new car that they haven't touched since L2M3.
+					- The Comic Book shop is slightly farther away from the Planet Hype.
+			- Race is just limited to one Nerd Car.
+				- This is done to emulate the difficulty of the race from L3M1.
+				- This is also done because Radical usually only uses one race car in non-Street Race mission races.
+			- Timer to get back to the Comic Book Shop (fake) is now the real stage.
+				- Nerd Car chase has been removed.
+		- Hellfish Mode
+			- Decreased the timer to drive back to the Android's dungeon by 10 seconds.
+	- L3M2
+		- Normal Mode
+			- Timer to get to the Springfield Sign is now 1:00.
+			- Apu now no longer dumps items on Normal. The player is just expected to follow Apu.
+		- Hellfish Mode
+			- Decreased timer in "Drive to the Springfield Sign" stage.
+			- Decreased timer in "Drive to the Planet Hype" stage.
+			- Changed Milhouse's AI behaviour.
+	- L3M3
+		- General
+			- The forced car is now properly swapped out.
+			- Removed the Countdown at the start of the mission.
+		- Normal Mode
+			- Timer to follow the flatmeat trail has been increased to 1:25.
+			- Timer to get to get Cletus' flatmeat has been reverted to the original timer.
+			- Blue Redneck Truck now uses an entirely new con file.
+			- Timer has been decreased when knocking the flatmeat out of the Blue Redneck truck to 1:10.
+		- Hellfish
+			- Increased the timer to collect the first batch of flatmeat because reasons.
+			- Decreased timer to reach the observatory by 10 seconds.
+	- L3M4
+		- Normal Mode
+			- First sedan now uses a weaker con file.
+			- Increased the timer to destroy the first sedan to 1:30.
+			- Increased time to collect Bart's trail of items to 1:10.
+			- Second sedan now uses a weaker con file.
+			- Timer to destroy the second sedan has been decreased to 1:20.
+	- L3M5
+		- Normal Mode
+			- Changed the Police Car's AI Behaviour.
+			- Changed the Police Car's Stats.
+			- Changed the Snake icon to be the regular one without jail bars.
+		- Hellfish Mode
+			- Nerfed the Police Car's stats so the chase is easier.
+			- Hit & Run's are now enabled to add challenge.
+			- Decreased the distance you can be away from Snake a bit.
+	- L3M6
+		- General
+			- Nerfed the Chase Sedan's hitpoints.
+		- Normal Mode
+			- Increased timer to collect the evidence is 1:30.
+			- cSedan now uses a different con file based off of Level 3's M4dest.con.
+			- Timer to get back to Davy Jones' Hamper is now disabled.
+		- Hellfish Mode
+			- Hit & Run's are now enabled to add challenge.
+			- Decreased the timer to collect the sedans items and destroy it by 15 seconds.
+	- L3M7
+		- General
+			- Completely Revamped.
+	- L3SR1
+		- General
+			- Renamed from "Challenge 1: Seaside Derby 1" to "Challenge 1: Squidport Derby".
+			- Fixed the driver of the Knight Boat to be the Sea Captain as intended instead of Krusty.
+			- Seperate opponent stats for each difficulty.
+	- L3BM1
+		- Normal Mode
+			- Adjusted Kearney and Dolph's stats.
+			- Timer to knock the games out of the Bonestorm Truck has been increased to 2:00.

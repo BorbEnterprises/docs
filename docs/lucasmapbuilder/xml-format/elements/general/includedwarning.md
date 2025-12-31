@@ -1,0 +1,14 @@
+---
+title: IncludedWarning
+# description: ""
+status:
+    class: "stub"
+summary:
+    initialVersion: "1.0"
+---
+
+TODO
+
+# Version History
+## 1.0
+Initial release.

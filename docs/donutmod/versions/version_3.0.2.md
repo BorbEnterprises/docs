@@ -1,0 +1,112 @@
+---
+title: Version 3.0.2
+description: "This update was released on an unknown date."
+---
+
+**This update was released on an unknown date.**
+
+# Original Text
+This is the original text of the changelog from [this TXT file](https://www.dropbox.com/s/asno8vytv7n7rnf/Donut%20Mod.txt?raw=1).
+
+- Language
+	- English
+		- Changed "Blackjackets" to "Blackjacket Wasps"
+		- Changed an ingame message to say Grampa's Limo instead of the WWII Vehicle.
+	- French
+		- Added French License Screen.
+		- Added French Newspapers.
+			- These would already work if the user was using a french version of the game.
+- Difficulty
+	- Refined difficulty and reward prices.
+- UI
+	- Classic
+		- Fixed a small issue on the bootup screen where the road sign would display instead of the donut when using Foreign Languages.
+	- Frosted
+		- Fixed a small issue on the bootup screen where the road sign would display instead of the donut when using Foreign Languages.
+		- Fixed duplicate Sideshow Mel image in the Scrapbook.
+- Rewards
+	- General
+		- Fixed a small bug where the rewards code could output decimals on Hellfish due to the price multiplier.
+			- The game seemingly rounds the number if it's a decimal but this is more just a precaution.
+	- Cars
+		- Family Sedan (clfamily)
+			- Tweaked Character Size.
+			- Set High Roof to false.
+- Levels
+	- L1
+		- Replaced secret car.
+	- L2
+		- Replaced secret car.
+		- Homer can no longer appear as a driver.
+- Missions
+	- L1M2
+		- Increased first few timers on Hellfish.
+		- Increased timer to hit Duff Truck.
+		- Increased timer to get back to Flanders on Hellfish.
+	- L1M3
+		- Smithers now has more hitpoints so he can't blow up during the race.
+		- Added a trigger win the race on the side road going into the parking lot.
+		- Increased time to get back to the powerplant.
+	- L1M4
+		- Changed starting position.
+		- Fixed a small graphical bug in the pre-mission.
+		- You no longer are re-placed outside of Homer's office on the first attempt.
+		- You must now exit Homer's office on the first attempt.
+		- Fixed a crashing bug when the Autumn theme was enabled.
+		- Fixed another small graphical bug in the mission.
+		- The FBI Music will now play when following the van.
+	- L1M5
+		- Slightly adjusted Homer's start position.
+		- Tweaked Nuctruck AI
+			- It now has separate AI for each difficulty, making a run more unique!
+			- Mildly less stupid, but still stupid.
+	- L1M6
+		- Increased Bonestorm Box Trigger Sizes.
+		- Tweaked Router Car Strength.
+	- L1SR1
+		- Fixed an issue where cancelling would disable traffic until a mission re-enables it.
+		- Decreased the Glass Truck's Hitpoints.
+		- Decreased the Plow King's Hitpoints.
+		- Decreased the Pickup Truck's Hitpoints.
+	- L1SR3
+		- Decreased lap count by 1.
+		- Increased time on Hellfish.
+	- L2M1
+		- Lowered timer to escape Skinner.
+	- L2M2
+		- Fixed a bug where the guitar track would continue playing if you fail at protecting the fireworks.
+		- Increased timer to hit fireworks out of Moe.
+	- L2M3
+		- Removed timer to drive to the Javaserver.
+		- Decreased timer to follow Frink's item trail.
+		- Changed icon during the follow Frink stage to frink.
+			- Makes more sense than his car (?)
+		- Changed music during the follow Frink stage.
+	- L2M5
+		- Increased timer on first flatmeat stage.
+	- L2M6
+		- Changed title from "Dr Doh' Little" to "Dr D'oh Little".
+	- L2M7
+		- Changed name from "iPhoned" to "Stress Signal" 
+		- Updated mission description.
+		- Fixed a small graphical issue in the mission banner.
+		- Slightly adjusted stage message text.
+		- Increased time for several stages.
+		- There is only two cell cars harassing you during the final cell stand stage on Normal.
+		- Added a timeout condition to the Drive back to the Stadium stage.
+		- Fixed a HUD glitch near the end of the mission.
+	- L2BM1
+		- Updated Mission Description.
+		- Increased time to hit ambulance.
+	- L2SR1
+		- Uncollectible wrench that sticks around after this mission is gone now.
+		- Decreased the Electaurus' Hitpoints.
+		- Decreased the Clown Limo's Hitpoints.
+	- L2SR3
+		- Reworked the whole mission to accomodate the removal of the Monorail.
+		- Fixed a small graphical issue at the end.
+- Other
+	- Updated License Screen.
+	- Tweaks to sound script handling.
+	- Fixed (hopefully) several crashes.
+	- General Under-the-Hood Effiency improvements.
