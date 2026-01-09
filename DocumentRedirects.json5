@@ -1,6 +1,10 @@
 // This file configures redirects for various documents that have been removed or relocated in a manner that the site cannot automatically handle
 // Using null indicates that a document has been explicitly removed and there is no substitute
 {
+	"lucasfontcreator/versions/all-versions": null,
+	"lucasfontcreator/versions/version_1.0": null,
+	"lucasfontcreator/intro": "LucasPure3DFontCreator/Intro",
+
 	"lucasrmsbuilder/tutorials/converting-rms-to-xml": "LucasRadMusicScriptBuilder/Tutorials/ConvertingRMSToXML",
 	"lucasrmsbuilder/tutorials/converting-xml-to-rms": "LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS",
 	"lucasrmsbuilder/versions/all-versions": null,

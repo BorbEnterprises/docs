@@ -12,6 +12,14 @@
 			[
 				{
 					type: "Group",
+					name: "Lucas' Pure3D Font Creator",
+					children:
+					[
+						"LucasPure3DFontCreator/Intro.md",
+					],
+				},
+				{
+					type: "Group",
 					name: "Lucas' Radcore Cement Library Builder",
 					children:
 					[
