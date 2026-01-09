@@ -1,5 +1,5 @@
 ---
-title: XML Format
+title: "XML Format"
 description: "This page documents the XML file format used to represent the data inside RMS files for this tool."
 ---
 
@@ -67,7 +67,7 @@ Unused.
 * **TransitionRegion**: Unknown. Optional.
 
 # Event
-**Event** elements are generally used by the game executable and the [StageStartMusicEvent](/hitandrun/scripting/mfk-commands/stagestartmusicevent.md) command in mission scripts to perform various event actions listed below.
+**Event** elements are generally used by the game executable and the [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StageStartMusicEvent.md]] command in mission scripts to perform various event actions listed below.
 
 ```xml
 <Event Name="M1_start">
@@ -148,7 +148,7 @@ An **Event** element with states is similar to a regular **Event** except it ref
 ```
 
 # State
-A **State** is referenced by an **Event** that has multiple different music states that can be controlled by the [SetMusicState](/hitandrun/scripting/mfk-commands/setmusicstate.md) command in mission scripts. It can contain **Value** elements.
+A **State** is referenced by an **Event** that has multiple different music states that can be controlled by the [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMusicState.md]] command in mission scripts. It can contain **Value** elements.
 
 ```xml
 <State Name="Mission5">
@@ -160,7 +160,7 @@ A **State** is referenced by an **Event** that has multiple different music stat
 * Name: The name of the state referenced by the Event and used in the first argument of SetMusicState command.
 
 ## Value
-Used to define the names for the states inside a **State** to be used in the [SetMusicState](/hitandrun/scripting/mfk-commands/setmusicstate.md) command.
+Used to define the names for the states inside a **State** to be used in the [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMusicState.md]] command.
 
 ```xml
 <Value>Stage1</Value>

@@ -1,13 +1,12 @@
 ---
-title: Converting RadMusic Scripts to XML
-sidebar_label: Converting RMS to XML
+title: "Converting RadMusic Scripts to XML"
 description: "This is a short tutorial on how to convert RMS files to XML with the RMS builder."
 ---
 
 This is a short tutorial on how to convert RMS files to XML with the RMS builder.
 
 # 1. Extracting RMS Files
-In the base game, RMS files are located within ambience.rcf and music01.rcf. These files can be opened with Lucas' RCF Explorer or extracted with Lucas' Radcore Cement Library Builder.
+In the base game, RMS files are located within ambience.rcf and music01.rcf. These files can be opened with [Project:13] or extracted with [Project:11].
 
 `ambience.rms` can be found in `ambience.rcf`.
 

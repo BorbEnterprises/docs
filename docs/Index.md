@@ -23,7 +23,7 @@ These links go to documentation for various tools created by Donut Team.
 * [Lucas' Pure3D Editor](lucasp3deditor/intro.md) (Version History Only)
 * [Lucas' Pure3D Font Creator](lucasfontcreator/intro.md) (Version History Only)
 * [[/LucasRadcoreCementLibraryBuilder/Intro.md|Lucas' Radcore Cement Library Builder]]
-* [Lucas' RadMusic Script Builder](lucasrmsbuilder/intro.md)
+* [[/LucasRadMusicScriptBuilder/Intro.md|Lucas' RadMusic Script Builder]]
 * [Lucas' Simpsons Hit & Run Map Builder](lucasmapbuilder/intro.md)
 * [Lucas' Simpsons Hit & Run Map Data Viewer](lucasmapdataviewer/intro.md) (Version History Only)
 * [Lucas' Simpsons Hit & Run Mod Launcher](lucasmodlauncher/intro.md)

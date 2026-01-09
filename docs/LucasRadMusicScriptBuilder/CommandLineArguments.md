@@ -1,5 +1,5 @@
 ---
-title: Command Line Arguments
+title: "Command Line Arguments"
 description: "These are the various command line arguments that the RMS Builder supports."
 ---
 
@@ -53,7 +53,7 @@ Specify the path to an output text file that will contain RMS types.
 # -rsdpath
 **Added in version 1.0.**
 
-Specify a path or paths to your mod's music files (.RSD, .OGG, .FLAC) so the tool can get the file size and other information for custom tracks automatically.
+Specify a path or paths to your mod's music files (.rsd, .ogg, or .flac) so the tool can get the file size and other information for custom tracks automatically.
 
 ```text
 -rsdpath "C:\path\to\folder"

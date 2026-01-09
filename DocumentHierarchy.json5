@@ -20,6 +20,25 @@
 						"LucasRadcoreCementLibraryBuilder/Tutorials.md",
 					],
 				},
+				{
+					type: "Group",
+					name: "Lucas' RadMusic Script Builder",
+					children:
+					[
+						"LucasRadMusicScriptBuilder/Intro.md",
+						"LucasRadMusicScriptBuilder/CommandLineArguments.md",
+						"LucasRadMusicScriptBuilder/XMLFormat.md",
+						{
+							type: "Group",
+							name: "Tutorials",
+							children:
+							[
+								"LucasRadMusicScriptBuilder/Tutorials/ConvertingRMSToXML.md",
+								"LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS.md",
+							],
+						},
+					],
+				}
 			],
 		},
 	],
