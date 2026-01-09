@@ -1,13 +1,11 @@
 ---
-title: Tutorials
+title: "Tutorials"
 description: "This page contains a few short tutorials on how to use the RCF Builder."
 ---
 
 This page contains a few short tutorials on how to use the RCF Builder.
 
 These instructions can be used in a Command Prompt window or in a batch file. You will need to replace the paths in these examples with where you put the tool and where you have your input/output files and folders.
-
-**This tool currently only supports version 1.2 of the RCF format, the version used by The Simpsons Road Rage and The Simpsons Hit & Run.**
 
 # Extracting an RCF
 To extract an RCF file, use the following command line arguments:

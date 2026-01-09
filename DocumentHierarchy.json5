@@ -1,0 +1,26 @@
+// This file declares the structure of the site's hierarchical sidebar
+{
+	type: "Group",
+	name: "Root",
+	children:
+	[
+		"Index.md",
+		{
+			type: "Group",
+			name: "Modding Tools",
+			children:
+			[
+				{
+					type: "Group",
+					name: "Lucas' Radcore Cement Library Builder",
+					children:
+					[
+						"LucasRadcoreCementLibraryBuilder/Intro.md",
+						"LucasRadcoreCementLibraryBuilder/CommandLineArguments.md",
+						"LucasRadcoreCementLibraryBuilder/Tutorials.md",
+					],
+				},
+			],
+		},
+	],
+}

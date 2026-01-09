@@ -1,12 +1,11 @@
 ---
-title: Command Line Arguments
+title: "Command Line Arguments"
 description: "This page lists the command line arguments for the tool."
 ---
 
 These are the various command line arguments that the RCF Builder supports.
 
 # -inputrcf
-
 **Added in version 1.0.**
 
 Specify an input RCF file to output.
@@ -16,7 +15,6 @@ Specify an input RCF file to output.
 ```
 
 # -inputdir
-
 **Added in version 1.0.**
 
 Specify an input directory to output.
@@ -26,7 +24,6 @@ Specify an input directory to output.
 ```
 
 # -outputrcf
-
 **Added in version 1.0.**
 
 Specify an output RCF to build any inputs to.
@@ -36,7 +33,6 @@ Specify an output RCF to build any inputs to.
 ```
 
 # -outputdir
-
 **Added in version 1.0.**
 
 Specify an output directory to extract any inputs to.
@@ -46,7 +42,6 @@ Specify an output directory to extract any inputs to.
 ```
 
 # -rcf
-
 **Added in version 1.0.**
 
 Specify an RCF file to update with inputs.
@@ -58,7 +53,6 @@ This preserves the times of input and enables `-memory`.
 ```
 
 # -bigendian
-
 **Added in version 1.0.**
 
 Builds a big endian RCF file for GameCube games. The tool defaults to little endian.
@@ -68,7 +62,6 @@ Builds a big endian RCF file for GameCube games. The tool defaults to little end
 ```
 
 # -alignment
-
 **Added in version 1.0.**
 
 Pads each file to the specified amount. Defaults to 2048, use 0 for no alignment.
@@ -78,7 +71,6 @@ Pads each file to the specified amount. Defaults to 2048, use 0 for no alignment
 ```
 
 # -preservedirtimes
-
 **Added in version 1.0.**
 
 Keep any modified dates when building an RCF file.
@@ -88,7 +80,6 @@ Keep any modified dates when building an RCF file.
 ```
 
 # -preservercftimes
-
 **Added in version 1.0.**
 
 Keep any modified dates when extracting from an RCF file.
@@ -98,7 +89,6 @@ Keep any modified dates when extracting from an RCF file.
 ```
 
 # -memory
-
 **Added in version 1.0.**
 
 Load every input file into memory when building an RCF file.
