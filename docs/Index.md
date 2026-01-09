@@ -20,7 +20,8 @@ These links go to documentation on various subjects related to games we support.
 # Modding Tools
 These links go to documentation for various tools created by Donut Team.
 
-* [Lucas' Pure3D Editor](lucasp3deditor/intro.md) (Version History Only)
+* [[/LucasPure3DEditor/Intro.md|Lucas' Pure3D Editor]]
+* [[/LucasPure3DEditorModelXMLFormatBlenderAddon/Intro.md|Lucas' Pure3D Editor Model XML Format Blender Add-on]]
 * [[/LucasPure3DFontCreator/Intro.md|Lucas' Pure3D Font Creator]]
 * [[/LucasRadcoreCementLibraryBuilder/Intro.md|Lucas' Radcore Cement Library Builder]]
 * [[/LucasRadMusicScriptBuilder/Intro.md|Lucas' RadMusic Script Builder]]

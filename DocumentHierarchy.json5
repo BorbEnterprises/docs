@@ -12,6 +12,22 @@
 			[
 				{
 					type: "Group",
+					name: "Lucas' Pure3D Editor",
+					children:
+					[
+						"LucasPure3DEditor/Intro.md",
+					],
+				},
+				{
+					type: "Group",
+					name: "Lucas' Pure3D Editor Model XML Format Blender Add-on",
+					children:
+					[
+						"LucasPure3DEditorModelXMLFormatBlenderAddon/Intro.md",
+					],
+				},
+				{
+					type: "Group",
 					name: "Lucas' Pure3D Font Creator",
 					children:
 					[
