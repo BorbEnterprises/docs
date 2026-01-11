@@ -17,6 +17,12 @@ The available keys are as follows, with **required keys in bold**:
 While DT Docs utilizes fairly standard Markdown, there are various custom extensions implemented on top.
 
 ### Block Tokens
+#### Document Snippets
+You can reference a reusable block of Markdown, located within this repo's `snippets` folder, using this syntax:
+```
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/CarCon.md }}
+```
+
 #### Tabs
 You can add tabs, typically used to show code in multiple languages, using this syntax:
 ```
