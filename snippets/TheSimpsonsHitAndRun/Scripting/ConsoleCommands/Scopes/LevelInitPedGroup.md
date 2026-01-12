@@ -1,0 +1,1 @@
+This command should be called between calls to [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md]] in a level's initialisation script.

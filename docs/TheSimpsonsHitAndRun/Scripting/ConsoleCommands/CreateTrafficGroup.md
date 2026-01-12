@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 This command creates a traffic group that can be populated with subsequent calls to [[AddTrafficModel.md]].
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax

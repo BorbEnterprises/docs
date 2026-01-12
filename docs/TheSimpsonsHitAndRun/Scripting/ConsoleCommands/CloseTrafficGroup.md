@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 This command closes a traffic group.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax

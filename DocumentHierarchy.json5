@@ -81,12 +81,29 @@
 													name: "MFK Commands",
 													children:
 													[
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel.md",
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md",
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
-														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
+														{
+															type: "Group",
+															name: "Level Initialisation",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddPed.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Mission Initialisation",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
+															],
+														},
 													],
 												}
 											],

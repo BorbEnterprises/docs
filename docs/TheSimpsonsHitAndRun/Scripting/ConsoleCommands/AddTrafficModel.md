@@ -6,7 +6,7 @@ authors: [ 104 ]
 
 This command adds a vehicle to a traffic group.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelInitTrafficGroup.md }}
 
 # Syntax

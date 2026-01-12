@@ -6,7 +6,7 @@ authors: [ 2, 2116 ]
 
 Set what ped group will be used when the mission is selected or restarted.
 
-# Context
+# Scope
 {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax
