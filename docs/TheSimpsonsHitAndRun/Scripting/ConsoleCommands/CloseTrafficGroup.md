@@ -1,15 +1,13 @@
 ---
-title: CloseTrafficGroup
-description: "Closes a traffic."
-authors: ["loren"]
+title: "CloseTrafficGroup"
+description: "Closes a traffic group."
+authors: [ 2 ]
 ---
 
 This command closes a traffic group.
 
 # Context
-{{ snippet hitandrun/command-contexts/level-init }}
-
-Additionally, this should only be called after a call to [CreateTrafficGroup](createtrafficgroup.md) and at least one call to [AddTrafficModel](addtrafficmodel.md).
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax
 {{ tabs }}
@@ -42,6 +40,3 @@ Game.CloseTrafficGroup()
 ```
 {{ endtab }}
 {{ endtabs }}
-
-# Notes
-No additional notes.

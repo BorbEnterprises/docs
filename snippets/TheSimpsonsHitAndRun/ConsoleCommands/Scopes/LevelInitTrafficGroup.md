@@ -1,0 +1,1 @@
+This command should be called between calls to [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md]] in a level's initialisation script.

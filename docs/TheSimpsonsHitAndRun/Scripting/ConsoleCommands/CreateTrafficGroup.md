@@ -1,15 +1,13 @@
 ---
-title: CreateTrafficGroup
+title: "CreateTrafficGroup"
 description: "Creates a traffic group that can be populated with subsequent calls to AddTrafficModel."
-authors: ["loren"]
+authors: [ 2 ]
 ---
 
-This command creates a traffic group that can be populated with subsequent calls to [AddTrafficModel](addtrafficmodel.md).
+This command creates a traffic group that can be populated with subsequent calls to [[AddTrafficModel.md]].
 
 # Context
-{{ snippet hitandrun/command-contexts/level-init }}
-
-Additionally, this should be followed by at least one call to [AddTrafficModel](addtrafficmodel.md) and a call to [CloseTrafficGroup](closetrafficgroup.md).
+{{ Snippet:TheSimpsonsHitAndRun/ConsoleCommands/Scopes/LevelInit.md }}
 
 # Syntax
 {{ tabs }}
@@ -48,4 +46,4 @@ Game.CloseTrafficGroup()
 # Notes
 By default, the game only supports a single traffic group with an index of 0. 
 
-Mods can use the [Mod Launcher's](/lucasmodlauncher/intro.md) [Custom Traffic Support](/lucasmodlauncher/hacks/custom-traffic-support.md) hack to create more than one.
+You use the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomTrafficSupport.md]] hack to create more than one.

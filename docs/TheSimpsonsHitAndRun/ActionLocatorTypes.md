@@ -1,11 +1,10 @@
 ---
-title: Action Event Locator Types
-description: "This page documents the various types of for Type 9 Action Event Locators."
-status:
-    class: "stub"
+title: "Action Event Locator Types"
+description: "This page documents the various types of Action Locators."
+authors: [ 2 ]
 ---
 
-This page documents the various types of for [Type 9 Action Event Locators](../../pure3d/chunk-types/chunk-3000005.md#type-9-action-event-locator).
+This page documents the various types of [[/Pure3DFiles/ChunkTypes/0x300005.md|Action Locators]].
 
 # AlienCamera
 TODO

@@ -2,6 +2,9 @@
 // Using null indicates that a document has been explicitly removed and there is no substitute
 // TODO: redirect old version docs to individual MB version pages when those actually exist
 {
+	"hitandrun/misc/action-event-locator-types": "TheSimpsonsHitAndRun/ActionLocatorTypes",
+	"hitandrun/misc/dyna-load-data": "TheSimpsonsHitAndRun/DynaLoadData",
+	"hitandrun/misc/events": "TheSimpsonsHitAndRun/Events",
 	"hitandrun/resources/donut-team/art/additional-characters": "https://modbakery.donutteam.com/projects/view/38",
 	"hitandrun/resources/donut-team/art/radical-hud-icon-template": "https://modbakery.donutteam.com/projects/view/40",
 	"hitandrun/resources/donut-team/scripts/game-lua": "https://modbakery.donutteam.com/projects/view/39",
@@ -16,9 +19,12 @@
 	"hitandrun/scripting/con-commands/setwheelieoffsety": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetY",
 	"hitandrun/scripting/con-commands/setwheelieoffsetz": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetZ",
 	"hitandrun/scripting/con-commands/setwheelierange": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieRange",
-	"hitandrun/scripting/mfk-commands/closemission.md": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission",
-	"hitandrun/scripting/mfk-commands/selectmission.md": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission",
-	"hitandrun/scripting/mfk-commands/usepedgroup.md": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup",
+	"hitandrun/scripting/mfk-commands/addtrafficmodel": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel",
+	"hitandrun/scripting/mfk-commands/closemission": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission",
+	"hitandrun/scripting/mfk-commands/closetrafficgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup",
+	"hitandrun/scripting/mfk-commands/createtrafficgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup",
+	"hitandrun/scripting/mfk-commands/selectmission": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission",
+	"hitandrun/scripting/mfk-commands/usepedgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup",
 	"hitandrun/scripting/conditions/all-conditions": null,
 	"hitandrun/scripting/conditions/carryingspcollectible": "TheSimpsonsHitAndRun/Scripting/MissionConditions/carryingspcollectible",
 	"hitandrun/scripting/conditions/damage": "TheSimpsonsHitAndRun/Scripting/MissionConditions/damage",
@@ -134,4 +140,7 @@
 	"lucasrmsbuilder/xml-format": "LucasRadMusicScriptBuilder/XMLFormat",
 
 	"mods/roofed-family-sedan": null,
+
+	"pure3d/chunk-types/chunk-3F0000B": "Pure3DFiles/ChunkTypes/0x3F0000B",
+	"pure3d/chunk-types/chunk-3000005": "Pure3DFiles/ChunkTypes/0x3000005",
 }
