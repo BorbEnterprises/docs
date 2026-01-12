@@ -1,15 +1,13 @@
 ---
-title: AddStage
+title: "AddStage"
 description: "Adds a stage in a mission."
-authors: ["loren"]
+authors: [ 2 ]
 ---
 
 This command adds a stage to a mission.
 
 # Context
-{{ snippet hitandrun/command-contexts/mission-init-root }}
-
-Additionally, this command should be followed by an objective and a call to [CloseStage](closestage.md).
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitInner.md }}
 
 # Syntax
 ## Regular Stage
@@ -44,7 +42,7 @@ Giving this command "final" as its first argument marks a stage as being the fin
 
 This indicates to the game that it should show "Mission Complete!" on the screen when the mission ends and, for most missions, marks it as complete in your save data.
 
-There should be no subsequent stages after such a stage.
+There should be no subsequent stages after a "final" stage.
 
 ## Locked Stage
 {{ tabs }}
@@ -65,55 +63,24 @@ Giving this command "locked" as its first argument allows you to show a prompt t
 * **type**: Set to "car" or "skin" depending on what you'd like to check for in the mission.
 * **name**: The name of a car or skin that the player must have to avoid the prompt.
 
-These types of stages typically use [dialogue objectives](../objectives/dialogue.md) so the prompt is shown after an NPC explains why you need a specific car or skin but this is **not** a requirement.
+These types of stages typically use a [[../MissionObjectives/dialogue.md]] objective so the prompt is shown after an NPC explains why you need a specific car or skin but this is not a requirement.
 
-The message shown in this prompt is determined by [SetStageMessageIndex](setstagemessageindex.md).
+The message shown in this prompt is determined by [[SetStageMessageIndex.md]].
 
-These types of stages are also typically coupled with a [buycar objective](../objectives/buycar.md) or a [buyskin objective](../objectives/buyskin.md) that require the player to buy the given car or skin on the next stage but this is also **not** a requirement.
+These types of stages are also typically coupled with a [[../MissionObjectives/buycar.md]] objective or a [[../MissionObjectives/buyskin.md]] objective that require the player to buy the given car or skin on the next stage but this is also not a requirement.
 
 Regardless, you must have at least one subsequent stage of *any* type following a locked stage for its message to appear.
 
 # Examples
 ## Regular Stage
-{{ tabs }}
-{{ tab MFK }}
-```js
-SelectMission("m1sd");
-	...
-
-	// Simple timer stage as the final stage in a Sunday Drive mission
-	// Do not use final in these missions!
-	AddStage();
-		AddObjective("timer");
-			SetDurationTime(1);
-		CloseObjective();
-	CloseStage();
-CloseMission();
-```
-{{ endtab }}
-{{ tab Lua }}
-```lua
-Game.SelectMission("m1sd")
-	...
-
-	-- Simple timer stage as the final stage in a Sunday Drive mission
-	-- Do not use final in these missions!
-	Game.AddStage()
-		Game.AddObjective("timer")
-			Game.SetDurationTime(1)
-		Game.CloseObjective()
-	Game.CloseStage()
-Game.CloseMission()
-```
-{{ endtab }}
-{{ endtabs }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Examples/TimerStage.md }}
 
 ## Final Stage
 {{ tabs }}
 {{ tab MFK }}
 ```js
 SelectMission("m1");
-	...
+	// ...
 
 	// Simple timer stage as the final stage in a story mission
 	// Will show "Mission Complete!" when it ends
@@ -124,14 +91,13 @@ SelectMission("m1");
 	CloseStage();
 
 	// Do not have stages after a final stage!
-
 CloseMission();
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 Game.SelectMission("m1")
-	...
+	-- ...
 
 	-- Simple timer stage as the final stage in a story mission
 	-- Will show "Mission Complete!" when it ends
@@ -142,7 +108,6 @@ Game.SelectMission("m1")
 	Game.CloseStage()
 
 	-- Do not have stages after a final stage!
-
 Game.CloseMission()
 ```
 {{ endtab }}
@@ -153,15 +118,15 @@ Game.CloseMission()
 {{ tab MFK }}
 ```js
 SelectMission("m3sd");
-	...
+	// ...
 
-	AddStage("locked","car","plowk_v");
+	AddStage("locked", "car", "plowk_v");
 		// Show INGAME_MESSAGE_00 in GenericPrompt.pag in ingame.p3d
 		// After the dialogue if the player does not have the Plow King (plowk_v).
 		SetStageMessageIndex(0);
 
 		AddObjective("dialogue");
-			...
+			// ...
 		CloseObjective();
 	CloseStage();
 
@@ -180,15 +145,15 @@ CloseMission();
 {{ tab Lua }}
 ```lua
 Game.SelectMission("m3sd")
-	...
+	-- ...
 
-	Game.AddStage("locked","car","plowk_v")
+	Game.AddStage("locked", "car", "plowk_v")
 		-- Show INGAME_MESSAGE_00 in GenericPrompt.pag in ingame.p3d
 		-- After the dialogue if the player does not have the Plow King (plowk_v).
 		Game.SetStageMessageIndex(0)
 
 		Game.AddObjective("dialogue")
-			...
+			-- ...
 		Game.CloseObjective()
 	Game.CloseStage()
 
