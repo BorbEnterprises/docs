@@ -1,13 +1,13 @@
 ---
-title: BindReward
-description: Binds a reward car or skin to a level with a specific quest type.
-authors: ["loren"]
+title: "BindReward"
+description: "Adds a reward car or skin to a level."
+authors: [ 2 ]
 ---
 
 This command binds a reward car or skin to a level with a specific quest type.
 
 # Context
-{{ snippet hitandrun/command-contexts/rewards }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/Rewards.md }}
 
 # Syntax
 {{ tabs }}
@@ -26,7 +26,7 @@ Game.BindReward( name, path, reward_type, quest_type, level, [price, seller] )
 * **name**: The internal name of the reward car or skin.
 	* For example, `famil_v` is the internal name of the family sedan.
 * **path**: The path to the file containing the reward car or skin.
-	* Note that skin file names only include the first 6 characters of the skin's internal name.
+	* For skins, these file names include the first 6 characters of the skin's internal name.
 	* This would mean the skin `b_military` has the file name `b_mili_m.p3d`.
 * **reward_type**: The type of reward.
 	* `car` or `skin`.
@@ -36,6 +36,8 @@ Game.BindReward( name, path, reward_type, quest_type, level, [price, seller] )
 		* `forsale`
 		* `bonusmission`
 		* `streetrace`
+		* `cards`
+			* This is an unused, somewhat broken quest type.
 	* For `skin` type rewards you can use:
 		* `defaultskin`
 		* `forsale`
@@ -49,7 +51,7 @@ Game.BindReward( name, path, reward_type, quest_type, level, [price, seller] )
 	* For `skin` type rewards you must use `interior`.
 
 # Examples
-## Car Rewards {{ id cars }}
+## Car Rewards
 {{ tabs }}
 {{ tab MFK }}
 ```text
@@ -73,7 +75,7 @@ Game.BindReward("cVan", "art\\cars\\cVan.p3d", "car", "forsale", 1, 100, "gil")
 {{ endtab }}
 {{ endtabs }}
 
-# Skin Rewards {{ id skins }}
+# Skin Rewards
 {{ tabs }}
 {{ tab MFK }}
 ```text
@@ -93,8 +95,5 @@ BindReward("h_stcrobe", "art\\chars\\h_stcr_m.p3d", "skin", "forsale", 1, 150, "
 {{ endtab }}
 {{ endtabs }}
 
-
 # Notes
-By default, there are various limitations related to binding rewards.
-
-Mods can bypass these limits by requiring the [Mod Launcher's](/lucasmodlauncher/intro.md) [Increased Reward Limits](/lucasmodlauncher/hacks/increased-reward-limits.md) hack.
+To increase various limitations related to rewards, use the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/IncreasedRewardLimits.md]] hack.

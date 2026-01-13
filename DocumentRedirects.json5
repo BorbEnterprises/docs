@@ -24,6 +24,7 @@
 	"hitandrun/scripting/mfk-commands/addstage": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage",
 	"hitandrun/scripting/mfk-commands/addstagetime": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime",
 	"hitandrun/scripting/mfk-commands/addtrafficmodel": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel",
+	"hitandrun/scripting/mfk-commands/bindreward": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindReward",
 	"hitandrun/scripting/mfk-commands/closecondition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseCondition",
 	"hitandrun/scripting/mfk-commands/closemission": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission",
 	"hitandrun/scripting/mfk-commands/closeobjective": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective",

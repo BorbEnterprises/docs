@@ -83,6 +83,14 @@
 													[
 														{
 															type: "Group",
+															name: "Reward Initialisation",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindReward.md",
+															],
+														},
+														{
+															type: "Group",
 															name: "Level Initialisation",
 															children:
 															[

@@ -1,0 +1,1 @@
+This command should be called in the rewards file.
