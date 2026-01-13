@@ -1,0 +1,1 @@
+This command should be called between calls to [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md]] in a mission's initialisation script.

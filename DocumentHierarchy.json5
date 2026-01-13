@@ -115,6 +115,24 @@
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
 															],
 														},
+														{
+															type: "Group",
+															name: "Objective Initialisation",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
+															],
+														},
+														{
+															type: "Group",
+															name: "Condition Initialisation",
+															children:
+															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddCondition.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseCondition.md",
+															],
+														},
 													],
 												}
 											],
