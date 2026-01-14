@@ -25,19 +25,23 @@
 									name: "Pure3D Files",
 									children:
 									[
+										"Pure3DFiles/DataStructure",
 										{
 											type: "Group",
 											name: "Chunk Types",
 											sorting: "a-z",
 											children:
 											[
+												"Pure3DFiles/ChunkTypes/0x3F0000A.md",
 												"Pure3DFiles/ChunkTypes/0x3F0000B.md",
+												"Pure3DFiles/ChunkTypes/0x3F00001.md",
 												"Pure3DFiles/ChunkTypes/0x3F00003.md",
 												"Pure3DFiles/ChunkTypes/0x3F00004.md",
 												"Pure3DFiles/ChunkTypes/0x300000C.md",
 												"Pure3DFiles/ChunkTypes/0x3000005.md",
 												"Pure3DFiles/ChunkTypes/0x3000006.md",
 												"Pure3DFiles/ChunkTypes/0x3000007.md",
+												"Pure3DFiles/ChunkTypes/0x3000600.md",
 											],
 										},
 									],

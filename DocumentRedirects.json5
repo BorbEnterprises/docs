@@ -121,8 +121,12 @@
 	"lucasrmsbuilder/intro": "LucasRadMusicScriptBuilder/Intro",
 	"lucasrmsbuilder/xml-format": "LucasRadMusicScriptBuilder/XMLFormat",
 
+	"pure3d/chunk-types/chunk-3F0000A": "Pure3DFiles/ChunkTypes/0x3F0000A",
 	"pure3d/chunk-types/chunk-3F0000B": "Pure3DFiles/ChunkTypes/0x3F0000B",
+	"pure3d/chunk-types/chunk-3F00001": "Pure3DFiles/ChunkTypes/0x3F00001",
 	"pure3d/chunk-types/chunk-3F00003": "Pure3DFiles/ChunkTypes/0x3F00003",
 	"pure3d/chunk-types/chunk-3F00004": "Pure3DFiles/ChunkTypes/0x3F00004",
 	"pure3d/chunk-types/chunk-3000005": "Pure3DFiles/ChunkTypes/0x3000005",
+	"pure3d/chunk-types/chunk-3000600": "Pure3DFiles/ChunkTypes/0x3000600",
+	"pure3d/intro": "Pure3DFiles/DataStructure",
 }
