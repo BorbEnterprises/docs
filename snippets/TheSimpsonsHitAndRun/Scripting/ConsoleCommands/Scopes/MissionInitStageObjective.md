@@ -1,0 +1,1 @@
+This command should be called between calls to [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md]] in a mission's initialisation script.

@@ -1,13 +1,13 @@
 ---
-title: SetCarAttributes
+title: "SetCarAttributes"
 description: "Sets attributes for a car in the phonebooth."
-authors: ["loren"]
+authors: [ 2 ]
 ---
 
-This command sets attributes for a car in the phonebooth.
+Sets attributes for a car in the phonebooth.
 
 # Context
-{{ snippet hitandrun/command-contexts/rewards }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/Rewards.md }}
 
 # Syntax
 {{ tabs }}
@@ -52,6 +52,6 @@ Game.SetCarAttributes("famil_v", 1.0, 1.5, 2.5, 4.0)
 {{ endtabs }}
 
 # Notes
-By default, there is a maximum of 50 car attributes.
+By default, you can register attributes for up to 50 cars.
 
-Mods can bypass this limit by requiring the [Mod Launcher's](/lucasmodlauncher/intro.md) [Increased Reward Limits](/lucasmodlauncher/hacks/increased-reward-limits.md) hack.
+Mods can bypass this limit by requiring the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/IncreasedRewardLimits.md]] hack.

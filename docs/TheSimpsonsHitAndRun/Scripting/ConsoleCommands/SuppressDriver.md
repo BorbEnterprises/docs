@@ -1,12 +1,13 @@
 ---
-title: SuppressDriver
-description: "Prevents a character from appearing in vehicles owned by the player (the default level car or those summoned from the phonebooth) in a level."
+title: "SuppressDriver"
+description: "Prevents a character from appearing as the driver of the player's vehicles in a level."
+authors: [ 2 ]
 ---
 
-This command prevents a character from appearing in vehicles owned by the player (the default level car or those summoned from the phonebooth) in a level.
+Prevents a character from appearing as the driver of the player's vehicles in a level
 
 # Context
-{{ snippet hitandrun/command-contexts/level-load }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/LevelLoad.md }}
 
 # Syntax
 {{ tabs }}

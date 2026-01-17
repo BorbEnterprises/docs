@@ -1,13 +1,13 @@
 ---
-title: SetMaxTraffic
-description: Sets the maximum number of traffic cars that will appear in a stage.
-authors: ["colou"]
+title: "SetMaxTraffic"
+description: "Sets the maximum number of traffic cars that will appear in a stage."
+authors: [ 2116 ]
 ---
 
 Sets the maximum number of traffic cars that will appear in a stage.
 
 # Context
-{{ snippet hitandrun/command-contexts/mission-init-stage }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStage.md }}
 
 # Syntax
 {{ tabs }}
@@ -52,4 +52,6 @@ Game.CloseStage()
 {{ endtabs }}
 
 # Notes
-The traffic car limit will persist until the level is reloaded, or **SetMaxTraffic** is called again. As such, it is a good idea to call it at the start of every mission.
+The traffic car limit will persist until the level is reloaded, or this command is called again.
+
+As such, it is a good idea to call it at the start of every mission.

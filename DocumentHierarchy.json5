@@ -121,12 +121,14 @@
 													name: "MFK Commands",
 													children:
 													[
+														"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/LoadP3DFile.md",
 														{
 															type: "Group",
 															name: "Reward Initialisation",
 															children:
 															[
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindReward.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCarAttributes.md",
 															],
 														},
 														{
@@ -134,6 +136,7 @@
 															name: "Level Load",
 															children:
 															[
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SuppressDriver.md",
 																{
 																	type: "Group",
 																	name: "Gags",
@@ -153,6 +156,37 @@
 															name: "Level Initialisation",
 															children:
 															[
+																{
+																	type: "Group",
+																	name: "Actors",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddSpawnPoint.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddSpawnPointByLocatorScript.md",
+																	],
+																},
+
+																{
+																	type: "Group",
+																	name: "Chase Manager",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateChaseManager.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHitAndRunDecay.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHitAndRunDecayInterior.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetNumChaseCars.md",
+																	],
+																},
+
+																{
+																	type: "Group",
+																	name: "NPCs",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
+																	],
+																},
+
 																{
 																	type: "Group",
 																	name: "Ped Groups",
@@ -184,6 +218,8 @@
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
 
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsLoad.md",
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/StreetRacePropsUnload.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup.md",
 
 																{
@@ -194,11 +230,18 @@
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
 
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetFadeOut.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetIrisWipe.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetMaxTraffic.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageMessageIndex.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetStageTime.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UseElapsedTime.md",
 
 																		{
 																			type: "Group",
