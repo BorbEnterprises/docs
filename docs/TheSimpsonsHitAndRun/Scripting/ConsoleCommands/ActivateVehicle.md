@@ -32,52 +32,43 @@ Game.ActivateVehicle( car, locator, behaviour, [driver] )
 	* As a result, it's kind of useless and you should just use the 5th argument of [[AddStageVehicle.md]] instead probably.
 
 # Examples
-
 {{ tabs }}
 {{ tab MFK }}
 ```js
-SelectMission("m1");
-	// ...
+AddStage();
+	// Add Skinner with NULL AI.
+	AddStageVehicle("skinn_v", "m1_skinner_car", "NULL", "missions\\l1m0\\skinner.con", "skinner");
 
-	AddStage();
-		// Add Skinner with NULL AI.
-		AddStageVehicle("skinn_v", "m1_skinner_car", "NULL", "missions\\l1m0\\skinner.con", "skinner");
+	AddObjective("dummy");
+	CloseObjective();
+CloseStage();
 
-		AddObjective("dummy");
-		CloseObjective();
-	CloseStage();
+AddStage();
+	// Then use ActivateVehicle to change him to chase AI in this stage.
+	ActivateVehicle("skinn_v", "NULL", "chase");
 
-	AddStage();
-		// Then use ActivateVehicle to change him to chase AI in this stage.
-		ActivateVehicle("skinn_v", "NULL", "chase");
-
-		AddObjective("dummy");
-		CloseObjective();
-	CloseStage();
-CloseMission();
+	AddObjective("dummy");
+	CloseObjective();
+CloseStage();
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.SelectMission("m1")
-	-- ...
+Game.AddStage()
+	-- Add Skinner with NULL AI.
+	Game.AddStageVehicle("skinn_v", "m1_skinner_car", "NULL", "missions\\l1m0\\skinner.con", "skinner")
 
-	Game.AddStage()
-		-- Add Skinner with NULL AI.
-		Game.AddStageVehicle("skinn_v", "m1_skinner_car", "NULL", "missions\\l1m0\\skinner.con", "skinner")
+	Game.AddObjective("dummy")
+	Game.CloseObjective()
+Game.CloseStage()
 
-		Game.AddObjective("dummy")
-		Game.CloseObjective()
-	Game.CloseStage()
+Game.AddStage()
+	-- Then use ActivateVehicle to change him to chase AI in this stage.
+	Game.ActivateVehicle("skinn_v","NULL","chase")
 
-	Game.AddStage()
-		-- Then use ActivateVehicle to change him to chase AI in this stage.
-		Game.ActivateVehicle("skinn_v","NULL","chase")
-
-		Game.AddObjective("dummy")
-		Game.CloseObjective()
-	Game.CloseStage()
-Game.CloseMission()
+	Game.AddObjective("dummy")
+	Game.CloseObjective()
+Game.CloseStage()
 ```
 {{ endtab }}
 {{ endtabs }}
