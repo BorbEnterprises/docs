@@ -461,6 +461,15 @@
 						"LucasSimpsonsHitAndRunMapDataViewer/Intro.md",
 					],
 				},
+				{
+					type: "Group",
+					name: "Lucas' Simpsons Hit & Run Mod Launcher",
+					children:
+					[
+						"LucasSimpsonsHitAndRunModLancher/Settings.md",
+						"LucasSimpsonsHitAndRunModLancher/DonutTeamAccountIntegration.md",
+					],
+				},
 			],
 		},
 	],
