@@ -56,9 +56,12 @@ You can reference another document in a manner similar to MediaWiki's internal l
 [[LucasRadMusicScriptBuilder/Intro.md]]
 ```
 
-When referencing a document, the name of the document will be inserted by default. If you want some other text, use a separator bar and specify it:
+When referencing a document, the name of the document will be inserted by default. If you want some other text, use a separator bar or a semicolon and specify it:
 ```
 [[LucasRadMusicScriptBuilder/Intro.md|custom link text]]
+```
+```
+[[LucasRadMusicScriptBuilder/Intro.md;custom link text]]
 ```
 
 Paths can be relative to the document the reference is in, or absolute if they start with a /.
