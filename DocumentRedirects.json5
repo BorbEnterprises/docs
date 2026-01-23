@@ -137,6 +137,7 @@
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"lucasmodlauncher/hacks/asf/con-commands/setwheelieoffsetx": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX",
+	"lucasmodlauncher/command-line-arguments": "LucasSimpsonsHitAndRunModLauncher/CommandLineArguments",
 	"lucasmodlauncher/dt-account-integration": "LucasSimpsonsHitAndRunModLauncher/DonutTeamAccountIntegration",
 	"lucasmodlauncher/settings": "LucasSimpsonsHitAndRunModLancher/Settings",
 

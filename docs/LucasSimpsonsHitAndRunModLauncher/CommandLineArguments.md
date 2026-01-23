@@ -1,5 +1,5 @@
 ---
-title: Command Line Arguments
+title: "Command Line Arguments"
 description: "This page documents all the command line arguments for the Mod Launcher."
 ---
 
@@ -21,7 +21,6 @@ Comic Sans MS
 
 # General
 ## -crashes
-
 **Added in an unknown version.**
 
 Makes the Mod Launcher save crash dumps at the specified path instead of in your Documents folder.
@@ -31,7 +30,6 @@ Makes the Mod Launcher save crash dumps at the specified path instead of in your
 ```
 
 ## -currentdirectory
-
 **Added in Version 1.23.10.**
 
 Specify a custom working directory for the Mod Launcher.
@@ -41,7 +39,6 @@ Specify a custom working directory for the Mod Launcher.
 ```
 
 ## -launchersettings
-
 **Added in Version 1.18.**
 
 Launches the Mod Launcher directly into Launcher Settings.
@@ -51,7 +48,6 @@ Launches the Mod Launcher directly into Launcher Settings.
 ```
 
 ## -nocommandlinefile
-
 **Added in Version 1.20.**
 
 Prevents the Mod Launcher from loading command line arguments out of `CommandLine.txt`.
@@ -61,7 +57,6 @@ Prevents the Mod Launcher from loading command line arguments out of `CommandLin
 ```
 
 ## -nocheckmodchanges
-
 **Added in Version 1.21.**
 
 Makes it so the Mod Launcher does not keep track of Meta.ini files changing.
@@ -71,7 +66,6 @@ Makes it so the Mod Launcher does not keep track of Meta.ini files changing.
 ```
 
 ## -nodeleteold
-
 **Added in Version 1.20.**
 
 Prevents the Mod Launcher from deleting hacks for old versions of the Mod Launcher. Instead it will show an error when trying to load the hack and ignore it.
@@ -83,7 +77,6 @@ This was broken in Version 1.21 but works again as of Version 1.22.
 ```
 
 ## -nohacksupportcheck
-
 **Added in Version 1.22.4.**
 
 Disables a check where the Mod Launcher will check if Hack Support is loaded and show an error message if it isn't after starting.
@@ -93,7 +86,6 @@ Disables a check where the Mod Launcher will check if Hack Support is loaded and
 ```
 
 ## -nomodenablewarnings
-
 **Added in Version 1.26.**
 
 Disables warnings shown when mods that specify one are ticked in the Mods List.
@@ -103,7 +95,6 @@ Disables warnings shown when mods that specify one are ticked in the Mods List.
 ```
 
 ## -nounhandledexceptionhandler
-	
 **Added in Version 1.18.**
 
 Disables the Mod Launcher showing a message box for otherwise unhandled exceptions. Instead it will crash in the usual manner programs do.
@@ -113,7 +104,6 @@ Disables the Mod Launcher showing a message box for otherwise unhandled exceptio
 ```
 
 ## -nosettings
-
 **Added in Version 1.18.**
 	
 Makes it so the Mod Launcher does not load your settings and does not save any settings.
@@ -125,7 +115,6 @@ Any settings changed while using this will be persist for the current session an
 ```
 
 ## -settingsloadhacks
-
 **Added in Version 1.23.7.**
 
 Makes it so the Launcher Settings window will load all the hacks again like how it used to do prior to this version.
@@ -135,12 +124,11 @@ Makes it so the Launcher Settings window will load all the hacks again like how 
 ```
 
 ## -testing
-
 **Added in Version 1.18.2.**
 
 Enables some internal testing features of the Mod Launcher such as more strict assert messages.
 
-As of Version 1.19, there is now an [IsTesting](hacks/cf/lua-scripting/custom-functions/istesting.md) CustomFiles Lua Function that returns true when this is enabled.
+As of Version 1.19, there is now an [[Hacks/CustomFiles/LuaFunctions/IsTesting.md]] CustomFiles Lua Function that returns true when this is enabled.
 
 As of Version 1.22, this now shows an assert if the game is terminated but takes more than 1 second to exit. This version also adds a "Force Update Pinned Shortcuts" option to the "Open.." menu on the main window to update any pinned shortcuts to contain the Mod Launcher's [App ID](https://docs.microsoft.com/en-us/windows/desktop/shell/appids). This version also makes the "Hacks" category available on the "Settings" and "Developer" pages.
 
@@ -150,7 +138,6 @@ As of Version 1.22, this now shows an assert if the game is terminated but takes
 
 # .NET 3.5 Check
 ## -nodotnetcheck
-
 **Added in Version 1.18.**
 
 Disables the Mod Launcher checking if you have .NET 3.5 installed.
@@ -160,7 +147,6 @@ Disables the Mod Launcher checking if you have .NET 3.5 installed.
 ```
 
 ## -spoofdotnetcheck
-
 **Added in Version 1.21.**
 
 This forces the Mod Launcher to show its message box about .NET 3.5 being required.
@@ -171,7 +157,6 @@ This forces the Mod Launcher to show its message box about .NET 3.5 being requir
 
 # Account Integration
 ## -account
-
 **Added in Version 1.22.3.**
 
 Makes the Mod Launcher open directly into the account window.
@@ -180,8 +165,7 @@ Makes the Mod Launcher open directly into the account window.
 -account
 ```
 
-## -accountwindowtoken
-
+## -accountwindowtoken 
 **Added in Version 1.22.**
 
 Re-enables the "token" field on the "Account..." window that was removed in 1.22.
@@ -191,19 +175,17 @@ Re-enables the "token" field on the "Account..." window that was removed in 1.22
 ```
 
 ## -apiurl
-
 **Added in Version 1.18.**
 
 Specify a custom Donut Team URL to use for Donut Team Account Integration. 
 
-Must be on donutteam.com, lucasstuff.com, localhost or a subdomain of those domains.
+Must be on `donutteam.com`, `localhost` or a subdomain of those domains. Prior to Version 1.27, `lucasstuff.com` was also supported.
 
 ```text
 -apiurl "https://api.donutteam.com/"
 ```
 
 ## -commsoptoutdeauthenticate
-
 **Added in Version 1.22.**
 
 This makes the "Deauthenticate" button on the Account window fully remove your account from both the main Mod Launcher and SHAR MP.
@@ -213,7 +195,6 @@ This makes the "Deauthenticate" button on the Account window fully remove your a
 ```
 
 ## -nodtcomms
-
 **Added in Version 1.23.**
 
 Disables Donut Team Account Integration regardless of your setting in the Launcher Settings.
@@ -224,7 +205,6 @@ Disables Donut Team Account Integration regardless of your setting in the Launch
 
 # App ID
 ## -appid
-
 **Added in Version 1.22.**
 	
 This can be used to set a custom App ID for the Mod Launcher.
@@ -238,7 +218,6 @@ This also disables the updating of Jump Lists.
 ```
 
 ## -noappid
-
 **Added in Version 1.22.**
 
 Makes it to the Mod Launcher does not specify an [App ID](https://docs.microsoft.com/en-us/windows/desktop/shell/appids).
@@ -251,7 +230,6 @@ This also disables the updating of Jump Lists as they work considerably better w
 
 # Appearance
 ## -font
-
 **Added in Version 1.21.**
 
 Set a custom font for the entire Mod Launcher to use.
@@ -261,7 +239,6 @@ Set a custom font for the entire Mod Launcher to use.
 ```
 
 ## -fontscale
-	
 **Added in Version 1.18, accidentally removed in Version 1.19 and re-added in 1.21.**
 
 Set the scale of fonts.
@@ -273,7 +250,6 @@ Defaults to 1.
 ```
 
 ## -lowercasetext
-
 **Added in Version 1.23.**
 
 Makes all the localisable text in the Mod Launcher and messages it shows lowercase.
@@ -283,7 +259,6 @@ Makes all the localisable text in the Mod Launcher and messages it shows lowerca
 ```
 
 ## -nowatermark
-	
 **Added in Version 1.20.**
 
 Disables the watermark in the Mods list.
@@ -293,7 +268,6 @@ Disables the watermark in the Mods list.
 ```
 
 ## -uppercasetext
-
 **Added in Version 1.23.**
 
 Makes all the localisable text in the Mod Launcher and messages it shows uppercase.
@@ -303,12 +277,11 @@ Makes all the localisable text in the Mod Launcher and messages it shows upperca
 ```
 
 ## -watermarkopacity
-
 **Added in Version 1.22.**
 
-Lets you set the opacity of the watermark in the Mods List. Replace "OPACITY" with a number from 0 to 1.
+Lets you set the opacity of the watermark in the Mods List.
 
-Defaults to 0.24.
+Defaults to 0.24, can be anywhere from 0 to 1.
 
 ```text
 -watermarkopacity 0.24
@@ -316,7 +289,6 @@ Defaults to 0.24.
 
 # Configurations
 ## -configuration
-
 **Added in Version 1.21.**
 
 Launch the Mod Launcher with a specific configuration if it exists.
@@ -326,7 +298,6 @@ Launch the Mod Launcher with a specific configuration if it exists.
 ```
 
 ## -noconfiguration
-
 **Added in Version 1.22.**
 
 Makes the Mod Launcher start on the Main configuration.
@@ -336,7 +307,6 @@ Makes the Mod Launcher start on the Main configuration.
 ```
 
 ## -notitleconfiguration
-
 **Added in Version 1.21.**
 
 Makes it so the title of the current configuration is not added to the title of the window.
@@ -347,7 +317,6 @@ Makes it so the title of the current configuration is not added to the title of 
  
 # Conflict Checking
 ## -allowignoremodconflicts
-
 **Added in Version 1.18.**
 
 Allows you to ignore mod conflicts when enabling mods.
@@ -361,7 +330,6 @@ As of Version 1.22.4, this also allows you to skip the error message the Mod Lau
 ```
 
 ## -ignorelaunchmodconflicts
-
 **Added in Version 1.20.**
 
 Makes the Mod Launcher ignore any conflicts between mods detected when launching the game.
@@ -371,7 +339,6 @@ Makes the Mod Launcher ignore any conflicts between mods detected when launching
 ```
 
 ## -noscanmodfiles
-
 **Added in Version 1.17.**
 
 Makes the Mod Launcher skip scanning mod files when loading mods. This drastically reduces the loading time of the Mod Launcher *however* modified dates and conflict checking between files in the CustomFiles folders of non-compiled mods will not work. The size of any such mods will also be unavailable in the Advanced tab of the mod's information. The "Show Newest File" option in the right click menu of the mod in the mods list will also not work properly.
@@ -381,7 +348,6 @@ Makes the Mod Launcher skip scanning mod files when loading mods. This drastical
 ```
 
 ## -scanallmodfiles
-
 **Added in Version 1.18.**
 
 Makes the Mod Launcher scan all mod files regardless of whether or not they will compile in. This will cause the mod's modified date to potentially appear differently as well as causing its size to appear larger than it would otherwise. The "Show Newest File" option in the right click menu of the mod in the mods list may also show a different file than it would otherwise.
@@ -394,10 +360,9 @@ This was the default behaviour prior to Version 1.18.
 
 # Enabled Mods & Hacks
 ## -allowedmod
-
 **Added in an unknown version.**
 
-Specify a mod name that will bypass [-ignoreenabledmods](#ignoreenabledmods), instead respecting whether or not the user had it enabled.
+Specify a mod name that will bypass `-ignoreenabledmods`, instead respecting whether or not the user had it enabled.
 
 ```text
 -allowedmod "Donut Mod 4 Beta"
@@ -406,7 +371,6 @@ Specify a mod name that will bypass [-ignoreenabledmods](#ignoreenabledmods), in
 **NOTE**: You must use the name of a mod's folder or LMLM file, not its `InternalName`.
 
 ## -enabledmod
-
 **Added in an unknown version.**
 
 Enables the specified mod if it's available.
@@ -418,10 +382,9 @@ Enables the specified mod if it's available.
 **NOTE**: You must use the name of a mod's folder or LMLM file, not its `InternalName`.
 
 ## -ignoreenabledmods
-
 **Added in an unknown version.**
 
-Makes the Mod Launcher ignore any mods or mod hacks the user has enabled, only respecting those enabled with [-enabledmod](#enabledmod) or those that bypass this with [-allowedmod](#allowedmod).
+Makes the Mod Launcher ignore any mods or mod hacks the user has enabled, only respecting those enabled with `-enabledmod` or those that bypass this with `-allowedmod`.
 
 ```text
 -ignoreenabledmods
@@ -429,7 +392,6 @@ Makes the Mod Launcher ignore any mods or mod hacks the user has enabled, only r
 
 # Filesystem
 ## -legacyfilesystem
-
 **Added in Version 1.22.**
 	
 Makes the Mod Launcher use its old virtual file system instead of the new one added in Version 1.22.
@@ -439,7 +401,6 @@ Makes the Mod Launcher use its old virtual file system instead of the new one ad
 ```
 
 ## -nofilesystem
-
 **Added in Version 1.22.**
 
 Fully disables the Mod Launcher's virtual filesystem making it basically unusable as far as launching the game goes.
@@ -450,7 +411,6 @@ Fully disables the Mod Launcher's virtual filesystem making it basically unusabl
 
 # Game Launch
 ## -debuglaunch
-
 **Added in Version 1.18.3.**
 
 Makes the Mod Launcher show a detailed message containing information about how it's going to launch the game when clicking Launch.
@@ -462,20 +422,18 @@ As of Version 1.23.2, this message will no longer show up a second time if mods 
 ```
 
 ## -launch
-
 **Added in Version 1.10.**
 
-Launches the game with the Mod Launcher with any mods you last had enabled (unless other arguments such as [-ignoremods](#ignoremods) disable them).
+Launches the game with the Mod Launcher with any mods you last had enabled (unless other arguments such as `-ignoremods` disable them).
 
 ```text
 -launch
 ```
 
 ## -wait
-
 **Added in an unknown version.**
 
-Makes the Mod Launcher stay running in the background when using -launch until the game exits.
+Makes the Mod Launcher stay running in the background when using `-launch` until the game exits.
 
 ```text
 -wait
@@ -483,7 +441,6 @@ Makes the Mod Launcher stay running in the background when using -launch until t
 
 # Game Window
 ## -noedition
-
 **Added in Version 1.22.**
 
 Disables the `Edition` feature of Mods and makes it so main mods that specify one show their title like normal main mods would.
@@ -493,7 +450,6 @@ Disables the `Edition` feature of Mods and makes it so main mods that specify on
 ```
 
 ## -nogamemodicon
-
 **Added in Version 1.22.**
 
 Makes it to the game window will not use the icon of the current Main Mod or Edition.
@@ -504,7 +460,6 @@ Makes it to the game window will not use the icon of the current Main Mod or Edi
 
 # Loading Mods & Hacks
 ## -allowpartialload
-
 **Added in Version 1.18.**
 
 Makes the cancel button on the loading window cancel loading halfway through keeping anything that was already loaded instead of closing the Mod Launcher.
@@ -514,7 +469,6 @@ Makes the cancel button on the loading window cancel loading halfway through kee
 ```
 
 ## -disablehack
-
 **Added in Version 1.21.**
 
 Disable a specific hack with its InternalName. 
@@ -526,7 +480,6 @@ This can be used to forcefully disable hacks that are always enabled.
 ```
 
 ## -hack
-
 **Added in an unknown version.**
 
 Makes the Mod Launcher load the hack at the specified path.
@@ -536,7 +489,6 @@ Makes the Mod Launcher load the hack at the specified path.
 ```
 
 ## -hacks
-
 **Added in an unknown version.**
 
 Makes the Mod Launcher load hacks out of the specified path.
@@ -546,17 +498,15 @@ Makes the Mod Launcher load hacks out of the specified path.
 ```
 
 ## -ignorehacks
-
 **Added in an unknown version.**
 
-Makes the Mod Launcher ignore any hacks, only acknowledging those added with [-hack](#mod) or [-hacks](#mods).
+Makes the Mod Launcher ignore any hacks, only acknowledging those added with `-hack` or `-hacks`.
 
 ```text
 -ignorehacks
 ```
 
 ## -ignoreloaderrors
-
 **Added in Version 1.23.4.**
 
 Makes the Mod Launcher ignore errors when loading mods and hacks.
@@ -566,17 +516,15 @@ Makes the Mod Launcher ignore errors when loading mods and hacks.
 ```
 
 ## -ignoremods
-
 **Added in an unknown version.**
 
-Makes the Mod Launcher ignore any mods, only acknowledging those added with [-mod](#mod) or [-mods](#mods).
+Makes the Mod Launcher ignore any mods, only acknowledging those added with `-mod` or `-mods`.
 
 ```text
 -ignoremods
 ```
 
 ## -ignorerequiredlauncher
-
 **Added in Version 1.18.**
 
 Allows mods and hacks that require a newer version of the Mod Launcher to be loaded and enabled.
@@ -586,7 +534,6 @@ Allows mods and hacks that require a newer version of the Mod Launcher to be loa
 ```
 
 ## -ignorerequiredsystem
-
 **Added in Version 1.21.**
 
 Allows hacks that do not support the host operating system to be loaded and enabled.
@@ -596,7 +543,6 @@ Allows hacks that do not support the host operating system to be loaded and enab
 ```
 
 ## -loadonmainthread
-
 **Added in Version 1.18.**
 
 Makes the Mod Launcher load mods and hacks on the main thread instead of a background thread.
@@ -608,7 +554,6 @@ This was the default behaviour prior to Version 1.18.
 ```
 
 ## -mod
-
 **Added in an unknown version.**
 
 Makes the Mod Launcher load the mod at the specified path.
@@ -621,7 +566,6 @@ Makes the Mod Launcher load the mod at the specified path.
 ```
 
 ## -mods
-
 **Added in an unknown version.**
 
 Makes the Mod Launcher load mods out of the specified path.
@@ -631,7 +575,6 @@ Makes the Mod Launcher load mods out of the specified path.
 ```
 
 ## -noload
-
 **Added in Version 1.18.**
 
 Prevents the Mod Launcher from loading any mods or hacks on startup. This does not prevent them from being loaded with the Reload button.
@@ -641,7 +584,6 @@ Prevents the Mod Launcher from loading any mods or hacks on startup. This does n
 ```
 
 ## -noloadhide
-
 **Added in Version 1.18.**
 
 Makes it so the main window of the Mod Launcher is not hidden while the loading window is visible.
@@ -651,17 +593,15 @@ Makes it so the main window of the Mod Launcher is not hidden while the loading 
 ```
 
 ## -noloadingwindowlock
-
 **Added in Version 1.18.**
 
-Makes it so the loading window is not locked to the main window when using [-noloadhide](#noloadhide).
+Makes it so the loading window is not locked to the main window when using `-noloadhide`.
 
 ```text
 -noloadingwindowlock
 ```
 
 ## -noloadprogress
-
 **Added in Version 1.18.**
 	
 Makes the Mod Launcher silently load mods and hacks in the background instead of showing the loading window.
@@ -673,7 +613,6 @@ This was the default behaviour prior to Version 1.17.
 ```
 
 ## -slowload
-
 **Added in Version 1.18.**
 
 Makes the Mod Launcher wait 100ms between each mod or hack that's loaded.
@@ -684,7 +623,6 @@ Makes the Mod Launcher wait 100ms between each mod or hack that's loaded.
 
 # Interface
 ## -nocloselaunchertickbox
-
 **Added in Version 1.21.**
 
 Disables the "Close Launcher" tickbox.
@@ -694,7 +632,6 @@ Disables the "Close Launcher" tickbox.
 ```
 
 ## -nomodslabel
-
 **Added in Version 1.18.1.**
 
 Hides the mods label on the non-Pages view.
@@ -705,7 +642,6 @@ Hides the mods label on the non-Pages view.
 
 # Language Localisation
 ## -noselectlanguage
-
 **Added in Version 1.22.4.**
 
 This disables the Mod Launcher's select language dialogue.
@@ -715,7 +651,6 @@ This disables the Mod Launcher's select language dialogue.
 ```
 
 ## -selectlanguage
-
 **Added in Version 1.22.4.**
 
 This forces the Mod Launcher's select language dialogue to always show up on startup.
@@ -726,12 +661,11 @@ This forces the Mod Launcher's select language dialogue to always show up on sta
 
 # Mod Compilation
 ## -compile
-
 **Added in an unknown version.**
 
 Specify a mod name to compile.
 
-If the mod does not define an `OutputPath` in the `[Compile]` section of its Meta.ini, you must also use -outputpath.
+If the mod does not define an `OutputPath` in the `[Compile]` section of its Meta.ini, you must also use `-outputpath`.
 
 ```text
 -compile "Donut Mod 4 Beta"
@@ -740,20 +674,18 @@ If the mod does not define an `OutputPath` in the `[Compile]` section of its Met
 **NOTE**: You must use the name of a mod's folder or LMLM file, not its `InternalName`.
 
 ## -forceencryption
-
 **Added in Version 1.22.2.**
 
-Makes it so the Mod Launcher will always encrypt mods regardless of their RequiredLauncher or other criteria.
+Makes it so the Mod Launcher will always encrypt mods regardless of their `RequiredLauncher` or other criteria.
 
 ```text
 -forceencryption
 ```
 
 ## -outputpath
-
 **Added in an unknown version.**
 
-Specify a folder to build the mod(s) to when using [-compile](#compile).
+Specify a folder to build the mod(s) to when using `-compile`.
 
 The LMLM file(s) will be named after mod(s) folder.
 
@@ -763,7 +695,6 @@ The LMLM file(s) will be named after mod(s) folder.
 
 # Mods List
 ## -fullrowselect
-
 **Added in Version 1.18.1.**
 
 Makes the mods list have full row select. This causes various usability issues.
@@ -773,17 +704,15 @@ Makes the mods list have full row select. This causes various usability issues.
 ```
 
 ## -nonmodmods
-
 **Added in Version 1.18.**
 
-Adds a "Non-mods" category to the "General" tab that lets you enable non-mod hacks (such as CustomFiles) as though they are normal mods.
+Adds a "Non-mods" category to the "General" tab that lets you enable non-mod hacks (such as [[Hacks/CustomFiles/Intro.md]]) as though they are normal mods.
 
 ```text
 -nonmodmods
 ```
 
 ## -nounreleased
-
 **Added in Version 1.22.**
 	
 Disables the Unreleased page on the mods list and makes Unreleased mods appear on the other pages they would otherwise be on.
@@ -793,7 +722,6 @@ Disables the Unreleased page on the mods list and makes Unreleased mods appear o
 ```
 
 ## -saveunreleased
-
 **Added in Version 1.22.**
 	
 Makes the Mod Launcher save when you're on the "Unreleased" tab when closing the program.
@@ -804,7 +732,6 @@ Makes the Mod Launcher save when you're on the "Unreleased" tab when closing the
 
 # Mod Settings
 ## -ignoredefaultmodsettings
-
 **Added in Version 1.22.**
 
 Makes it so mod settings that were manually set to their default will no longer be bold despite being set.
@@ -814,7 +741,6 @@ Makes it so mod settings that were manually set to their default will no longer 
 ```
 
 ## -modsettingsicon
-
 **Added in Version 1.23.10.**
 
 Shows the mod's icon on its settings window.
@@ -824,7 +750,6 @@ Shows the mod's icon on its settings window.
 ```
 
 ## -modsettingsiconsize
-
 **Added in Version 1.23.10.**
 
 Customise the size of the mod icon when using `-modsettingsicon`. Defaults to 32.
@@ -834,7 +759,6 @@ Customise the size of the mod icon when using `-modsettingsicon`. Defaults to 32
 ```
 
 ## -noboldsettings
-
 **Added in Version 1.22.**
 
 This makes it so Mod Settings are never displayed in bold.
@@ -844,7 +768,6 @@ This makes it so Mod Settings are never displayed in bold.
 ```
 
 ## -nomodsettingsresetbutton
-
 **Added in Version 1.23.10.**
 
 Removes the reset button from these windows.
@@ -854,7 +777,6 @@ Removes the reset button from these windows.
 ```
 
 ## -resetdefaultmodsettings
-
 **Added in Version 1.22.**
 
 Makes mod settings get unset when you manually put them back to their default value instead of remaining bold.
@@ -864,12 +786,11 @@ Makes mod settings get unset when you manually put them back to their default va
 ```
 
 ## -settings
-
 **Added in an unknown version.**
 
 Launches the Mod Launcher directly into the settings of the specified mod.
 
-As of 1.22, this now includes the current configuration in the Settings window title unless you're using [-notitleconfiguration](#notitleconfiguration).
+As of 1.22, this now includes the current configuration in the Settings window title unless you're using `-notitleconfiguration`.
 
 ```text
 -settings "Donut Mod"
@@ -878,7 +799,6 @@ As of 1.22, this now includes the current configuration in the Settings window t
 **NOTE**: You must use the name of a mod's folder or LMLM file, not its `InternalName`.
 
 ## -vistastylemodsettings
-
 **Added in Version 1.23.10.**
 
 Makes the area above the buttons have a different coloured background with a separator edge in between the two sections.
@@ -888,7 +808,6 @@ Makes the area above the buttons have a different coloured background with a sep
 ```
 
 ## -vistastyleedge
-
 **Added in Version 1.23.10.**
 
 Customise the size of the separator edge `-vistastylemodsettings` when this is enabled.
@@ -899,7 +818,6 @@ Customise the size of the separator edge `-vistastylemodsettings` when this is e
 
 # Shortcuts & Jump Lists
 ## -forceupdatepinnedshortcuts
-
 **Added in Version 1.22.**
 
 Makes the Mod Launcher always update pinned shortcuts on startup even if they already have an App ID as well as when the running instance does not.
@@ -909,7 +827,6 @@ Makes the Mod Launcher always update pinned shortcuts on startup even if they al
 ```
 
 ## -nofixpinnedshortcuts
-
 **Added in Version 1.22.**
 	
 Makes it so the Mod Launcher never updates pinned shortcuts on startup.
@@ -919,7 +836,6 @@ Makes it so the Mod Launcher never updates pinned shortcuts on startup.
 ```
 
 ## -nojumplist
-
 **Added in Version 1.22.**
 
 Makes the Mod Launcher clear its jump list on startup.
@@ -929,22 +845,20 @@ Makes the Mod Launcher clear its jump list on startup.
 ```
 
 ## -noupdatejumplist
-
 **Added in Version 1.22.**
 
 Makes it so the Mod Launcher will not update its jump lists. 
 
-This disables the "Jump List" tick box on the "Manage Configurations..." window. If a configuration in the Jump List is deleted with this enabled, it will not be removed from the Jump List.
+This disables the **Jump List** tick box on the **Manage Configurations...** window. If a configuration in the Jump List is deleted with this enabled, it will not be removed from the Jump List.
 
 ```text
 -noupdatejumplist
 ```
 
 ## -updatejumplist
-
 **Added in Version 1.22.**
 
-This makes the Mod Launcher update its jump list even if you use [-noappid](#noappid).
+This makes the Mod Launcher update its jump list even if you use `-noappid`.
 
 ```text
 -updatejumplist
@@ -952,7 +866,6 @@ This makes the Mod Launcher update its jump list even if you use [-noappid](#noa
 
 # Update Checking
 ## -nocheckforupdates
-
 **Added in Version 1.22.4.**
 
 This prevents the Mod Launcher from checking for updates regardless of your setting.
@@ -962,7 +875,6 @@ This prevents the Mod Launcher from checking for updates regardless of your sett
 ```
 
 ## -noupdatelink
-
 **Added in Version 1.22.**
 
 Hides the update hyperlink on the Main Window added in 1.22.
@@ -972,19 +884,17 @@ Hides the update hyperlink on the Main Window added in 1.22.
 ```
 
 ## -updatecheckurl
-
 **Added in Version 1.22.4.**
 
 Allows you to override the URL used to check for updates.
 
-Must be on donutteam.com, lucasstuff.com, localhost or a subdomain of those domains.
+Must be on `donutteam.com`, `localhost` or a subdomain of those domains. Prior to Version 1.27, `lucasstuff.com` was also supported.
 
 ```text
--updatecheckurl "lucasstuff.com"
+-updatecheckurl "donutteam.com"
 ```
 
 ## -updatemessage
-
 **Added in Version 1.22.**
 
 Restores the old update message box that was replaced with a hyperlink on the Main Window in 1.22.
@@ -995,7 +905,6 @@ Restores the old update message box that was replaced with a hyperlink on the Ma
 
 # Web Communication
 ## -noasyncwebrequests
-
 **Added in Version 1.22.3.**
 
 This makes it so all web requests are not asynchronous.
@@ -1005,7 +914,6 @@ This makes it so all web requests are not asynchronous.
 ```
 
 ## -nocurl
-
 **Added in Version 1.17.**
 
 Prevents the Mod Launcher from using [libcurl](https://curl.haxx.se/libcurl/).
@@ -1015,7 +923,6 @@ Prevents the Mod Launcher from using [libcurl](https://curl.haxx.se/libcurl/).
 ```
 
 ## -noproxy
-
 **Added in Version 1.22.2.**
 
 Makes the new web requests system added in Version 1.22.2 bypass any system level proxy.
@@ -1025,7 +932,6 @@ Makes the new web requests system added in Version 1.22.2 bypass any system leve
 ```
 
 ## -nossl
-
 **Added in Version 1.17.**
 
 Prevents the Mod Launcher from using SSL (HTTPS).
@@ -1035,7 +941,6 @@ Prevents the Mod Launcher from using SSL (HTTPS).
 ```
 
 ## -notls12
-
 **Added in Version 1.17.**
 
 Prevents the Mod Launcher from using TLS 1.2.
@@ -1045,7 +950,6 @@ Prevents the Mod Launcher from using TLS 1.2.
 ```
 
 ## -proxy
-
 **Added in Version 1.22.4.**
 
 Allows you to define a custom proxy for the Mod Launcher to route through.
@@ -1055,7 +959,6 @@ Allows you to define a custom proxy for the Mod Launcher to route through.
 ```
 
 ## -useragent
-
 **Added in Version 1.18.2.**
 
 Specify a custom user agent for the Mod Launcher.
@@ -1066,7 +969,6 @@ Specify a custom user agent for the Mod Launcher.
 
 # Windows Environment Check
 ## -nowindowscheck
-
 **Added in Version 1.25.**
 
 Prevents the Mod Launcher from checking if its running within a Windows environment (actual Windows or Wine).
@@ -1076,7 +978,6 @@ Prevents the Mod Launcher from checking if its running within a Windows environm
 ```
 
 ## -spoofwindowscheck
-
 **Added in Version 1.25.**
 
 Forces the message that would be shown when the Mod Launcher is not running within a Windows environment to show up. Useful to test localisation of the message.
@@ -1087,7 +988,6 @@ Forces the message that would be shown when the Mod Launcher is not running with
 
 # Windows XP Service Pack 3 Check
 ## -forcexpsp3check
-
 **Added in Version 1.23.4.**
 
 Forces the check to happen on non-Windows XP operating systems.
@@ -1097,7 +997,6 @@ Forces the check to happen on non-Windows XP operating systems.
 ```
 
 ## -noxpsp3check
-
 **Added in Version 1.23.4.**
 
 Disables this check.
@@ -1107,7 +1006,6 @@ Disables this check.
 ```
 
 ## -spoofxpsp3check
-
 **Added in Version 1.23.4.**
 
 Forces the message from the check to show up if the check is enabled (either when using Windows XP or when also using `-forcexpsp3check`).
@@ -1118,7 +1016,6 @@ Forces the message from the check to show up if the check is enabled (either whe
 
 # Hacks
 ## -debugloadhacks
-
 **Added in Version 1.19.**
 
 Enables additional console logging from Hack Support when loading hacks.
@@ -1128,7 +1025,6 @@ Enables additional console logging from Hack Support when loading hacks.
 ```
 
 ## -loadhackspause
-
 **Added in Version 1.19.**
 
 Pauses the console after all hacks finish loading.
@@ -1138,7 +1034,6 @@ Pauses the console after all hacks finish loading.
 ```
 
 ## -nounrequesthackevents
-
 **Added in Version 1.22.**
 
 Makes it so hacks do not unrequest hack events they're not using after the first time they're told about them resulting in a detriment to the game's performance.
@@ -1148,10 +1043,9 @@ Makes it so hacks do not unrequest hack events they're not using after the first
 ```
 
 # Hack: Hack Support
-These command line arguments affect [Hack Support](hacks/hack-support.md).
+These command line arguments affect [[Hacks/HackSupport.md]].
 
 ## -additionalswapchain
-
 **Added in Version 1.23.10.**
 
 Makes this hack make the game use an additional swap chain even when the Resizable Window hack is not enabled.
@@ -1161,7 +1055,6 @@ Makes this hack make the game use an additional swap chain even when the Resizab
 ```
 
 ## -noadditionalswapchain
-
 **Added in Version 1.23.10.**
 
 Prevents this hack from making the game use an additional swap chain.
@@ -1171,7 +1064,6 @@ Prevents this hack from making the game use an additional swap chain.
 ```
 
 ## -breakgame
-
 **Added in Version 1.22.4.**
 
 Makes it so this hack will break point the game as soon as possible after it gets loaded into it.
@@ -1183,19 +1075,17 @@ As of Version 1.23.2, using this alongside `-suspend` will cause the message sho
 ```
 
 ## -debugkeybinds
-
 **Added in Version 1.23.6.**
 
 Makes it so this hack will print information about when keybinds are pressed, released and ignored to the console.
 
-This bypasses the "Include > Hacks" setting of the [Console and Logging](hacks/console-and-logging.md) hack.
+This bypasses the "Include > Hacks" setting of the [[Hacks/ConsoleAndLogging.md]] hack.
 
 ```text
 -debugkeybinds
 ```
 
 ## -debuglookupstring
-
 **Added in Version 1.23.9.**
 
 Makes it so this hack will output to the console every time the game tries looking up a text string.
@@ -1205,7 +1095,6 @@ Makes it so this hack will output to the console every time the game tries looki
 ```
 
 ## -debugstagechange
-
 **Added in Version 1.23.8.**
 
 This outputs information to the console when you change stages in a mission.
@@ -1215,7 +1104,6 @@ This outputs information to the console when you change stages in a mission.
 ```
 
 ## -gameappid
-
 **Added in Version 1.22.**
 
 Makes the game use the same [App ID](https://docs.microsoft.com/en-us/windows/desktop/shell/appids) as the Mod Launcher which results in them sharing a taskbar button instead of appearing separately.
@@ -1225,7 +1113,6 @@ Makes the game use the same [App ID](https://docs.microsoft.com/en-us/windows/de
 ```
 
 ## -ignoremissingaddresses
-
 **Added in Version 1.22.**
 
 Makes it so this hack will not assert if Hack Support tries to patch the game, call game code or read/write variables if there is no address for the current game version.
@@ -1235,7 +1122,6 @@ Makes it so this hack will not assert if Hack Support tries to patch the game, c
 ```
 
 ## -installallsharedhacks
-
 **Added in Version 1.22.**
 
 Makes the so all shared hacks get installed regardless of whether or not they're actually in use.
@@ -1245,15 +1131,14 @@ Makes the so all shared hacks get installed regardless of whether or not they're
 ```
 
 ## -language
-
 **Added in Version 1.22.4.**
 
 This allows you to override the language of the game:
 
-* 0: English
-* 1: French
-* 2: German
-* 4: Spanish
+* **0**: English
+* **1**: French
+* **2**: German
+* **4**: Spanish
  
 This doesn't work in the original English release of the game.
 
@@ -1265,27 +1150,25 @@ This still requires you to provide the dialog RCF for the language you're overri
 
 As of Version 1.25, this also supports letters as well as the language indices:
 
-* E: English
-* F: French
-* G: German
-* S: Spanish
+* **E**: English
+* **F**: French
+* **G**: German
+* **S**: Spanish
 
 ```text
 -language E
 ```
 
 ## -msvcasserts
-
 **Added in Version 1.23.6.**
 
-Disables the [custom assert messages](/img/lucasmodlauncher/hacks/hack-support/assert_custom.png) added in 1.23.6, instead this hack will use the [old MSVC style asserts](/img/lucasmodlauncher/hacks/hack-support/assert_msvc.png).
+Disables the [custom assert messages](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/Assert_Custom.png) added in 1.23.6, instead this hack will use the [old MSVC style asserts](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/Assert_MSVC.png).
 
 ```text
 -msvcasserts
 ```
 
 ## -noassertdump
-
 **Added in Version 1.23.6**
 
 Disables the custom assert messages added in 1.23.6 saving a crash dump when they occur.
@@ -1295,7 +1178,6 @@ Disables the custom assert messages added in 1.23.6 saving a crash dump when the
 ```
 
 ## -noaudiodevicecheck
-
 **Added in Version 1.22.4.**
 
 Disables an error message added in 1.22.4 that shows up if you try starting the game with no audio devices connected or when the Windows audio service isn't running.
@@ -1305,7 +1187,6 @@ Disables an error message added in 1.22.4 that shows up if you try starting the 
 ```
 
 ## -noblockredundantpresent
-
 **Added in Version 1.23.10.**
 
 Prevents this hack from preventing the game from redundantly presenting (presenting after a previous present or a device reset/swap chain recreation and before beginning a scene) to reduce/prevent flickering when resizing.
@@ -1315,7 +1196,6 @@ Prevents this hack from preventing the game from redundantly presenting (present
 ```
 
 ## -noblockredundantreset
-
 **Added in Version 1.23.**
 
 Makes it so this hack does NOT block the game from resetting it Direct3D device when it's unnecessary.
@@ -1325,7 +1205,6 @@ Makes it so this hack does NOT block the game from resetting it Direct3D device 
 ```
 
 ## -nohacklanguagelocalisation
-
 **Added in Version 1.22.4.**
 
 Makes it so hacks do not use language localisation.
@@ -1335,7 +1214,6 @@ Makes it so hacks do not use language localisation.
 ```
 
 ## -nohandlefilenotfound
-
 **Added in Version 1.23.**
 
 Makes it so this hack does not handle the message shown when files are not found, instead showing the game's original message.
@@ -1345,7 +1223,6 @@ Makes it so this hack does not handle the message shown when files are not found
 ```
 
 ## -nohardwareskinning
-
 **Added in Version 1.23.**
 
 Disables hardware skinning and instead makes the game use different code for skins.
@@ -1355,7 +1232,6 @@ Disables hardware skinning and instead makes the game use different code for ski
 ```
 
 ## -hardwareskinning
-
 **Added in Version 1.23.**
 
 Blocks hacks from disabling hardware skinning.
@@ -1365,7 +1241,6 @@ Blocks hacks from disabling hardware skinning.
 ```
 
 ## -nohookd3d
-
 **Added in Version 1.22.**
 
 Disables this hack hooking Direct3D. Enabling this breaks functionality in a great many hacks. Probably don't use this.
@@ -1375,7 +1250,6 @@ Disables this hack hooking Direct3D. Enabling this breaks functionality in a gre
 ```
 
 ## -hookd3d
-
 **Added in Version 1.23.**
 
 Forces this hack to hook Direct3D regardless of whether any enabled hacks require it to.
@@ -1385,7 +1259,6 @@ Forces this hack to hook Direct3D regardless of whether any enabled hacks requir
 ```
 
 ## -nolegacykeys
-
 **Added in Version 1.23.6.**
 
 This disables legacy keybinds.
@@ -1395,7 +1268,6 @@ This disables legacy keybinds.
 ```
 
 ## -noreloadcarcameradata
-
 **Added in Version 1.23.**
 
 Makes it so car camera data does not get reloaded when a car gets loaded (such as when calling it from the phone booth).
@@ -1405,19 +1277,17 @@ Makes it so car camera data does not get reloaded when a car gets loaded (such a
 ```
 
 ## -noresourcemeta
-
 **Added in Version 1.22.1.**
 
 Disables Hack Support reading information out of the Meta files for Mods and Hacks.
 
-This makes the Mod Launcher use the internal names of hacks in various places and makes Lua functions that get Meta information (such as [GetModTitle](hacks/cf/lua-scripting/custom-functions/getmodtitle.md) and [GetModVersion](hacks/cf/lua-scripting/custom-functions/getmodversion.md)) return nil.
+This makes the Mod Launcher use the internal names of hacks in various places and makes Lua functions that get Meta information (such as [[Hacks/CustomFiles/LuaFunctions/GetModTitle.md]] and [[Hacks/CustomFiles/LuaFunctions/GetModVersion.md]]) return nil.
 
 ```text
 -noresourcemeta
 ```
 
 ## -suspend
-	
 **Added in Version 1.18.2.**
 
 Makes the Mod Launcher suspend the game before its code starts so you can attach a debugger.
@@ -1431,10 +1301,9 @@ As of Version 1.23.2, using this alongside `-breakgame` will cause the message t
 ```
 
 # Hack: Anti-aliasing
-These command line arguments affect whether or not the Anti-aliasing hack will be displayed in the mod's list.
+These command line arguments affect whether or not the [[Hacks/Antialiasing.md]] Anti-aliasing hack will be displayed in the mod's list.
 
 ## -forcemsaa
-
 **Added in Version 1.21.**
 
 Makes the launcher show every MSAA mode in the hack's settings regardless of what is supported by your graphics card.
@@ -1444,7 +1313,6 @@ Makes the launcher show every MSAA mode in the hack's settings regardless of wha
 ```
 
 ## -nomsaa
-
 **Added in Version 1.21.**
 
 Makes the launcher skip the check for what MSAA modes are supported which disables and hides this hack from the mods list.
@@ -1454,10 +1322,9 @@ Makes the launcher skip the check for what MSAA modes are supported which disabl
 ```
 
 # Hack: Cheat Keys
-These command line arguments only take effect when the [Cheat Keys](hacks/cheat-keys.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/CheatKeys.md]] hack is enabled.
 
 ## -forceallowcheatkeys
-
 **Added in Version 1.23.5.**
 
 Allows you to opt out of a bunch of other safety checks when pressing keys (such as those added in Version 1.15 and 1.23.5).
@@ -1467,10 +1334,9 @@ Allows you to opt out of a bunch of other safety checks when pressing keys (such
 ```
 
 # Hack: Custom Car Support
-These command line arguments only take effect when the [Custom Car Support](hacks/custom-car-support.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/CustomCarSupport.md]] hack is enabled.
 
 ## -nocarindexmapping
-
 **Added in Version 1.22.**
 
 Disables the hack dynamically re-mapping car indices to avoid conflicts between mods.
@@ -1480,10 +1346,9 @@ Disables the hack dynamically re-mapping car indices to avoid conflicts between 
 ```
 
 # Hack: Custom Files
-These command line arguments only take effect when the [Custom Files](hacks/cf/intro.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/CustomFiles/Intro.md]] hack is enabled.
 
 ## -legacyoutput
-
 **Added in Version 1.23.9.**
 
 Reverts the Output Lua function back to how it worked prior to Version 1.23.9.
@@ -1493,7 +1358,6 @@ Reverts the Output Lua function back to how it worked prior to Version 1.23.9.
 ```
 
 ## -noadditionalfiles
-
 **Added in Version 1.22.**
 
 Disables the AdditionalFiles folder. This will probably break mods that rely on that folder.
@@ -1503,7 +1367,6 @@ Disables the AdditionalFiles folder. This will probably break mods that rely on 
 ```
 
 ## -noenabledep
-
 **Added in Version 1.23.10.**
 
 Prevents this hack from enabling [Data Execution Prevention](https://docs.microsoft.com/en-us/windows/win32/memory/data-execution-prevention).
@@ -1513,7 +1376,6 @@ Prevents this hack from enabling [Data Execution Prevention](https://docs.micros
 ```
 
 ## -noluastacktrace
-
 **Added in Version 1.23.8.**
 
 This disables the Lua stack traces added to Lua execution errors in this version.
@@ -1523,7 +1385,6 @@ This disables the Lua stack traces added to Lua execution errors in this version
 ```
 
 ## -notruncateluafilenamestart
-
 **Added in Version 1.23.8.**
 
 This reverts the improvement introduced in this version where Lua errors truncate the start of the path instead of the end of it.
@@ -1533,7 +1394,6 @@ This reverts the improvement introduced in this version where Lua errors truncat
 ```
 
 ## -slowgameload
-
 **Added in Version 1.22.**
 
 Makes the game wait the specified amount of milliseconds for each byte of any file the game reads to artificially increase load times.
@@ -1543,10 +1403,9 @@ Makes the game wait the specified amount of milliseconds for each byte of any fi
 ```
 
 # Hack: Custom Vertex Shader Support
-These command line arguments only take effect when the [Custom Vertex Shader Support](hacks/custom-vertex-shader-support.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/CustomVertexShaderSupport.md]] hack is enabled.
 
 ## -createcustomvertexshadersondevicereset
-
 **Added in Version 1.23.4.**
 
 This makes it so custom vertex shaders are created when the graphics device is created or reset.
@@ -1556,10 +1415,9 @@ This makes it so custom vertex shaders are created when the graphics device is c
 ```
 
 # Hack: Debug Checks
-These command line arguments only take effect when the [Debug Checks](hacks/debug-checks.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/DebugChecks.md]] hack is enabled.
 
 ## -novehiclepositionalsoundplayercarnullcheckasserts
-
 **Added in Version 1.23.6.**
 
 Disables the assert added in this version.
@@ -1569,10 +1427,9 @@ Disables the assert added in this version.
 ```
 
 # Hack: Debug Text
-These command line arguments only take effect when the [Debug Text](hacks/debug-text.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/DebugText.md]] hack is enabled.
 
 ## -debugtextpage
-
 **Added in Version 1.22.**
 
 Launches the game with a specific debug mode enabled.
@@ -1584,7 +1441,6 @@ Launches the game with a specific debug mode enabled.
 ```
 
 ## -nofitdebugtext
-
 **Added in Version 1.22.**
 
 Disables the debug text being re-sized to fit on the screen.
@@ -1594,7 +1450,6 @@ Disables the debug text being re-sized to fit on the screen.
 ```
 
 ## -noscaledebugtext
-
 **Added in Version 1.22.**
 
 Disables the debug text being scaled according to the window size.
@@ -1604,7 +1459,6 @@ Disables the debug text being scaled according to the window size.
 ```
 
 ## -nodebugtextgroups
-
 **Added in Version 1.22.**
 
 Disables grouping of multiple pages registered by a single Mod/Hack.
@@ -1614,10 +1468,9 @@ Disables grouping of multiple pages registered by a single Mod/Hack.
 ```
 
 # Hack: Direct3D 9
-These command line arguments only take effect when the [Direct 3D 9](hacks/direct3d-9.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/Direct3D9.md]] hack is enabled.
 
 ## -fvf
-
 **Added in Version 1.23.**
 
 Enables support for [fixed function vertex type](https://docs.microsoft.com/en-us/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-setfvf).
@@ -1627,7 +1480,6 @@ Enables support for [fixed function vertex type](https://docs.microsoft.com/en-u
 ```
 
 ## -noqueryd3d9
-
 **Added in Version 1.23.**
 
 Prevents other hacks from accessing or knowing they're running in Direct3D 9.
@@ -1637,10 +1489,9 @@ Prevents other hacks from accessing or knowing they're running in Direct3D 9.
 ```
 
 # Hack: Discord Rich Presence
-These command line arguments only take effect when the [Discord Rich Presence](hacks/discord-rich-presence.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/DiscordRichPresence.md]] hack is enabled.
 
 ## -discordloadinitialise
-
 **Added in Version 1.23.10.**
 
 Makes the hack initialise Discord RPC / GameSDK as soon as the hack loads. This used to be the default behaviour prior to Version 1.22 but it often causes rich presence to not work because Discord handles this poorly.
@@ -1650,7 +1501,6 @@ Makes the hack initialise Discord RPC / GameSDK as soon as the hack loads. This 
 ```
 
 ## -discordrpc
-
 **Added in Version 1.23.10.**
 
 Forces this hack to use Discord RPC even if a Discord GameSDK DLL exists in the DLLs folder.
@@ -1660,7 +1510,6 @@ Forces this hack to use Discord RPC even if a Discord GameSDK DLL exists in the 
 ```
 
 ## -nodiscordregistercommand
-
 **Added in Version 1.23.10.**
 
 Prevents this hack from telling Discord the command to start the Mod Launcher.
@@ -1670,7 +1519,6 @@ Prevents this hack from telling Discord the command to start the Mod Launcher.
 ```
 
 ## -nodiscordrichpresence
-
 **Added in Version 1.23.8.**
 
 This prevents the hack from actually communicating with Discord for testing purposes. It will still output information to the console.
@@ -1680,10 +1528,9 @@ This prevents the hack from actually communicating with Discord for testing purp
 ```
 
 # Hack: Lens Flare
-These command line arguments only take effect when the [Lens Flare](hacks/lens-flare.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/LensFlare.md]] hack is enabled.
 
 ## -debugvisibilitytest
-
 **Added in Version 1.19.**
 
 Makes the hack render the Visibility Test mesh instead of the actual lens flare.
@@ -1693,7 +1540,6 @@ Makes the hack render the Visibility Test mesh instead of the actual lens flare.
 ```
 
 ## -deactivatedworldspherelensflares
-
 **Added in Version 1.20.**
 
 Makes Lens Flares inside deactivated World Spheres get enqueued anyways.
@@ -1703,7 +1549,6 @@ Makes Lens Flares inside deactivated World Spheres get enqueued anyways.
 ```
 
 ## -noalpharendertarget
-
 **Added in Version 1.19.**
 
 Makes the hack use a render target that doesn't have an alpha channel. This is noticeable when using `-debugscreenshots`.
@@ -1713,7 +1558,6 @@ Makes the hack use a render target that doesn't have an alpha channel. This is n
 ```
 
 ## -noocclusion
-
 **Added in Version 1.23.**
 
 Makes it so the hack does not use a occlusion query when the Direct3D 9 hack is enabled.
@@ -1723,7 +1567,6 @@ Makes it so the hack does not use a occlusion query when the Direct3D 9 hack is 
 ```
 
 ## -occlusionsleep
-
 **Added in Version 1.23.**
 
 Forces the hack to wait 1 millisecond while waiting for occlusion.
@@ -1733,10 +1576,9 @@ Forces the hack to wait 1 millisecond while waiting for occlusion.
 ```
 
 # Hack: Load Manager Thread Coordination
-These command line arguments affect the [Load Manager Thread Coordination](hacks/load-manager-thread-coordination.md) hack.
+These command line arguments affect the [[Hacks/LoadManagerThreadCoordination.md]] hack.
 
 ## -radloadmanagermultiplecallbacks
-
 **Added in Version 1.23.2.**
 
 TODO
@@ -1748,7 +1590,6 @@ As of Version 1.23.9, this argument causes the hack to get loaded even if its no
 ```
 
 ## -radloadmanagerthreadcoordinationimposeframelimit
-
 **Added in Version 1.23.2.**
 
 TODO
@@ -1760,10 +1601,9 @@ As of Version 1.23.9, this argument causes the hack to get loaded even if its no
 ```
 
 # Hack: Modern Computer Support
-These command line arguments affect the [Modern Computer Support](hacks/modern-computer-support.md) hack.
+These command line arguments affect the [[Hacks/ModernComputerSupport.md]] hack.
 
 ## -allowzerodeltatime
-
 **Added in Version 1.21.**
 
 Allows the game to exceed 1000 FPS which can cause the delta time to be 0 which can result in the player's position becoming NaN among other issues.
@@ -1773,7 +1613,6 @@ Allows the game to exceed 1000 FPS which can cause the delta time to be 0 which 
 ```
 
 ## -noslowfileloadfixes
-
 **Added in Version 1.25.**
 
 Disables this hack's fixes for slow file loading on Windows Vista / Windows Server 2003 or newer and Wine.
@@ -1783,7 +1622,6 @@ Disables this hack's fixes for slow file loading on Windows Vista / Windows Serv
 ```
 
 ## -forceslowfileloadfixes
-
 **Added in Version 1.25.**
 
 Forces this hack's fixes for slow file loading to be enabled.
@@ -1793,7 +1631,6 @@ Forces this hack's fixes for slow file loading to be enabled.
 ```
 
 ## -nononenglishwindowsmousebuttonfix
-
 **Added in Version 1.26.**
 
 Disables a fix added in Version 1.26 that addresses an issue in the original game where you can not bind mouse buttons when using a non-English Windows language.
@@ -1803,7 +1640,6 @@ Disables a fix added in Version 1.26 that addresses an issue in the original gam
 ```
 
 ## -noproperclientareacursorcentringandclipping
-
 **Added in Version 1.26.1.**
 
 Disables fixes for an issue where the game incorrectly centered the cursor to the window instead of it's client area *and* an issue where the game assumes the non-client area was 30 pixels at the top and 10 pixels at the other edges when clipping the cursor.
@@ -1813,7 +1649,7 @@ Disables fixes for an issue where the game incorrectly centered the cursor to th
 ```
 
 # Hack: Modern Resolution Support
-These command line arguments affect the [Modern Resolution Support](hacks/modern-resolution-support.md) hack.
+These command line arguments affect the [[Hacks/ModernResolutionSupport.md]] hack.
 
 ## -noenumresolutions
 
@@ -1826,8 +1662,9 @@ This stops the Mod Launcher and the hack from getting resolutions from your grap
 ```
 
 # Hack: NVIDIA Highlights
-## -nocrashhighlight
+These command line arguments only take effect when the [[Hacks/NVIDIAHighlights.md]] hack is enabled.
 
+## -nocrashhighlight
 **Added in Version 1.23.6.**
 
 Completely disables the type of highlight used when the game crashes.
@@ -1837,10 +1674,9 @@ Completely disables the type of highlight used when the game crashes.
 ```
 
 # Hack: Refraction Shader Support
-These command line arguments only take effect when the [Refraction Shader Support](hacks/refraction-shader-support.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/RefractionShaderSupport.md]] hack is enabled.
 
 ## -refractionmultiplier
-
 **Added in Version 1.23.4.**
 
 Sets a multiplier for the `REFI` parameter on `refract` shaders. This affects how displaced the capture of the screen used in the refraction effect is.
@@ -1850,7 +1686,6 @@ Sets a multiplier for the `REFI` parameter on `refract` shaders. This affects ho
 ```
 
 ## -testrefraction
-
 **Added in Version 1.23.4.**
 
 Makes `refract` shaders always 100% refractive by forcing their `REFB` shader parameters to `1`.
@@ -1860,10 +1695,9 @@ Makes `refract` shaders always 100% refractive by forcing their `REFB` shader pa
 ```
 
 # Hack: Resizable Window
-These command line arguments only take effect when the [Resizable Window](hacks/resizable-window.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/ResizableWindow.md]] hack is enabled.
 
 ## -allowzerowindowsize
-
 **Added in Version 1.23.**
 
 Allows you to resize the client area of the game below 1 pixel on the width or height.
@@ -1873,7 +1707,6 @@ Allows you to resize the client area of the game below 1 pixel on the width or h
 ```
 
 ## -nomaintainwindowcentre
-
 **Added in Version 1.23.**
 
 Prevents this hack from trying to maintain the centre point of the game window when the game resizes it.
@@ -1883,10 +1716,9 @@ Prevents this hack from trying to maintain the centre point of the game window w
 ```
 
 # Hack: Screenshots
-These command line arguments only take effect when the [Screenshots](hacks/screenshots.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/Screenshots.md]] hack is enabled.
 
 ## -continuousscreenshots
-
 **Added in Version 1.22.**
 
 Makes it so holding the F12 key will rapidly take screenshots.
@@ -1898,7 +1730,6 @@ This was the default behaviour prior to 1.22.
 ```
 
 ## -debugscreenshots
-
 **Added in Version 1.19.**
 
 Makes the hack save multiple screenshots of a single frame with various differences.
@@ -1908,10 +1739,9 @@ Makes the hack save multiple screenshots of a single frame with various differen
 ```
 
 # Hack: Sphere Maps
-These command line arguments only take effect when the [Sphere Maps](hacks/sphere-maps.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/SphereMaps.md]] hack is enabled.
 
 ## -xboxspheremaps
-
 **Added in Version 1.23.4.**
 
 This makes slight tweaks to how the sphere map PDDI shader added by this hack works to make it more like the Xbox version of the game.
@@ -1921,10 +1751,9 @@ This makes slight tweaks to how the sphere map PDDI shader added by this hack wo
 ```
 
 # Hack: XInput
-These command line arguments only take effect when the [XInput](hacks/xinput.md) hack is enabled.
+These command line arguments only take effect when the [[Hacks/XInput.md]] hack is enabled.
 
 ## -ignorepacketnumber
-
 **Added in Version 1.23.**
 
 Makes the hack ignore whether or not the [State packet number](https://docs.microsoft.com/en-au/windows/desktop/api/xinput/ns-xinput-_xinput_state) changed.
@@ -1934,7 +1763,6 @@ Makes the hack ignore whether or not the [State packet number](https://docs.micr
 ```
 
 ## -nogetstateex
-
 **Added in Version 1.23.**
 
 Makes the hack use [XInputGetState](https://docs.microsoft.com/en-us/windows/desktop/api/xinput/nf-xinput-xinputgetstate) function instead of a similar undocumented function. Using this argument will prevent you from mapping controls to the Guide button.
@@ -1944,7 +1772,6 @@ Makes the hack use [XInputGetState](https://docs.microsoft.com/en-us/windows/des
 ```
 
 ## -noxinput
-
 **Added in Version 1.23.1.**
 	
 This makes it so the hack does not make the game use XInput. 
@@ -1956,7 +1783,6 @@ Despite this seeming counter-intuitive, it would still allow the other features 
 ```
 
 ## -noxinputdisable
-
 **Added in Version 1.23.1.**
 
 Makes it so XInput does not get disabled when the window is defocused.
@@ -1966,7 +1792,6 @@ Makes it so XInput does not get disabled when the window is defocused.
 ```
 
 ## -noxinputenable
-
 **Added in Version 1.23.**
 
 Makes it so the hack doesn't call [XInputEnable](https://docs.microsoft.com/en-au/windows/desktop/api/xinput/nf-xinput-xinputenable) if it's available. Instead it will use a function that replicates its functionality (the same one used by default when the function isn't available).
@@ -1976,7 +1801,6 @@ Makes it so the hack doesn't call [XInputEnable](https://docs.microsoft.com/en-a
 ```
 
 ## -noxinputignoredisconnected
-
 **Added in Version 1.23.9.**
 
 TODO
@@ -1986,7 +1810,6 @@ TODO
 ```
 
 ## -noxinputmaintainorder
-
 **Added in Version 1.23.9.**
 
 TODO
@@ -1996,7 +1819,6 @@ TODO
 ```
 
 ## -noxinputremove
-
 **Added in Version 1.23.9.**
 
 TODO
@@ -2006,7 +1828,6 @@ TODO
 ```
 
 ## -noxinputadd
-
 **Added in Version 1.23.9.**
 
 TODO
