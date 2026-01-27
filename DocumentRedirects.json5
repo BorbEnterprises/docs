@@ -134,6 +134,10 @@
 	"hitandrun/transcriptions/willie": "TheSimpsonsHitAndRun/DialogueTranscriptions/GroundskeeperWillie",
 	"hitandrun/intro": "TheSimpsonsHitAndRun/Intro",
 
+	"lucascarshadowadjuster/intro": "LucasSimpsonsHitAndRunCarShadowAdjuster/Intro",
+	"lucascarshadowadjuster/versions/all-versions": "LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory",
+	"lucascarshadowadjuster/versions/version_1.0.1": "LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory",
+
 	"lucasfontcreator/intro": "LucasPure3DFontCreator/Intro",
 
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",

@@ -480,6 +480,15 @@
 				},
 				{
 					type: "Group",
+					name: "Lucas' Simpsons Hit & Run Car Shadow Adjuster",
+					children:
+					[
+						"LucasSimpsonsHitAndRunCarShadowAdjuster/Intro.md",
+						"LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory.md",
+					],
+				},
+				{
+					type: "Group",
 					name: "Lucas' Simpsons Hit & Run Map Data Viewer",
 					children:
 					[
