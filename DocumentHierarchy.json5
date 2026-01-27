@@ -447,6 +447,7 @@
 					children:
 					[
 						"LucasPure3DFontCreator/Intro.md",
+						"LucasPure3DFontCreator/VersionHistory.md",
 					],
 				},
 				{
