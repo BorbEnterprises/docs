@@ -70,9 +70,9 @@ Semicolons are also a supported separator for instances where separator bars can
 [[LucasRadMusicScriptBuilder/Intro.md;custom link text]]
 ```
 
-Paths can be relative to the document the reference is in, or absolute if they start with a /.
+Within documents, paths are relative to the `docs` directory if they start with a `/` and relative to the document if they do not.
 
-If used within a document snippet, the path must be absolute.
+Within document snippets, paths must be absolute.
 
 If the document does not exist, this will instead display the text "Invalid Document".
 
