@@ -515,6 +515,57 @@
 									name: "Mod Requirable Hacks",
 									children:
 									[
+										{
+											type: "Group",
+											name: "Additional Script Functionality",
+											children:
+											[
+												{
+													type: "Group",
+													name: "Mission Objectives",
+													children:
+													[
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/AllObjectives.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/camera.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/collectcoins.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/collectwrench.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/completedwasps.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/destroycars.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/event.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/hitandrun.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/hitandruncaught.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/hitandrunlost.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/hitandrunrage.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/hitpeds.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/insidetrigger-outsidetrigger.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/jump.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/reachspeed.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/spring.md",
+													],
+												},
+												{
+													type: "Group",
+													name: "Mission Conditions",
+													children:
+													[
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/AllConditions.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/collectcoins.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/collectwrench.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/destroycars.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/event.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/hitandrun.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/hitandruncaught.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/hitandrunlost.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/hitandrunrage.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/hitpeds.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/insidetrigger-outsidetrigger.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/jump.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/maintainspeed.md",
+														"LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/spring.md",
+													],
+												}
+											],
+										},
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/CustomLicenseScreenTime.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoBonusGame.md",
 										"LucasSimpsonsHitAndRunModLauncher/Hacks/NoBustedHitAndRunMeterReset.md",
