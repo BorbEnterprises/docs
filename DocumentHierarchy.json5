@@ -319,6 +319,7 @@
 											name: "Mission Objectives",
 											children:
 											[
+												"TheSimpsonsHitAndRun/Scripting/MissionObjectives/AllObjectives.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionObjectives/buycar.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionObjectives/buyskin.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionObjectives/coins.md",
@@ -346,6 +347,7 @@
 											name: "Mission Conditions",
 											children:
 											[
+												"TheSimpsonsHitAndRun/Scripting/MissionObjectives/AllConditions.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionConditions/carryingspcollectible.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionConditions/damage.md",
 												"TheSimpsonsHitAndRun/Scripting/MissionConditions/followdistance.md",
