@@ -11,10 +11,12 @@
 	"hitandrun/misc/main-menu-camera-animation": "TheSimpsonsHitAndRun/MainMenuCameraAnimation",
 	"hitandrun/misc/softlocks": "TheSimpsonsHitAndRun/Softlocks",
 	"hitandrun/misc/vehicle-behaviours": "TheSimpsonsHitAndRun/VehicleBehaviours",
+
 	"hitandrun/resources/donut-team/art/additional-characters": "https://modbakery.donutteam.com/projects/view/38",
 	"hitandrun/resources/donut-team/art/radical-hud-icon-template": "https://modbakery.donutteam.com/projects/view/40",
 	"hitandrun/resources/donut-team/scripts/game-lua": "https://modbakery.donutteam.com/projects/view/39",
 	"hitandrun/resources/all-resources": "https://modbakery.donutteam.com/projects/children/86/resource-packs",
+
 	"hitandrun/scripting/con-commands/setallowseatslide": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetAllowSeatSlide",
 	"hitandrun/scripting/con-commands/setcharacterscale": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCharacterScale",
 	"hitandrun/scripting/con-commands/setcharactersvisible": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetCharactersVisible",
@@ -25,6 +27,7 @@
 	"hitandrun/scripting/con-commands/setwheelieoffsety": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetY",
 	"hitandrun/scripting/con-commands/setwheelieoffsetz": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieOffsetZ",
 	"hitandrun/scripting/con-commands/setwheelierange": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetWheelieRange",
+
 	"hitandrun/scripting/mfk-commands/activatevehicle": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle",
 	"hitandrun/scripting/mfk-commands/addcondition": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddCondition",
 	"hitandrun/scripting/mfk-commands/adddriver": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver",
@@ -71,6 +74,7 @@
 	"hitandrun/scripting/mfk-commands/suppressdriver": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SuppressDriver",
 	"hitandrun/scripting/mfk-commands/useelapsedtime": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UseElapsedTime",
 	"hitandrun/scripting/mfk-commands/usepedgroup": "TheSimpsonsHitAndRun/Scripting/ConsoleCommands/UsePedGroup",
+
 	"hitandrun/scripting/conditions/all-objectives": "TheSimpsonsHitAndRun/Scripting/MissionConditions/AllConditions",
 	"hitandrun/scripting/conditions/carryingspcollectible": "TheSimpsonsHitAndRun/Scripting/MissionConditions/carryingspcollectible",
 	"hitandrun/scripting/conditions/damage": "TheSimpsonsHitAndRun/Scripting/MissionConditions/damage",
@@ -87,6 +91,7 @@
 	"hitandrun/scripting/conditions/position": "TheSimpsonsHitAndRun/Scripting/MissionConditions/position",
 	"hitandrun/scripting/conditions/race": "TheSimpsonsHitAndRun/Scripting/MissionConditions/race",
 	"hitandrun/scripting/conditions/timeout": "TheSimpsonsHitAndRun/Scripting/MissionConditions/timeout",
+
 	"hitandrun/scripting/objectives/all-objectives": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/AllObjectives",
 	"hitandrun/scripting/objectives/buycar": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/buycar",
 	"hitandrun/scripting/objectives/buyskin": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/buyskin",
@@ -108,7 +113,7 @@
 	"hitandrun/scripting/objectives/race": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/race",
 	"hitandrun/scripting/objectives/talkto": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/talkto",
 	"hitandrun/scripting/objectives/timer": "TheSimpsonsHitAndRun/Scripting/MissionObjectives/timer",
-	"hitandrun/command-line-arguments": "TheSimpsonsHitAndRun/CommandLineArguments",
+
 	"hitandrun/transcriptions/agnes": "TheSimpsonsHitAndRun/DialogueTranscriptions/AgnesSkinner",
 	"hitandrun/transcriptions/apu": "TheSimpsonsHitAndRun/DialogueTranscriptions/ApuNahasapeemapetilon",
 	"hitandrun/transcriptions/barney": "TheSimpsonsHitAndRun/DialogueTranscriptions/BarneyGumble",
@@ -132,20 +137,25 @@
 	"hitandrun/transcriptions/rod": "TheSimpsonsHitAndRun/DialogueTranscriptions/RodFlanders",
 	"hitandrun/transcriptions/todd": "TheSimpsonsHitAndRun/DialogueTranscriptions/ToddFlanders",
 	"hitandrun/transcriptions/willie": "TheSimpsonsHitAndRun/DialogueTranscriptions/GroundskeeperWillie",
+
+	"hitandrun/command-line-arguments": "TheSimpsonsHitAndRun/CommandLineArguments",
 	"hitandrun/intro": "TheSimpsonsHitAndRun/Intro",
 
 	"lucascarshadowadjuster/versions/all-versions": "LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory",
 	"lucascarshadowadjuster/versions/version_1.0.1": "LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory",
+
 	"lucascarshadowadjuster/intro": "LucasSimpsonsHitAndRunCarShadowAdjuster/Intro",
 
 	"lucasfontcreator/versions/all-versions": "LucasPure3DFontCreator/VersionHistory",
 	"lucasfontcreator/versions/version_1.0": "LucasPure3DFontCreator/VersionHistory",
+
 	"lucasfontcreator/intro": "LucasPure3DFontCreator/Intro",
 
 	"lucasmapdataviewer/intro": "LucasSimpsonsHitAndRunMapDataViewer/Intro",
 
 	"lucasmodlauncher/hacks/asf/con-commands/all-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
 	"lucasmodlauncher/hacks/asf/con-commands/setwheelieoffsetx": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetWheelieOffsetX",
+	
 	"lucasmodlauncher/hacks/asf/conditions/all-conditions": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/AllConditions",
 	"lucasmodlauncher/hacks/asf/conditions/collectcoins": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/collectcoins",
 	"lucasmodlauncher/hacks/asf/conditions/collectwrench": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/collectwrench",
@@ -160,6 +170,7 @@
 	"lucasmodlauncher/hacks/asf/conditions/jump": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/jump",
 	"lucasmodlauncher/hacks/asf/conditions/maintainspeed": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/maintainspeed",
 	"lucasmodlauncher/hacks/asf/conditions/spring": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionConditions/spring",
+	
 	"lucasmodlauncher/hacks/asf/mfk-commands/addcondtargetmodel": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddCondTargetModel",
 	"lucasmodlauncher/hacks/asf/mfk-commands/addobjtargetmodel": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddObjTargetModel",
 	"lucasmodlauncher/hacks/asf/mfk-commands/addparkedcar": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AddParkedCar",
@@ -224,6 +235,7 @@
 	"lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclenodestroyedjumpout": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleNoDestroyedJumpOut",
 	"lucasmodlauncher/hacks/asf/mfk-commands/setstagevehiclereset": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/SetStageVehicleReset",
 	"lucasmodlauncher/hacks/asf/mfk-commands/usetrafficgroup": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/UseTrafficGroup",
+	
 	"lucasmodlauncher/hacks/asf/objectives/all-objectives": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/AllObjectives",
 	"lucasmodlauncher/hacks/asf/objectives/camera": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/camera",
 	"lucasmodlauncher/hacks/asf/objectives/collectcoins": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/collectcoins",
@@ -240,7 +252,9 @@
 	"lucasmodlauncher/hacks/asf/objectives/jump": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/jump",
 	"lucasmodlauncher/hacks/asf/objectives/reachspeed": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/reachspeed",
 	"lucasmodlauncher/hacks/asf/objectives/spring": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/MissionObjectives/spring",
+	
 	"lucasmodlauncher/hacks/asf/modified-commands": "LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/AllCommands",
+	
 	"lucasmodlauncher/hacks/analogue-mouse-input": "LucasSimpsonsHitAndRunModLauncher/Hacks/AnalogueMouseInput",
 	"lucasmodlauncher/hacks/custom-audio-format-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomAudioFormatSupport",
 	"lucasmodlauncher/hacks/custom-car-shop-support": "LucasSimpsonsHitAndRunModLauncher/Hacks/CustomCarShopSupport",
@@ -278,6 +292,7 @@
 	"lucasmodlauncher/hacks/override-shader-parameters": "LucasSimpsonsHitAndRunModLauncher/Hacks/OverrideShaderParameters",
 	"lucasmodlauncher/hacks/road-names": "LucasSimpsonsHitAndRunModLauncher/Hacks/RoadNames",
 	"lucasmodlauncher/hacks/widescreen": "LucasSimpsonsHitAndRunModLauncher/Hacks/Widescreen",
+
 	"lucasmodlauncher/versions/all-versions": "LucasSimpsonsHitAndRunModLauncher/VersionHistory",
 	"lucasmodlauncher/versions/version_1.12": "LucasSimpsonsHitAndRunModLauncher/VersionHistory",
 	"lucasmodlauncher/versions/version_1.12.1": "LucasSimpsonsHitAndRunModLauncher/VersionHistory",
@@ -328,6 +343,7 @@
 	"lucasmodlauncher/versions/version_1.25.1": "LucasSimpsonsHitAndRunModLauncher/VersionHistory",
 	"lucasmodlauncher/versions/version_1.26": "LucasSimpsonsHitAndRunModLauncher/VersionHistory",
 	"lucasmodlauncher/versions/version_1.26.1": "LucasSimpsonsHitAndRunModLauncher/VersionHistory",
+
 	"lucasmodlauncher/command-line-arguments": "LucasSimpsonsHitAndRunModLauncher/CommandLineArguments",
 	"lucasmodlauncher/dt-account-integration": "LucasSimpsonsHitAndRunModLauncher/DonutTeamAccountIntegration",
 	"lucasmodlauncher/language-localisation": "LucasSimpsonsHitAndRunModLauncher/LanguageLocalisation",
@@ -342,6 +358,7 @@
 
 	"lucasrmsbuilder/tutorials/converting-rms-to-xml": "LucasRadMusicScriptBuilder/Tutorials/ConvertingRMSToXML",
 	"lucasrmsbuilder/tutorials/converting-xml-to-rms": "LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS",
+	
 	"lucasrmsbuilder/command-line-arguments": "LucasRadMusicScriptBuilder/CommandLineArguments",
 	"lucasrmsbuilder/intro": "LucasRadMusicScriptBuilder/Intro",
 	"lucasrmsbuilder/xml-format": "LucasRadMusicScriptBuilder/XMLFormat",
