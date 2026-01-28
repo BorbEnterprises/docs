@@ -1,12 +1,13 @@
 ---
-title: Configuring Mods
+title: "Configuring Mods"
 description: "This page has detailed documentation on ways to configure mods."
+authors: [ 2 ]
 ---
 
 This page has detailed documentation on ways to configure mods.
 
 # Structure
-These are the various files and folders you can expect to see in the root folder of a mod:
+These are the various files and folders you can expect to see in the root folder of a mod.
 
 ## Meta.ini
 This file is the main configuration file for mods. It defines the meta information for the mod, what hacks it requires, who made it and more.
@@ -14,16 +15,16 @@ This file is the main configuration file for mods. It defines the meta informati
 This file must exist and at least contain a `[Miscellaneous]` section to be considered valid. We also strongly recommend that you also at least specify a `Title` and `InternalName` within it.
 
 ## Hack Configuration Files
-Some [Mod Requirable hacks](../hacks/all-hacks.md#mod-requirable-hacks) can have or require configuration files in the root of the mod. These can either be `.ini` files or `.xml` files depending on the hack.
+Some Mod Requirable hacks can have or require configuration files in the root of the mod. These can either be `.ini` files or `.xml` files depending on the hack.
 
 ## Lua Files
-The [Custom Files](../hacks/cf/intro.md) hack can have a main Lua file located in the root of a mod folder.
+The [[../Hacks/CustomFiles/Intro.md|Custom Files]] hack can have a `CustomFiles.lua` file located in the root of a mod folder.
 
 ## Hack Folders
-Some [Mod Requirable hacks](../hacks/all-hacks.md#mod-requirable-hacks) hacks can also utilise folders for their configuration files or resources:
+Some Mod Requirable hacks hacks can also utilise folders for their configuration files or resources:
 
-* [CustomFiles](../hacks/cf/intro.md#folders)
-* [CustomText](../hacks/custom-text.md#folder)
+* [[../Hacks/CustomFiles/Intro.md|Custom Files]]
+* [[../Hacks/CustomText.md]]
 
 ## Icon.png / Icons Folder
 Mods can provide icons for the Mod Launcher to use. This can be done as a single 256x256 `Icon.png` file in the root of the mod or as a folder named `Icons` containing any of the following files:
@@ -40,7 +41,7 @@ These are all of the available configuration options for mods.
    
 These should go in the mod's `Meta.ini`.
 
-## [Miscellaneous] Section
+## Miscellaneous Section
 This section contains a variety of information about the mod itself.
 
 ```ini
@@ -196,7 +197,7 @@ DefaultLanguageSpanish=Spanish
 Edition=Australian Edition
 ```
 
-## [Description] Sections
+## Description Sections
 These sections can be used to have multiple description headers in the Mod information panel.
 
 This type of section can be repeated multiple times.
@@ -213,7 +214,7 @@ Title=Features
 Text=- The raddest missions around.\n- The raddest costumes around.\n- More features.
 ```
 
-## [Author] Sections
+## Author Sections
 These sections can be used to define information about the author(s) of a mod.
 
 This type of section can be repeated multiple times.
@@ -246,8 +247,8 @@ Group=Vehicle Designers
 Credits=0
 ```
 
-## [Setting] Sections
-These sections can be used to add settings to a mod that can be used when read in [Custom Files](../hacks/cf/intro.md) lua scripts with the [GetSetting](../hacks/cf/lua-scripting/custom-functions/getsetting.md) or [GetSettings](../hacks/cf/lua-scripting/custom-functions/getsettings.md) functions.
+## Setting Sections
+These sections can be used to add settings to a mod that can be used when read in [[../Hacks/CustomFiles/Intro.md|Custom Files]] lua scripts with the [[../Hacks/CustomFiles/LuaFunctions/GetSetting.md]] or [[../Hacks/CustomFiles/LuaFunctions/GetSettings.md]] functions.
 
 This type of section can be repeated multiple times.
 
@@ -447,7 +448,7 @@ Default=0xFFFFFFFF
 Alpha=1
 ```
 
-## [MultipleChoiceSettingOptions] Sections
+## MultipleChoiceSettingOptions Sections
 These sections can be used to define more refined and user friendly options for a `MultipleChoice` type `[Setting]` section.
 
 This type of section can be repeated multiple times and referenced by multiple `MultipleChoice` type `[Setting]` sections.
@@ -469,7 +470,7 @@ Title=Z Axis +/LT
 Value=4
 ```
 
-## [SettingCondition] Sections
+## SettingCondition Sections
 These sections can be used to add a condition for a setting being enabled in the Mod Settings window. 
 
 The condition must be true for the setting to be enabled.
@@ -507,7 +508,7 @@ Operator=EqualTo
 Value=1
 ```
 
-## [SettingWarning] Section
+## SettingWarning Section
 These sections can be used to add warnings for when certain settings are set to certain values.
 
 This type of section can be repeated multiple times.
@@ -538,7 +539,7 @@ Value=1
 Message=Woah dog, this settings looks like a dank meme. Are you sure you want to enable it?
 ```
 
-## [LegacyResource] Sections
+## LegacyResource Sections
 These sections are used to declare that the mod supersedes an older Legacy mod.
 
 This is useful for new versions of frameworks that change the InternalName but otherwise maintain compatibility with mods that require it under the old name.
@@ -557,7 +558,7 @@ InternalName=AdditionalCharacters
 Title=Additional Characters
 ```
 
-## [Compile] Section
+## Compile Section
 This section is used to define rules for how to compile the mod.
 
 ```ini
@@ -656,87 +657,52 @@ EncryptionMaximumSize=1024000	; Encrypt everything that's 100KB or under.
 
 # Version History
 ## 1.26
-{{ snippet lucasmodlauncher/versions/1.26/mod_features }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/ModFeatures.md }}
 
 ## 1.23.10
-{{ snippet lucasmodlauncher/versions/1.23.10/mod_features }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/ModFeatures.md }}
 
 ## 1.23.9
-{{ snippet lucasmodlauncher/versions/1.23.9/mod_features }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.9/ModFeatures.md }}
 
 ## 1.23.5
-
-* Added support for minifying XML files when compiling mods. 
-    * This defaults to enabled for non-decompilable mods.
-    * Also added the `MinifyXMLs` property to the `[Compile]` section to opt in or out of this.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.5/ModFeatures.md }}
 
 ## 1.23.3
-Increased the maximum length of the `Name` property of `[Setting]` sections from 63 to 127 characters.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.3/ModFeatures.md }}
 
 ## 1.23.2
-
-* Added the `PublicTesting` property to the `[Miscellaneous]` section. This is intended for mods that are public but are not a proper release.
-    * Currently, this property is exactly the same as `Unreleased` except there will not be a warning when compiling the mod with this property enabled.
-    * This property overrides `Unreleased` if they're both enabled. This allows mods that target older Mod Launcher versions to be backwards compatibile by enabling both.
-* Made it so the `CommandLine` property in the `[Miscellaneous]` section can be repeated to specify command line arguments for the game on multiple lines.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.2/ModFeatures.md }}
 
 ## 1.22.2
-
-* Added support for encrypting mods when compiling them.
-    * This is enabled by default for mods that require this version or newer but it can also be opted into manually (which will also implicity make the mod require this version or newer).
-    * This only encrypts text based files (.ini, .xml, .lua, .con, .mfk, .cho, .spt) by default.
-        * Various new properties were added to the `[Compile]` section of mods to configure what gets encrypted.
-    * Also added a `-forceencryption` command line argument so the Mod Launcher will always encrypt mods regardless of their RequiredLauncher or other criteria.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.2/ModFeatures.md }}
 
 ## 1.22
-
-* Added new `[Description]` sections that allow mods to split up their description into multiple headers on their About page.
-* Added a `Testing` property to `[Setting]` sections that disables them and any conditions relating to them when not using the `-testing` command line argument.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/ModFeatures.md }}
 
 ## 1.20.1
-Added an `Alpha` property to `Colour` type settings.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.1/ModFeatures.md }}
 
 ## 1.18
-
-* Added `General`, `Setting`, `Developer` and `Unreleased` properties to the `[Miscellaneous]` section to control which page a mod is listed on in the Mods List.
-* Added the `[LegacyResource]` section which allows mods to supersede other mods.
-* Added support for multiple `InternalName` properties.
-* Added support for `Colour` type settings.
-* Made the `Default` property on `Text` type settings optional instead of causing a crash when it's omitted.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/ModFeatures.md }}
 
 ## 1.16
-
-* Added a `Credits` boolean to `[Author]` sections to show them on the new "Credits" section to the Mod Information panel.
-* Made it so an `[Author]` section can have multiple `Group` properties defined.
-* Made it so you can specify `AuthorGroup` propeties in the `[Miscellaneous]` section to control the order of the groups.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/ModFeatures.md }}
 
 ## 1.15.1
-
-* Added the `OptionalFramework` property to the `[Miscellaneous]` section.
-* Added the `OptionalHack` property to the `[Miscellaneous]` section.
-* Added the `RewriteMetaINI` property to the `[Compile]` section.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.1/ModFeatures.md }}
 
 ## 1.15
-
-* Added `Text` type settings.
-* Added a `Text` property for `MultipleChoice` type settings.
-* Added a `NoReset` property for `[Setting]` sections.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15/ModFeatures.md }}
 
 ## 1.14
-Made the `ExcludedFileName`, `IncludedFileName`, `ExcludedFolderName` and `IncludedFolderName` properties in the `[Compile]` section work on files and folders in the root of decompilable mods.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.14/ModFeatures.md }}
 
 ## 1.13
-
-* Added the `Group` property to `[Author]` sections. This allows you to group authors together.
-* Added the `Page` and `Group` properties to `[Setting]` sections. This allows you to organise your mod settings into pages and groups.
-* Added the `UncompiledOnly` property to `[Setting]` sections. This will remove the setting when compiling the mod.
-* Made `[SettingWarning]` sections work for all types of settings.
-* Re-added for `MinifyArt` in the `[Compile]` section.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.13/ModFeatures.md }}
 
 ## 1.12.1
-Removed the `MinifyArt` and `MinifyScripts` properties of the `[Compile]` section because they were broken.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12.1/ModFeatures.md }}
 
 ## 1.12
-
-* Added the `Decompilable` property to the `[Compile]` section that allows users to decompile the mod when it's compiled by right clicking it in the Mods List.
-* Added the `MinifyPNGs` property to the `[Compile]` section that defaults to on (the previous behaviour) only when the mod is not decompilable.
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/ModFeatures.md }}

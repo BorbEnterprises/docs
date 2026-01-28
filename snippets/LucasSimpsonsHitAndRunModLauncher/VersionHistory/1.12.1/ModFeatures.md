@@ -1,0 +1,1 @@
+Removed the `MinifyArt` and `MinifyScripts` properties of the `[Compile]` section because they were broken.

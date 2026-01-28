@@ -1,0 +1,1 @@
+Made the `ExcludedFileName`, `IncludedFileName`, `ExcludedFolderName` and `IncludedFolderName` properties in the `[Compile]` section work on files and folders in the root of decompilable mods.

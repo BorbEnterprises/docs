@@ -509,6 +509,17 @@
 						"LucasSimpsonsHitAndRunModLauncher/CommandLineArguments.md",
 						{
 							type: "Group",
+							name: "Mods",
+							children:
+							[
+								"LucasSimpsonsHitAndRunModLauncher/Mods/IncludedMods.md",
+								"LucasSimpsonsHitAndRunModLauncher/Mods/InstallingMods.md",
+								"LucasSimpsonsHitAndRunModLauncher/Mods/CreatingMods.md",
+								"LucasSimpsonsHitAndRunModLauncher/Mods/ConfiguringMods.md",
+							],
+						},
+						{
+							type: "Group",
 							name: "Hacks",
 							children:
 							[

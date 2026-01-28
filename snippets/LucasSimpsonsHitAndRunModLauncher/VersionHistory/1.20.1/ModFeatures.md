@@ -1,0 +1,1 @@
+Added an `Alpha` property to `Colour` type settings.

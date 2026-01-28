@@ -1,0 +1,4 @@
+* Added the `PublicTesting` property to the `[Miscellaneous]` section. This is intended for mods that are public but are not a proper release.
+    * Currently, this property is exactly the same as `Unreleased` except there will not be a warning when compiling the mod with this property enabled.
+    * This property overrides `Unreleased` if they're both enabled. This allows mods that target older Mod Launcher versions to be backwards compatibile by enabling both.
+* Made it so the `CommandLine` property in the `[Miscellaneous]` section can be repeated to specify command line arguments for the game on multiple lines.

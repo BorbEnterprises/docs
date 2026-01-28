@@ -1,0 +1,2 @@
+* Added new `[Description]` sections that allow mods to split up their description into multiple headers on their About page.
+* Added a `Testing` property to `[Setting]` sections that disables them and any conditions relating to them when not using the `-testing` command line argument.

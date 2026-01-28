@@ -1,0 +1,1 @@
+Increased the maximum length of the `Name` property of `[Setting]` sections from 63 to 127 characters.

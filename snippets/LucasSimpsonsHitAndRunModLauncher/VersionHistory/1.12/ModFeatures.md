@@ -1,0 +1,2 @@
+* Added the `Decompilable` property to the `[Compile]` section that allows users to decompile the mod when it's compiled by right clicking it in the Mods List.
+* Added the `MinifyPNGs` property to the `[Compile]` section that defaults to on (the previous behaviour) only when the mod is not decompilable.
