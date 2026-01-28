@@ -1,0 +1,1 @@
+Made the loading screen used when returning to the main menu or going to the Bonus Game menu from the main menu uncapped when **Limit > While on Loading Screens** is disabled but not when **Limit > While on Menus** is disabled.

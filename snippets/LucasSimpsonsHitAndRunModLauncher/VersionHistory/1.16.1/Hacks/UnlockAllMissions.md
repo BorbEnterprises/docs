@@ -1,0 +1,1 @@
+Made this hack do nothing in the Demo version of the game.

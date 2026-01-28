@@ -1,0 +1,2 @@
+* Made old primitive groups with "simple" shaders not use hardware skinning if they have lighting disabled.
+* Fixed an issue where normals were not normalised which caused the Skin previews to be brighter than normal.

@@ -1,0 +1,1 @@
+Made the locking of the render targets (only used when not using Direct3D 9) read only.

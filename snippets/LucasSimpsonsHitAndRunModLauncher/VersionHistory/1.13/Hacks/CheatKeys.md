@@ -1,0 +1,1 @@
+Made keys only work once for each key press.

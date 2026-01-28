@@ -1,0 +1,1 @@
+Added the experimental **Load Files While Waiting** setting. This makes it so files can be loaded while the game is waiting for the next frame.

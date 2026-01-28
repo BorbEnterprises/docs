@@ -1,0 +1,1 @@
+Fixed an issue where `BugFixes.ini` wasn't required and wasn't included when compiling mods that require the hack.

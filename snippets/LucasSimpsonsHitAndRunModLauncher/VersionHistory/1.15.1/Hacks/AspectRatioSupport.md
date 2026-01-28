@@ -1,0 +1,1 @@
+Fixed an issue where the background of the credits didn't fully cover the screen in some wider aspect ratios.

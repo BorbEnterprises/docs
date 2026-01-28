@@ -1,0 +1,1 @@
+Fixed a crash on launch when this hack was required by a mod and not ticked by the user.

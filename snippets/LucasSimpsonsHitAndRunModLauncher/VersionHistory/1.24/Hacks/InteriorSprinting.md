@@ -1,0 +1,1 @@
+Completely rewrote this hack to fix an issue where if you started a mission with an animated camera at the start, cancelled it and then used mission select to go to a mission that starts in an interior, it would play the previous mission's start camera.

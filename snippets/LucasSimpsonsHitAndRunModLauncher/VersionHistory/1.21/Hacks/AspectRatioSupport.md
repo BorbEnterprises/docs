@@ -1,0 +1,1 @@
+Changed the default **FOV > Mode** from **Fit** to **Average**.

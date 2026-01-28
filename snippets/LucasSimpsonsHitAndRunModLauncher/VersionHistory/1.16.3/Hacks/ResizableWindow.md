@@ -1,0 +1,1 @@
+Made the game maximisable and added the **Start Maximized** setting.

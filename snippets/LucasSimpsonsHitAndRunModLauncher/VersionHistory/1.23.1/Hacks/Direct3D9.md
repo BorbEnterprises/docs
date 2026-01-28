@@ -1,0 +1,1 @@
+Removed an [assert message](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/Direct3D9/Assert.png) that would show up twice on exit when using ReShade and the `-testing` command line argument.

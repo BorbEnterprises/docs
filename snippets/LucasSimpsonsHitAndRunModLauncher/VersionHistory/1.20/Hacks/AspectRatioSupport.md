@@ -1,0 +1,1 @@
+Added the **Movie Letterbox Colour** setting.

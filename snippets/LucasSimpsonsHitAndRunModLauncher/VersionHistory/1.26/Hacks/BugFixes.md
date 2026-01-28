@@ -1,0 +1,2 @@
+* Added the **Crashes > High Coin Count** bug fix. This fixes an issue where the game would crash if you collected more than 9,999,999 coins.
+	* Mods can also opt into this fix with the new `FixHighCoinCountCrash` property in the `[Crashes]` section.

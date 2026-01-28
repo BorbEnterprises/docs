@@ -1,0 +1,1 @@
+Fixed an issue where the **Movie Letterbox Colour** setting let you pick an alpha.

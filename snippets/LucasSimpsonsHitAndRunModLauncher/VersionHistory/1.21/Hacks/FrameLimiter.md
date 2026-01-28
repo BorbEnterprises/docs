@@ -1,0 +1,1 @@
+Added a new **Method** setting for controlling how the frame limiting is done.

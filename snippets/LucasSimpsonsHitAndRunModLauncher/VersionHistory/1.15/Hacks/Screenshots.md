@@ -1,0 +1,1 @@
+Made this hack into a mod hack instead of it being always enabled. It still defaults to enabled.

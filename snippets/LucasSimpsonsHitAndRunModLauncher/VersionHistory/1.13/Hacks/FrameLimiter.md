@@ -1,0 +1,1 @@
+Made this hack default to being ticked as the game has issues of varying severity at frame rates above or below a certain range (the game runs best at 60 FPS).

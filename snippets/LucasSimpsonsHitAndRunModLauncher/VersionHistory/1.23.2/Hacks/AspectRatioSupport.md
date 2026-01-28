@@ -1,0 +1,1 @@
+Fixed a bug where the aspect ratio was updated (and calculated when **Automatic Aspect Ratio** was enabled) every time it was needed instead of only when the resolution changed.

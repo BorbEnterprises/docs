@@ -1,0 +1,1 @@
+Fixed an issue that caused a rare, seemingly random, crash.

@@ -1,0 +1,1 @@
+Added a new "Air Vent" type of highlight. This is disabled by default because your air vent trick shots are not cool.

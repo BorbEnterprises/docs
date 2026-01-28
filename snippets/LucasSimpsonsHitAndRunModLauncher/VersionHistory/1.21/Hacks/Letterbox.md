@@ -1,0 +1,1 @@
+Fixed an issue where movies could display incorrectly if the Movies setting in Aspect Ratio Support was disabled or Aspect Ratio Support itself was disabled.

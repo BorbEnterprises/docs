@@ -1,0 +1,1 @@
+Made `FixZoneLoadOnExitCrash` also fix a crash when proceeding to another level.

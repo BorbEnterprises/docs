@@ -1,0 +1,1 @@
+Added a `-nocrashhighlight` command line argument that completely disables the type of highlight used when the game crashes.

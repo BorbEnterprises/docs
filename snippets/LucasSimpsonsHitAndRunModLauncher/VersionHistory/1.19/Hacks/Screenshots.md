@@ -1,0 +1,1 @@
+Added the `-debugscreenshots` command line argument.

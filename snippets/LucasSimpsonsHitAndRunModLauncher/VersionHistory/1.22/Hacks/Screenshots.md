@@ -1,0 +1,1 @@
+Made it so holding the F12 key will no longer rapidly take screenshots. Also added a `-continuousscreenshots` command line argument to undo this.

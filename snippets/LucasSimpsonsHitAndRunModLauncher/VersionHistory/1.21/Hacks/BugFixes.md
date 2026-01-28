@@ -1,0 +1,1 @@
+Renamed **Fix Late Focus Freeze** to **Late Focus Freeze**.

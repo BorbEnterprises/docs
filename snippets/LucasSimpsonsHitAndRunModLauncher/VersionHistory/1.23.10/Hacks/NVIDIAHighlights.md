@@ -1,0 +1,1 @@
+Made this hack not get loaded by the Mod Launcher if GfeSFK.dll inexplicably doesn't exist in the Mod Launcher's DLLs folder.

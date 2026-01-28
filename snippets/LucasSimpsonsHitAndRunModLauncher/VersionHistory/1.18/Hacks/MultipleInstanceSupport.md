@@ -1,0 +1,1 @@
+Moved this hack to the new **Settings** page and made it so it's no longer hidden by default.

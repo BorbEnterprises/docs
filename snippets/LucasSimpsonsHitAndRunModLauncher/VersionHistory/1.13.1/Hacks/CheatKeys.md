@@ -1,0 +1,1 @@
+Added a **Continuous** setting to make holding keys act as it did before Version 1.13.

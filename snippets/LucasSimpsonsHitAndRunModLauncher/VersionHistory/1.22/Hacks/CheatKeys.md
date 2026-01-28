@@ -1,0 +1,1 @@
+Made F4 (or Shift+F4 if you already have a car like you're always supposed to unless you're playing SHAR MP) show the phone booth.

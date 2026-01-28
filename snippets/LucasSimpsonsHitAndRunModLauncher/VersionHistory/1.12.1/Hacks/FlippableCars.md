@@ -1,0 +1,1 @@
+Added a setting for whether or not Chase cars can flip over since the game does not reset these cars. This is disabled by default.

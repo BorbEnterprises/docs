@@ -1,0 +1,1 @@
+Removed an assert when failing to create the occlusion query when using `-testing`.
