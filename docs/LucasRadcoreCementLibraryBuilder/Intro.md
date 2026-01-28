@@ -7,6 +7,8 @@ Lucas' Radcore Cement Library Builder or Lucas' RCF Builder for short is a comma
 
 While not practical for modding the PC version of The Simpsons: Hit & Run, thanks to the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles.md]] hack, it has uses when modding the console versions of that game as well as The Simpsons: Road Rage.
 
+This tool currently only supports version 1.2 of the RCF format, the version used by The Simpsons: Road Rage and The Simpsons: Hit & Run.
+
 # Download
 This tool is available on Mod Bakery: [Project:11]
 
@@ -16,5 +18,5 @@ For available command line arguments, see [[CommandLineArguments.md]].
 # Tutorials
 For tutorials on how to use the tool, see [[Tutorials.md]].
 
-# Notes
-This tool currently only supports version 1.2 of the RCF format, the version used by The Simpsons: Road Rage and The Simpsons: Hit & Run.
+# Version History
+See [[VersionHistory.md]].

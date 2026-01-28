@@ -5,7 +5,7 @@ description: "This page lists all versions of Lucas' Pure3D Editor Model XML For
 
 This is a list of every version of the tool since its initial release on August 7th, 2016.
 
-| Version | Release Date        | Download                  |
+| Version | Release Date        | Download and Changelog    |
 |---------|---------------------|---------------------------|
 | 1.1.3   | February 28th, 2020 | [ProjectBranchVersion:81] |
 | 1.1.2   | May 5th, 2019       | [ProjectBranchVersion:82] |

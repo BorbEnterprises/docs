@@ -412,6 +412,9 @@
 
 	"lucasp3deditor/intro": "LucasPure3DEditor/Intro",
 
+	"lucasrcfbuilder/versions/all-versions": "LucasRadCoreCementLibraryBuilder/VersionHistory",
+	"lucasrcfbuilder/versions/version_1.0": "LucasRadCoreCementLibraryBuilder/VersionHistory",
+
 	"lucasrcfbuilder/command-line-arguments": "LucasRadCoreCementLibraryBuilder/CommandLineArguments",
 	"lucasrcfbuilder/intro": "LucasRadCoreCementLibraryBuilder/Intro",
 	"lucasrcfbuilder/tutorials": "LucasRadCoreCementLibraryBuilder/Tutorials",
