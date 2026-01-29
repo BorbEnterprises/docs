@@ -422,6 +422,11 @@
 	"lucasrmsbuilder/tutorials/converting-rms-to-xml": "LucasRadMusicScriptBuilder/Tutorials/ConvertingRMSToXML",
 	"lucasrmsbuilder/tutorials/converting-xml-to-rms": "LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS",
 
+	"lucasrmsbuilder/versions/all-versions": "LucasRadMusicScriptBuilder/VersionHistory",
+	"lucasrmsbuilder/versions/version_1.0": "LucasRadMusicScriptBuilder/VersionHistory",
+	"lucasrmsbuilder/versions/version_1.1": "LucasRadMusicScriptBuilder/VersionHistory",
+	"lucasrmsbuilder/versions/version_1.1.1": "LucasRadMusicScriptBuilder/VersionHistory",
+
 	"lucasrmsbuilder/command-line-arguments": "LucasRadMusicScriptBuilder/CommandLineArguments",
 	"lucasrmsbuilder/intro": "LucasRadMusicScriptBuilder/Intro",
 	"lucasrmsbuilder/xml-format": "LucasRadMusicScriptBuilder/XMLFormat",
