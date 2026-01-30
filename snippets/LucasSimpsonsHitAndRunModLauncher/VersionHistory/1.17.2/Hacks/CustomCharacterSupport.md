@@ -1,0 +1,1 @@
+Added the `BlendModeSupport` property to characters that allows the usage of Additive and Subtractive shaders.

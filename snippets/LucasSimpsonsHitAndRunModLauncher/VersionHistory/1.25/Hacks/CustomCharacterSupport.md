@@ -1,0 +1,1 @@
+Fixed an issue where this hack being enabled caused the picking of a player idle animation to always use different random number generation even when no `IdleAnimationWeight` properties were specified for the character.

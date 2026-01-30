@@ -1,9 +1,14 @@
 ---
-title: Custom Audio Support
+title: "Custom Audio Support"
 description: "This hack allows mods to control various audio related features such as the starting ambience track for each story mission."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 379 # 1.18
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to control various audio related features such as the starting ambience track for each story mission.
 
@@ -130,11 +135,8 @@ To configure this hack, create a file named `CustomAudioSupport.xml` and add the
 ```
 
 # Debug Text Mode
-This hack registers a [debug mode](debug-text.md#registered-by-custom-audio-support) when used alongside [Debug Text](debug-text.md).
+This hack registers a debug mode for the [[DebugText.md]] hack when used alongside it.
 
 # Version History
-## 1.22
-Added support for a `Number` attributes on `<Level>` and `<Mission>` elements.
-
-## 1.18
-Added this new hack.
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomAudioSupport.md }}

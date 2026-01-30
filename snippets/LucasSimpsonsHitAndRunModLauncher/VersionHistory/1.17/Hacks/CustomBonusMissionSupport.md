@@ -1,0 +1,1 @@
+Updated this hack with new functionality to this hack to prevent the game from resetting the player's position and forcing them into their car at the start of specific Street Race missions.

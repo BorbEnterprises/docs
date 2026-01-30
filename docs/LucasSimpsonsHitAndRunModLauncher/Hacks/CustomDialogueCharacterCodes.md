@@ -1,9 +1,14 @@
 ---
-title: Custom Dialogue Character Codes
+title: "Custom Dialogue Character Codes"
 description: "This allows mods to define custom dialogue character codes and map multiple outfits to the same character code."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 362 # 1.12
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This allows mods to define custom dialogue character codes and map multiple outfits to the same character code.
 
@@ -69,21 +74,14 @@ fattony=Tony
 {{ endtab }}
 {{ endtabs }}
 
-For the default `[NongenericOutfits]`, `[NongenericCharacters]` and `[CharacterCodes]` assignments, see [Characters](../../hitandrun/misc/characters.md)
+For the default `[NongenericOutfits]`, `[NongenericCharacters]` and `[CharacterCodes]` assignments, see [[/TheSimpsonsHitAndRun/Characters.md]].
 
 # Version History
-## 1.17.1
-Fixed an issue that occured when mods re-assigned characters already in the `[NongenericCharacters]` list to the index they're already assigned to.
+## Version 1.17.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17.1/Hacks/CustomDialogueCharacterCodes.md }}
 
-## 1.17
+## Version 1.17
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17/Hacks/CustomDialogueCharacterCodes.md }}
 
-* Increased the limit of characters in the `[NongenericCharacters]` section from 128 to Infinite.
-* Made indices in the `[NongenericCharacters]` section per mod and are automagically remapped as necessary at runtime.
-* Made the `[NongenericOutfits]` section support mapping an outfit by name.
-    * This effectively deprecates the `[NongenericCharacters]` section.
-
-## 1.13
-Added support for `[NongenericCharacters]`.
-
-## 1.12
-Added this hack.
+## Version 1.13
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.13/Hacks/CustomDialogueCharacterCodes.md }}

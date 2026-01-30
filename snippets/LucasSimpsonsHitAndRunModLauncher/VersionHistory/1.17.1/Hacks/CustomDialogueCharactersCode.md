@@ -1,0 +1,1 @@
+Fixed an issue that occured when mods re-assigned characters already in the `[NongenericCharacters]` list to the index they're already assigned to.

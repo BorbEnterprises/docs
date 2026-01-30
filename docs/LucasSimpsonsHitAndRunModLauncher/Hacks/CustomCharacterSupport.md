@@ -1,9 +1,14 @@
 ---
-title: Custom Character Support
+title: "Custom Character Support"
 description: "This hack allows you to enable certain features on new and existing characters."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 376 # 1.17
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows you to enable certain features on new and existing characters.
 
@@ -55,14 +60,11 @@ IdleAnimationWeight=2
 ```
 
 # Version History
-## 1.25
-{{ snippet lucasmodlauncher/versions/1.25/hack_custom-character-support }}
+## Version 1.25
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.25/Hacks/CustomCharacterSupport.md }}
 
-## 1.24
-{{ snippet lucasmodlauncher/versions/1.24/hack_custom-character-support }}
+## Version 1.24
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomCharacterSupport.md }}
 
-## 1.17.2
-Added the `BlendModeSupport` property to characters that allows the usage of Additive and Subtractive shaders.
-
-## 1.17
-Added this hack.
+## Version 1.17.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17.2/Hacks/CustomCharacterSupport.md }}

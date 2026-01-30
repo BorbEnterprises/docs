@@ -1,0 +1,1 @@
+Made `ResetAmbientCharacter` show an assert dialog and do nothing if the specified character does not exist instead of crashing the game.

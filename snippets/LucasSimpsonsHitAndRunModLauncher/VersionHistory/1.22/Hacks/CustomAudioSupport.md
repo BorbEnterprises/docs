@@ -1,0 +1,1 @@
+Added support for a `Number` attributes on `<Level>` and `<Mission>` elements.

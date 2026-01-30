@@ -1,0 +1,1 @@
+Custom car indices (indices from 97 onwards) are now per mod and automagically remapped as necessary at runtime.

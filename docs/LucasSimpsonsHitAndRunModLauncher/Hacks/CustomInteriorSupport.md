@@ -3,7 +3,7 @@ title: Custom Interior Support
 description: "This hack allows mods to modify interior definitions and add custom ones."
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to modify interior definitions and add custom ones.
 
@@ -250,11 +250,8 @@ MirrorWW=1.0
 {{ endtabs }}
 
 # Version History
-## 1.23.9
-{{ snippet lucasmodlauncher/versions/1.23.9/hack_custom-interior-support }}
+## Version 1.23.9
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.9/Hacks/CustomInteriorSupport.md }}
 
-## 1.18.2
-Fixed a crash on startup that occurred with certain game executables.
-
-## 1.17
-Added this hack.
+## Version 1.18.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.2/Hacks/CustomInteriorSupport.md }}

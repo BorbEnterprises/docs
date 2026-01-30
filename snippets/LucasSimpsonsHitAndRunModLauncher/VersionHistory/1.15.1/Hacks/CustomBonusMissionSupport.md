@@ -1,0 +1,1 @@
+Fixed a crash when launching the game with a non-cracked executable.

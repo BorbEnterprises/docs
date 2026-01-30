@@ -1,0 +1,1 @@
+Added the `PreviewScale` property. This allows you to set a custom scale for the car when it's in a car shop.

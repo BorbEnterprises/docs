@@ -1,0 +1,1 @@
+Fixed a crash on startup that occurred with certain game executables.

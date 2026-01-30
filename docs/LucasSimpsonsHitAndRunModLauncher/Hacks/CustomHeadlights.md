@@ -1,9 +1,14 @@
 ---
-title: Custom Headlights
+title: "Custom Headlights"
 description: "This hack allows mods to customise the headlight and taillight brightness for each level of the game."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 341 # 1.2
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to customise the headlight and taillight brightness for each level of the game.
 
@@ -66,7 +71,3 @@ To configure this hack, create a file named `CustomHeadlights.ini` and add the p
 13=0.4
 14=0.4
 ```
-
-# Version History
-## 1.2 or earlier
-Added this hack.

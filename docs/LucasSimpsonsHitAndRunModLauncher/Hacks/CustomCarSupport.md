@@ -1,9 +1,14 @@
 ---
-title: Custom Car Support
+title: "Custom Car Support"
 description: "This hack adds support for registering custom cars and adjusting parameters on existing ones."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 350 # 1.6
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack adds support for registering custom cars and adjusting parameters on existing ones.
 
@@ -206,25 +211,20 @@ BackWheelSparks=0
 {{ endtabs }}
 
 # Command Line Arguments
-This hack is affected by certain [Command Line Arguments](../command-line-arguments.md#hack-custom-car-support) for the Mod Launcher.
+This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
-## 1.26
-{{ snippet lucasmodlauncher/versions/1.26/hack_custom-car-support }}
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/CustomTrafficSupport.md }}
 
-## 1.24
-{{ snippet lucasmodlauncher/versions/1.24/hack_custom-car-support }}
+## Version 1.24
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.24/Hacks/CustomTrafficSupport.md }}
 
-## 1.22
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomTrafficSupport.md }}
 
-* Added the `-nocarindexmapping` command line argument. This disables the hack re-mapping car indices.
-* Fixed an issue preventing Car Camera Data index remapping from working for cars loaded from a Mod's Resources folder (and possibly other locations).
+## Version 1.18
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/CustomTrafficSupport.md }}
 
-## 1.18
-Added the `PreviewScale` property. This allows you to set a custom scale for the car when it's in a car shop.
-
-## 1.17
-Custom car indices (indices from 97 onwards) are now per mod and automagically remapped as necessary at runtime.
-
-## 1.6
-Added this hack.
+## Version 1.17
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17/Hacks/CustomTrafficSupport.md }}

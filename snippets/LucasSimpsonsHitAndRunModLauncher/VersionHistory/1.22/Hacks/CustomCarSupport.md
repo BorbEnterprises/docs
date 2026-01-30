@@ -1,0 +1,2 @@
+* Added the `-nocarindexmapping` command line argument. This disables the hack re-mapping car indices.
+* Fixed an issue preventing Car Camera Data index remapping from working for cars loaded from a Mod's Resources folder (and possibly other locations).

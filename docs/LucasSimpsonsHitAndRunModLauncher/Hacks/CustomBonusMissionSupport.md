@@ -1,9 +1,14 @@
 ---
-title: Custom Bonus Mission Support
+title: "Custom Bonus Mission Support"
 description: "This hack allows mods to control various aspects of bonus missions such as the characters that host them."
+authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 367 # 1.14
 ---
 
-**This hack must be [required by a mod](all-hacks.md#mod-requirable-hacks) to be enabled.**
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByAMod.md }}
 
 This hack allows mods to control various aspects of bonus missions such as the characters that host them.
 
@@ -70,11 +75,8 @@ ForcePlayerInCar=1
 ```
 
 # Version History
-## 1.17
-Updated this hack with new functionality to this hack to prevent the game from resetting the player's position and forcing them into their car at the start of specific Street Race missions.
+## Version 1.17
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17/Hacks/CustomBonusMissionSupport.md }}
 
-## 1.15.1
-Fixed a crash when launching the game with a non-cracked executable.
-
-## 1.14
-Added this hack.
+## Version 1.15.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.1/Hacks/CustomBonusMissionSupport.md }}
