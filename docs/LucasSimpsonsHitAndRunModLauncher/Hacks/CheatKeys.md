@@ -13,17 +13,17 @@ initialVersion:
 This hack adds a number of key binds that do various things that are effectively cheating.
 
 # Keybinds
-| Key      | Function                                                                                     |
-|----------|----------------------------------------------------------------------------------------------|
-| 0        | Reset your Hit & Run meter.                                                                  |
-| 2        | Double Speed.                                                                                |
-| 3        | Stop your car.                                                                               |
-| 5        | Invert your car's speed.                                                                     |
-| 6        | Repair your car.                                                                             |
-| 7        | Makes your car jump.                                                                         |
-| F4       | Teleport your car to you.<br>Shows a phone booth interface if you do not already have a car. |
-| F7       | Teleport your car or character forwards.                                                     |
-| Shift+F4 | Shows a phone booth interface.                                                               |
+| Key      | Function                                                                                    |
+|----------|---------------------------------------------------------------------------------------------|
+| 0        | Reset your Hit & Run meter.                                                                 |
+| 2        | Double Speed.                                                                               |
+| 3        | Stop your car.                                                                              |
+| 5        | Invert your car's speed.                                                                    |
+| 6        | Repair your car.                                                                            |
+| 7        | Makes your car jump.                                                                        |
+| F4       | Teleport your car to you or shows a phone booth interface if you do not already have a car. |
+| F7       | Teleport your car or character forwards.                                                    |
+| Shift+F4 | Shows a phone booth interface.                                                              |
 
 # Settings
 ## Car Teleport Forward

@@ -17,4 +17,4 @@ While logged in, each time you launch the game, the Mod Launcher will send a req
 
 If the Main mod you're playing is registered in the Donut Team Content Submission System, then your play session will be shown on the [Recently Played](https://forum.donutteam.com/recently-played) page of the Donut Team Forum.
 
-**Note: The Donut Team Content Submission system has been retired and it is not currently possible for new mods to be registered. The ability to do so will be integrated into [Mod Bakery](https://modbakery.donutteam.com) at a later date.**
+**Note: The Donut Team Content Submission system has been retired and it is not currently possible for new mods to be registered. The ability to do so will be integrated into [Mod Bakery](https://modbakery.donutteam.com/) at a later date.**
