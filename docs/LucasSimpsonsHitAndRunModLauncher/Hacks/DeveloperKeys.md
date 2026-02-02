@@ -33,8 +33,8 @@ With Debug Test, it cycles through various modes:
 * Drawing the current [[/Pure3DFiles/ChunkTypes/Intersect.md]] chunk
 * Drawing the current [[/Pure3DFiles/ChunkTypes/Intersect.md]] chunk and current the [[/Pure3DFiles/ChunkTypes/Tree.md]] chunk
 * Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/TriggerVolume.md]] chunks
-* Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/Intersectiond.md]] chunks and [[/Pure3DFiles/ChunkTypes/Road.md]] chunks (without directional arrows)
-* Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/Intersectiond.md]] chunks and [[/Pure3DFiles/ChunkTypes/Road.md]] chunks (with directional arrows)
+* Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/Intersection.md]] chunks and [[/Pure3DFiles/ChunkTypes/Road.md]] chunks (without directional arrows)
+* Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/Intersection.md]] chunks and [[/Pure3DFiles/ChunkTypes/Road.md]] chunks (with directional arrows)
 * Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/Path.md]] chunks
 * Drawing all currently loaded [[/Pure3DFiles/ChunkTypes/Fence.md]] chunks
 
