@@ -24,3 +24,8 @@ authors: [ 2 ]
 * Redesigned the main window with a tool strip at the top, containing "File", "View" and "Help" menus.
 	* This tool strip replaces the "Open..." and "Account..." buttons previously, found on the main window, to follow a more universally understood design for programs.
 * Fixed a bug where right clicking a mod setting hack that's also requirable by mods and choosing **Copy Require Line** would copy `RequiredMod=HackName` instead of `RequiredHack=HackName`.
+
+## About Window
+Added this new window that can be accessed from "Help" > "About..." on the main window's new tool strip.
+
+The Licenses tab, previously located on the Launcher Settings window, has also now been moved to this new window.
