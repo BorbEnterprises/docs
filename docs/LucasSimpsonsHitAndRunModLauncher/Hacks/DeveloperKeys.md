@@ -12,19 +12,6 @@ initialVersion:
 
 This hack adds key binds that are useful for mod developers.
 
-# Keybinds
-| Key      | Function                                                                                    |
-|----------|---------------------------------------------------------------------------------------------|
-| 0        | Reset your Hit & Run meter.                                                                 |
-| 2        | Double Speed.                                                                               |
-| 3        | Stop your car.                                                                              |
-| 5        | Invert your car's speed.                                                                    |
-| 6        | Repair your car.                                                                            |
-| 7        | Makes your car jump.                                                                        |
-| F4       | Teleport your car to you or shows a phone booth interface if you do not already have a car. |
-| F7       | Teleport your car or character forwards.                                                    |
-| Shift+F4 | Shows a phone booth interface.                                                              |
-
 # Settings
 ## Keybinds
 ### Toggle Map Debug View
