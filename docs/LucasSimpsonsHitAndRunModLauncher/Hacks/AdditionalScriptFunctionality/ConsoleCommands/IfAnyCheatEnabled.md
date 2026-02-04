@@ -27,7 +27,7 @@ Game.IfAnyCheatEnabled( ...cheats )
 {{ endtab }}
 {{ endtabs }}
 
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/IfAnyAllCheatArguments.md }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/AdditionalScriptFunctionality/ConsoleCommands/CheatEnabledArguments.md }}
 
 # Examples
 {{ tabs }}
