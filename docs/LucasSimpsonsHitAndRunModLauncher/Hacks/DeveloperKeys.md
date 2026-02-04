@@ -15,14 +15,31 @@ This hack adds key binds that are useful for mod developers.
 # Settings
 ## Keybinds
 ### Toggle Map Debug View
-The key used to toggle debug rendering of various types of map data.
+Toggles debug rendering of various types of map data.
 
 **Defaults to F2.**
 
 ### Reload Map Regions
-The key used to reload all currently loaded map regions.
+Reloads all currently loaded map regions.
 
 **Defaults to F3.**
+
+### Toggle HUD Visibility
+Toggles the visibility of the HUD.
+
+**Defaults to F8.**
+
+### Complete Stage
+Completes the current mission stage.
+
+**Defaults to F10.**
+
+### Fail Stage
+Fails the current mission stage using the first condition.
+
+This key only works if the stage has at least one condition added to it.
+
+**Defaults to Shift+F10.**
 
 # Map Debug Views
 What exactly he **Toggle Map Debug View** key does depends on if the [[DebugTest.md]] hack is also enabled.

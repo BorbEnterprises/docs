@@ -6,7 +6,7 @@ authors: [ 2 ]
 
 # Launcher
 ## General
-* Made the Mod Launcher itself respect the `-nocarindexmapping` command line argument during conflict checking.
+* Made the Mod Launcher itself respect the `-nocarindexmapping` [[../CommandLineArguments.md|command line argument]] during conflict checking.
 * Fixed an issue that prevented encrypted mods from loading.
 * Updated the Mod Launcher's copyright information.
 * Potentially fixed various crashes related to jump lists.
@@ -18,6 +18,11 @@ authors: [ 2 ]
 	* This affects the obscure `-apiurl` and obscure `-updatecheckurl` [[../CommandLineArguments.md]] that pretty much only exist for internal testing.
 * Changed the encoding used when reading text files from ANSI to UTF8.
 * Made it so, when loading mods, `[PathHandlers]` in `CustomFiles.ini` are validated to ensure that the handler script exists.
+* Now checks the digital signature of the [[../Hacks/HackSupport.md]] hack (and therefore, the rest of Hacks.dll) before attempting to launch the game with it.
+	* This check helps to ensure it has not been tampered with.
+	* If the signature cannot be verified or, if for some inexplicable reason, it is not signed by Donut Team LLC, warning message(s) will be shown.
+	* On Windows XP, verifying our signature is not possible and a different message will be shown indicating this.
+	* In either case, you can choose to skip the message(s) and run the potentially unsafe code anyways.
 
 ## Main Window
 * Made it so the **Launch** button is now disabled when the game is attempting to launch and re-enabled when this either succeeds or fails.
