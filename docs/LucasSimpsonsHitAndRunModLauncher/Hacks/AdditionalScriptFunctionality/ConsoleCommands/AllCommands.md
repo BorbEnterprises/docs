@@ -52,6 +52,9 @@ This page lists all of the Console Commands added by the Additional Script Funct
 			* [[SetCheckpointResetPlayerInCar.md]]
 			* [[SetCheckpointResetPlayerOutCar.md]]
 			* [[SetCheckpointTrafficGroup.md]]
+		* **Dyna Load Data**
+			* [[AddStageDynaLoadData.md]]
+			* [[SetStageDynaLoadData.md]]
 		* **Hit & Runs**
 			* [[ResetStageHitAndRun.md]]
 			* [[SetNoHitAndRunMusicForStage.md]]
