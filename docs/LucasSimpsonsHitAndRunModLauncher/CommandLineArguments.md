@@ -1336,6 +1336,8 @@ These command line arguments only take effect when the [[Hacks/CheatKeys.md]] ha
 ## -forceallowcheatkeys
 **Added in Version 1.23.5.**
 
+**Removed in Version 1.27.**
+
 Allows you to opt out of a bunch of other safety checks when pressing keys (such as those added in Version 1.15 and 1.23.5).
 
 ```text
