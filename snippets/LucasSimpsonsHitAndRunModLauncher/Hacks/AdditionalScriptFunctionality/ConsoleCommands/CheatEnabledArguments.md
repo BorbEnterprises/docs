@@ -1,4 +1,4 @@
-* **...cheats**: Specify up to 15 cheats to check as separate arguments.
+* **...cheats**: Specify up to 15 cheats as separate arguments.
 	* **UnlockAllOutfits**
 	* **UnlockAllStoryMissions**
 	* **UnlockAllMovies**

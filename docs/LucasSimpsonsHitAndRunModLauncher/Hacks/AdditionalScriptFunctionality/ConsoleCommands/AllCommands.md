@@ -41,8 +41,15 @@ This page lists all of the Console Commands added by the Additional Script Funct
 	* **Stages**
 		* [[DisableTrigger.md]]
 		* [[SetCollectibleSoundEffect.md]]
+		* [[SetStageAirGravity.md]]
 		* [[SetStageAllowMissionCancel.md]]
 		* [[SetStageCharacterModel.md]]
+		* [[SetStageEnabledCheats.md]]
+		* [[SetStageKickForce.md]]
+		* [[SetStageMusicEvent.md]]
+		* [[SetStagePedGroup.md]]
+		* [[SetStageSlamForce.md]]
+		* [[SetStageTrafficGroup.md]]
 		* [[SetStagePayout.md]]
 		* **Checkpoints**
 			* [[CHECKPOINT_HERE.md]]
