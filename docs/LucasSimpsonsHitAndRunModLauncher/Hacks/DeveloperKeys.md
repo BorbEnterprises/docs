@@ -35,11 +35,14 @@ Completes the current mission stage.
 **Defaults to F10.**
 
 ### Fail Stage
-Fails the current mission stage using the first condition.
-
-This key only works if the stage has at least one condition added to it.
+Fails the current mission stage.
 
 **Defaults to Shift+F10.**
+
+### Toggle Text Names
+Toggles showing internal names of frontend text strings instead of the actual strings.
+
+**Defaults to Shift+F8.**
 
 # Map Debug Views
 What exactly he **Toggle Map Debug View** key does depends on if the [[DebugTest.md]] hack is also enabled.

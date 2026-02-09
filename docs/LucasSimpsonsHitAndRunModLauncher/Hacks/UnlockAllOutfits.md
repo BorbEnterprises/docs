@@ -18,3 +18,7 @@ To require this hack, add this line to your mod's Meta.ini:
 ```ini
 RequiredHack=UnlockAllOutfits
 ```
+
+# Version History
+## Version 1.27
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
