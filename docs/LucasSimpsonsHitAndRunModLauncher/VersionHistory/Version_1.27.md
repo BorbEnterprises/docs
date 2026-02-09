@@ -56,6 +56,22 @@ Added this new framework that provides resources for the new Multiplayer hack.
 
 This was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
 
+# Removed Mods
+## No Audio
+Removed this mod. Use the existing No Audio mod hack instead.
+
+## No HUD
+Removed this mod. Use the new Developer Keys hack to toggle the HUD instead.
+
+## No Traffic
+Removed this mod. Use the new No Traffic mod hack instead.
+
+## Text Names
+Removed this mod. Use the new Developer Keys hack to toggle showing text names or enable the Text Names mod hack instead.
+
+## Unlock All Rewards
+Removed this mod. The existing Unlock All Outfits, Unlock All Vehicles and Unlock Bonus Game hacks are now mod hacks instead.
+
 # New Hacks
 ## Additional Quest Reward Types
 Added this new hack that adds additional quest reward types.
@@ -112,6 +128,13 @@ Free Camera hides your character/car and gives you free control of the camera. U
 No Clip moves your character/car around freely. Upon exiting this mode, they will be dropped wherever you had them.
 
 [[../Hacks/FreeCamera.md|Learn More]]
+
+## Ignore Unsupported DirectInput Devices
+A new hack that is always enabled and prevents the game from trying to acquire unsupported DirectInput devices, fixing a black screen on startup caused by certain hardware configurations.
+
+This was previously distributed as the standalone Direct Input Acquire Test hack for previous versions of the Mod Launcher.
+
+[[../Hacks/IgnoreUnsupportedDirectInputDevices.md|Learn More]]
 
 ## Multiplayer (Beta)
 Added this new hack that is a reworked version of the Multiplayer hack that was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
@@ -194,6 +217,13 @@ This was previously part of the [[../Hacks/Multiplayer.md]] hack, but is now a s
 Added this new hack that restores dialog for destroying wasp cameras.
 
 [[../Hacks/RestoreWaspDestroyDialog.md|Learn More]]
+
+## Text Names
+Added this new hack that makes the game show the internal names of frontend text strings.
+
+It can be enabled the mods list, as well as being toggleable via the new **Developer Keys** and **Trainer** hacks.
+
+[[../Hacks/TextNames.md|Learn More]]
 
 ## Trainer
 Added this new hack that adds an ingame window for tweaking game parameters on the fly, teleporting around, and more!
