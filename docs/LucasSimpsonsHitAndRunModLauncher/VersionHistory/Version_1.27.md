@@ -34,7 +34,7 @@ authors: [ 2 ]
 ## About Window
 Added this new window that can be accessed from **Help** > **About...** on the main window's new tool strip.
 
-The **Licenses** tab, previously located on the Launcher Settings window, has also now been moved to this new window.
+The **Licenses** tab, previously located on the **Launcher Settings** window, has also now been moved to this new window.
 
 ## Mods List
 * Added the `-nodeltaupdatemodslist` command line argument to force the Mod Launcher to fully reload the mods list when clicking a reload button.
@@ -92,7 +92,7 @@ This was previously distributed as part of separate "SHAR MP" builds of the Mod 
 ## Analogue Speedometer
 Added this new setting hack that adds a fancy analogue speedometer you can toggle with a key.
 
-This is a standalone version of the "Analogue Speedometer" setting that was previously part of the Multiplayer hack.
+This is a standalone version of the **Analogue Speedometer** setting that was previously part of the Multiplayer hack.
 
 [[../Hacks/AnalogueSpeedometer.md|Learn More]]
 
