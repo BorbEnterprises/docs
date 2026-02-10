@@ -284,6 +284,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Frame Limiter
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/FrameLimiter.md }}
 
+## Free Roam
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/FreeRoam.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
