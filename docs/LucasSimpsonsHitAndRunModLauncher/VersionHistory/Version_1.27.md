@@ -272,6 +272,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Custom Trigger Actions
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomTriggerActions.md }}
 
+## Debug Test
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DebugTest.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
