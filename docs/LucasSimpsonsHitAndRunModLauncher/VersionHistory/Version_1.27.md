@@ -296,6 +296,9 @@ Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded 
 ## Rebindable Menu Gamepad Inputs
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/RebindableMenuGamepadInputs.md }}
 
+## Resizable Window
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/ResizableWindow.md }}
+
 ## Unlock All Outfits
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/UnlockAllOutfits.md }}
 
