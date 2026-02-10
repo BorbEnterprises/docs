@@ -56,4 +56,5 @@ Game.EndIf()
 {{ endtabs }}
 
 # Notes
-{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ConditionalEvaluation.md }}
+* {{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ConditionalEvaluation.md }}
+* {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/WagerRaceCompletionCaveat.md }}

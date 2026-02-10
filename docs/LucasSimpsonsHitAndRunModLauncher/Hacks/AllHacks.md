@@ -70,6 +70,7 @@ These hacks can be required by mods that wish to make use of their functionality
 | [[NoWrenches.md]]                                                          | 1.20             | No           |
 | [[OGGVorbisSupport.md]]                                                    | 1.18             | No           |
 | [[OverrideShaderParameters.md]]                                            | 1.20.1           | Yes          |
+| [[PerLevelCoinCount.md]]                                                   | 1.27             | Yes          |
 | [[RefractionShaderSupport.md]]                                             | 1.23.4           | No           |
 | [[ReplayableBonusMissions.md]]                                             | 1.12             | No           |
 | [[SkippableFMVs.md]]                                                       | 1.26             | No           |
@@ -128,6 +129,7 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[NoWrenches.md]]                        | 1.20             |
 | [[OrbitCamera.md]]                       | 1.26             |
 | [[OneTapPlayerCarDeath.md]]              | 1.20             |
+| [[PerLevelCoinCount.md]]                 | 1.27             |
 | [[RebindableMenuGamepadInputs.md]]       | 1.23.9           |
 | [[ReplayableBonusMissions.md]]           | 1.12             |
 | [[ResizableWindow.md]]                   | 1.16             |

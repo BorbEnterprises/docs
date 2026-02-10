@@ -30,6 +30,16 @@ Removes the delay on the license screen using the [[../Hacks/CustomLicenseScreen
 
 Makes it so you cannot get busted by the police by using [[../Hacks/CustomTriggerActions.md]] to disable the Event that busts you.
 
+# Per Character Coin Count
+**Added in Version 1.27.**
+
+Makes it so each character in the base game has their own coin counts. This means:
+* Levels 1/7 share a coin count.
+* Levels 2/6 share a coin count.
+* Levels 3/4/5 each have their own coin count.
+
+This uses the [[../Hacks/PerLevelCoinCount.md]] hack to accomplish this.
+
 # Repair Car On Reset
 **Added in Version 1.6.**
 

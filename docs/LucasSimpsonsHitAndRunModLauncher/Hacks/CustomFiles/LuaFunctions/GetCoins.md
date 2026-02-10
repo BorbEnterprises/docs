@@ -12,14 +12,16 @@ Gets the amount of coins the player currently has.
 
 # Syntax
 ```lua
-GetCoins()
+GetCoins( [level] )
 ```
 
 ## Arguments
-No arguments.
+* **level** (integer): The level to get the coin count for.
+	* Optional, defaults to 1.
+	* By default, all levels share a coin count, however, the [[../../PerLevelCoinCount.md]] hack may be in use which can make this return different values depending on the level.
 
 ## Return Values
-* (integer | nil): The amount of coins the player currently has or `nil` if unavailable.
+* (integer | nil): The amount of coins the player currently has in the specified level or `nil` if unavailable.
 
 # Examples
 ```lua

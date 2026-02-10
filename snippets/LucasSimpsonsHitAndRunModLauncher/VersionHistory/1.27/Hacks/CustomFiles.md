@@ -23,7 +23,7 @@
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelMissionCompleted.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelStreetRaceCompleted.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelBonusMissionCompleted.md]] function.
-* Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelGambleRaceCompleted.md]] function.
+* Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelWagerRaceCompleted.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsLevelGagCompleted.md]] function.
 * Added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/LuaFunctions/IsPersistentObjectDestroyed.md]] function.
 	* Also added the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomFiles/Lua/LuaTables/PersistentObjectSector.md]] table.

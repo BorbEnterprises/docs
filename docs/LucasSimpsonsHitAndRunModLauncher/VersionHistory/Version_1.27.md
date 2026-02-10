@@ -41,6 +41,7 @@ The **Licenses** tab, previously located on the **Launcher Settings** window, ha
 * Added a new **Multiplayer** tab.
 	* This tab is intended to house the Multiplayer hack itself, as well as multiplayer focused mods.
 * Added a **Rebindable keys are available in "Mod Settings..."** message to the **About** tab that is shown when customisable keybinds are available for the currently selected mod.
+* Fixed a bug where reloading a mod would change the scroll position of the Mods List.
 
 # Mod Features
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/ModFeatures.md }}
