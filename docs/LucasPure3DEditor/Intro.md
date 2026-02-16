@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Lucas' Pure3D Editor"
+title_hierarchy: "Introduction"
 description: "Lucas' Pure3D Editor is a tool for opening Pure3D (.p3d) files found in various games created by Radical Entertainment."
 ---
 

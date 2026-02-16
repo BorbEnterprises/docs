@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Pure3D Files"
+title_hierarchy: "Introduction"
 description: "Pure3D Files are a proprietary file format used in various games created by Radical Entertainment."
 authors: [ 2 ]
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Custom Files"
+title_hierarchy: "Introduction"
 description: "This hack allows mods to provide custom files without modifying the game install."
 authors: [ 2 ]
 initialVersion:

@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Lucas' Simpsons Hit & Run Map Data Viewer"
+title_hierarchy: "Introduction"
 description: "Lucas' Simpsons Hit & Run Map Data Viewer makes it easy to view map data from The Simpsons: Hit & Run."
 ---
 

@@ -10,6 +10,7 @@ Documents contain YAML front matter declaring various attributes.
 The available keys are as follows, with **required keys in bold**:
 
 * **title** (string): The title of the document.
+* title_hierarchy (string): The title of the document shown in the hierarchy. Defaults to **title*.
 * **description** (string): A brief description of the document.
 * authors (number[]): An array of Donut Team User IDs representing the authors of this document.
 * initialVersion (object): An object declaring what version of a tool the feature the document covers was added in.

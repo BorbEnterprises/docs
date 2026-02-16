@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Lucas' Radcore Cement Library Builder"
+title_hierarchy: "Introduction"
 description: "Lucas' Radcore Cement Library Builder or Lucas' RCF Builder for short is a command line tool that allows you to build custom RCF files."
 ---
 

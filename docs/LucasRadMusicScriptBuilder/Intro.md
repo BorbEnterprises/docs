@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Lucas' RadMusic Script Builder"
+title_hierarchy: "Introduction"
 description: "Lucas' RadMusic Script Builder is a tool that allows you to convert compiled RadMusic Script files (.rms) to and from an XML format to easily edit them."
 ---
 

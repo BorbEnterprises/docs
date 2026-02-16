@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Additional Script Functionality"
+title_hierarchy: "Introduction"
 description: "This hack adds several new mission objectives, mission conditions, script commands and other new script functionality."
 authors: [ 2 ]
 initialVersion:

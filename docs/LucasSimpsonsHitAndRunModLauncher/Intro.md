@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Lucas' Simpsons Hit & Run Mod Launcher"
+title_hierarchy: "Introduction"
 description: "Lucas' Simpsons Hit & Run Mod Launcher is the main tool used to create and run mods for The Simpsons: Hit & Run and it can also be used to simply run the original game with quality-of-life improvements."
 authors: [ 2 ]
 ---

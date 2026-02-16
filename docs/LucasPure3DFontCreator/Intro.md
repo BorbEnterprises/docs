@@ -1,6 +1,7 @@
 ---
-title: "Introduction"
-description: "This tool allows you to easily generate Texture Font chunks for use in The Simpsons: Hit & Run."
+title: "Lucas' Pure3D Font Creator"
+title_hierarchy: "Introduction"
+description: "Lucas' Pure3D Font Creator allows you to easily generate Texture Font chunks for use in The Simpsons: Hit & Run."
 authors: [ 2 ]
 ---
 

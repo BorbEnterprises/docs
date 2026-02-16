@@ -1,5 +1,6 @@
 ---
-title: "Introduction"
+title: "Lucas' Pure3D Editor Model XML Format Blender Add-on"
+title_hierarchy: "Introduction"
 description: "Lucas' Pure3D Editor Model XML Format Blender Add-on is a Blender Add-on that allows you to import and export the Pure3D Editor's Model XML format to and from Blender."
 ---
 
