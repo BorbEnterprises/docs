@@ -77,6 +77,7 @@
 													name: "The Simpsons: Hit & Run",
 													children:
 													[
+														"Pure3DFiles/ChunkTypes/AnimDynaPhys.md",
 														"Pure3DFiles/ChunkTypes/ATC.md",
 														"Pure3DFiles/ChunkTypes/CollisionEffect.md",
 														"Pure3DFiles/ChunkTypes/Fence.md",
