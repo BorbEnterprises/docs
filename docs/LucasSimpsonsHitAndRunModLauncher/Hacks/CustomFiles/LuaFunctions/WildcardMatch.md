@@ -18,8 +18,8 @@ WildcardMatch( text, wildcard, case_insensitive, slash_insensitive )
 ## Arguments
 * **text** (string): The text to compare against the wildcard.
 * **wildcard** (string): The wildcard string to compare against.
-	* Use `*` to match any string of any length.
-	* Use `?` to match any string of a fixed length.
+	* Use `*` to match zero or more of any character.
+	* Use `?` to match one of any character.
 * **case_insensitive** (boolean): Whether or not the comparison is case insensitive.
 * **slash_insensitive** (boolean): Whether or not the comparison is slash insensitive.
 

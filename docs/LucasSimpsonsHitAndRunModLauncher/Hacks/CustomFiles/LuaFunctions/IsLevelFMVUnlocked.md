@@ -28,3 +28,8 @@ if HasBeenSexyWhileParanoid then
 	-- Do something now that Homer has been sexy while paranoid
 end
 ```
+
+# Notes
+In the base game, Level 3 never uses the [[/TheSimpsonsHitAndRun/Scripting/MissionObjectives/fmv.md]] objective. Instead, Level 3's movie gets marked complete when you watch the Itchy & Scratchy movie after collecting all collector cards.
+
+There is, however, nothing stopping a mod from using a [[/TheSimpsonsHitAndRun/Scripting/MissionObjectives/fmv.md]] objective in Level 3 if it wants to.

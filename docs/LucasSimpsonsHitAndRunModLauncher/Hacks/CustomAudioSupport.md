@@ -40,13 +40,14 @@ To configure this hack, create a file named `CustomAudioSupport.xml` and add the
 		MusicEventIndex: The index of the music event to trigger when entering the interior.
 		
 	<Level>
-		Index: The index of the level (zero-based).
-		OR
-		Number: The number of the level (one-based).
+		Index: The index of the level. 0-6.
+		 OR
+		Number: The number of the level. 1-7.
 		
 		StartAmbienceEventIndex: The ambience index that will be used for mission's that use 76 (interior).
 		BirdSound: The daSoundResourceData to play when entering an Event Locator using event 47 for the level.
 			Defaults to pigeon_takeoff in Levels 2/5, gull_takeoff in Levels 3/6 and null in Levels 1/4/7.
+			Using null disables the sound.
 
 		<Mission>
 			Index: The index of the mission from 0 to 7.

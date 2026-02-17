@@ -22,7 +22,7 @@ DirectoryGetEntries( path, callback, [end_to_start] )
 * **callback** (function(FileOrDirectory, IsDirectory)): A callback that will be called for each item in the directory.
 	* **FileOrDirectory** (string): The file or directory name.
 	* **IsDirectory** (boolean): Whether **FileOrDirectory** refers to a directory.
-	* This callback can return `true` to continue iteration or `false` to end iteration.
+	* This callback can return `true` to continue iteration. Returning any other value or not returning anything will end it.
 * **end_to_start** (boolean): Makes the function iterate the directory in reverse order. 
     * Optional, defaults to false.
 

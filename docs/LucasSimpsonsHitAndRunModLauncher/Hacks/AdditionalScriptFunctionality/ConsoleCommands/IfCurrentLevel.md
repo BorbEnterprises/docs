@@ -33,8 +33,11 @@ Game.IfCurrentLevel( ...levels )
 {{ tabs }}
 {{ tab CON }}
 ```js
-// Base Speed
-SetTopSpeed(120.0);
+!IfCurrentLevel(4, 5, 6, 7)
+{
+	// Base Speed
+	SetTopSpeed(120.0);
+}
 
 IfCurrentLevel(4, 5, 6, 7)
 {
@@ -45,14 +48,17 @@ IfCurrentLevel(4, 5, 6, 7)
 {{ endtab }}
 {{ tab Lua }}
 ```lua
--- Base Speed
-Game.SetTopSpeed(120.0)
+Game.Not_IfCurrentLevel(4, 5, 6, 7)
 
-IfCurrentLevel(4, 5, 6, 7)
-{
+	-- Base Speed
+	Game.SetTopSpeed(120.0)
+Game.EndIf()
+
+Game.IfCurrentLevel(4, 5, 6, 7)
+
 	-- Boost the top speed in later levels of the game!
 	Game.SetTopSpeed(160.0)
-}
+Game.EndIf()
 ```
 {{ endtab }}
 {{ endtabs }}

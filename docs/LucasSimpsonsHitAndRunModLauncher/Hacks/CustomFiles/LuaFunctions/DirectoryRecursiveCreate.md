@@ -16,7 +16,7 @@ DirectoryRecursiveCreate( base_path, path )
 ```
 
 ## Arguments
-* **base_path** (string): The path to create directories within.
+* **base_path** (string): The path to create directories inside within the [[../VirtualFileSystem.md]].
 * **path** (string): The directories to create.
 
 ## Return Values

@@ -12,6 +12,8 @@ initialVersion:
 
 Outputs text or binary data to a virtual file in memory which is then handed off to the game in place of the file it requested.
 
+Calling this function multiple times within the same path handler will cause the data to be concatenated.
+
 # Syntax
 ```lua
 Output( data )

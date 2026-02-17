@@ -1,6 +1,6 @@
 ---
 title: "Drunk Camera"
-description: "This hack enables mods to save and load custom values to save data via various other hacks, such as Custom Files."
+description: "This hack that makes the camera wobble side to side, as though you are drunk. Probably fun for challenge runs or if you enjoy motion sickness!"
 authors: [ 2 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher

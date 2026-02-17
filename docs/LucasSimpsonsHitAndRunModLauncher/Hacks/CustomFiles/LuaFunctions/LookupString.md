@@ -27,4 +27,5 @@ local MissionObjective00 = LookupString("MISSION_OBJECTIVE_00")
 ```
 
 # Notes
-This looks up the current value of the string, including per level/mission overrides from the [[../../CustomText.md]] hack.
+* This will return `nil` if called in `CustomFiles.lua` because the game's text bible is not loaded yet.
+* This looks up the current value of the string, including per level/mission overrides from the [[../../CustomText.md]] hack.

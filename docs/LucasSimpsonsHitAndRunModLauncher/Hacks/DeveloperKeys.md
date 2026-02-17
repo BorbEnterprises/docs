@@ -45,7 +45,7 @@ Toggles showing internal names of frontend text strings instead of the actual st
 **Defaults to Shift+F8.**
 
 # Map Debug Views
-What exactly he **Toggle Map Debug View** key does depends on if the [[DebugTest.md]] hack is also enabled.
+What exactly the **Toggle Map Debug View** key does depends on if the [[DebugTest.md]] hack is also enabled.
 
 Without Debug Test, the key simply toggles the game's **Show Tree** [[/TheSimpsonsHitAndRun/Cheats.md|cheat]].
 

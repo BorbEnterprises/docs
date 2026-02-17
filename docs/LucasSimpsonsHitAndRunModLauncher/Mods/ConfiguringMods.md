@@ -124,6 +124,7 @@ Multiplayer=0
 ; Unreleased
 ;	Set whether or not the mod is on the Unreleased tab.
 ;	Useful to hide secret mods from your main mods list.
+;	If set to 1, this will hide the mod from the General, Settings, Developer and Multiplayer pages regardless of the other values.
 ;	Optional, defaults to 0.
 Unreleased=0
 

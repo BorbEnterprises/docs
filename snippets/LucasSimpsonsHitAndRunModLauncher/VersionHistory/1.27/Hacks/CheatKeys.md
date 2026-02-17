@@ -1,3 +1,4 @@
+* Fixed a crash when activating the Cheat Keys phonebooth when one or more loaded mods had a `CustomShopSupport.xml` containing one or more `<PhoneBooth>` elements containing one or more `<Selector>` elements with a `Locator` attribute.
 * Added a new **Open Skin Shop** key.
 * Added a new "Jump Height" setting.
 	* This controls how high your car goes upon pressing the "Vehicle Jump" key.

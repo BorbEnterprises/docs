@@ -19,7 +19,7 @@ GetShared()
 No arguments.
 
 ## Return Values
-* (table<string, any>): The shared table.
+* (table): The shared table.
 
 # Examples
 Store something in the table in one mod:

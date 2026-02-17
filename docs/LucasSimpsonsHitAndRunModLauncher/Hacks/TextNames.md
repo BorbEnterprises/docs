@@ -13,3 +13,6 @@ initialVersion:
 This hack makes the game show internal names of frontend text strings instead of the actual strings.
 
 This hack can also be toggled dynamically via the [[DeveloperKeys.md]] and [[Trainer.md]] hacks.
+
+# Notes
+This replaced the old Text Names mod previously shipped with the Mod Launcher.

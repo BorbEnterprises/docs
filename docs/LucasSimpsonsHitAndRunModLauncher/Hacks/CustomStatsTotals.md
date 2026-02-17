@@ -52,8 +52,7 @@ RemoveUnusedMissionFromMissionSelect=1
 StoryMissions=7
 
 ; BonusMissions
-;	Set the number of bonus missions in the level from 0 to 7.
-;	Setting this to >=2 is not enough for additional bonus missions to fully work.
+;	Set the number of bonus missions in the level from 0 to 1.
 ;	Defaults to 1.
 BonusMissions=1
 

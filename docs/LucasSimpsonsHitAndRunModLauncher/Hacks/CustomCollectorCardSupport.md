@@ -110,7 +110,6 @@ The game's default quote characters are mapped with friendly names by default fo
 
 | Character    | Index |
 |--------------|-------|
-| EMPTY        | -1    |
 | ANNOUNCER    | 0     |
 | APU          | 1     |
 | BART         | 2     |

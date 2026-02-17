@@ -12,7 +12,6 @@ These are general functions.
 * [[GetTime.md]]
 * [[IsTesting.md]]
 * [[Pause.md]]
-* [[WildcardMatch.md]]
 
 # Custom Save Data Functions
 These are functions for getting and setting custom save data values.
@@ -86,6 +85,7 @@ These are functions for working with file paths and file names.
 * [[GetFileName.md]]
 * [[GetPathParent.md]]
 * [[RemoveFileExtension.md]]
+* [[WildcardMatch.md]]
 
 # Path Handler Functions
 These are functions for handling files within within [[../PathHandlerScripts.md]].

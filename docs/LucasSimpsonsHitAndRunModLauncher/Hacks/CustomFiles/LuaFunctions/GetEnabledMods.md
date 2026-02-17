@@ -18,7 +18,7 @@ GetEnabledMods( callback )
 ## Arguments
 * **callback** function(ModInternalName): A callback that will be called for each enabled mod.
 	* **ModInternalName** (string): The InternalName of the mod.
-	* This callback can return `true` to continue iteration or `false` to end iteration.
+	* This callback can return `true` to continue iteration. Returning any other value or not returning anything will end it.
 
 ## Return Values
 * (boolean): Whether the **callback** returned **true** every time.

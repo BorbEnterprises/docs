@@ -78,7 +78,7 @@ This fixes a bug related to pressing the in-car change camera button during the 
 ### Time Skip
 Fixes an issue where grabbing the window header causes halts the Windows event loop for the game until it is released, causing a large delta time that causes physics issues.
 
-This fix gives the game a delta time of 100ms instead of the real delta time in this scenario to prevent these issues.
+This fix gives the game a delta time of 20ms instead of the real delta time in this scenario to prevent these issues.
 
 # Requiring This Hack
 To require this hack, add this line to your mod's Meta.ini:

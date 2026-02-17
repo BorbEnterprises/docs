@@ -41,12 +41,30 @@ IfAnyMissionCompleted("L7SR1", "L7SR2", "L7SR3")
 	CloseStage();
 }
 ```
+```js
+IfAnyMissionCompleted("L1M1", "L1M2", "L1M3")
+{
+	// Only add this stage if the player has completed L1M1, L1M2 or L1M3
+	AddStage();
+		// ...
+	CloseStage();
+}
+```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
 Game.IfAnyMissionCompleted("L7SR1", "L7SR2", "L7SR3")
 
 	-- Add extra stage when any of Level 7's street races have been completed
+	Game.AddStage()
+		-- ...
+	Game.CloseStage()
+Game.EndIf()
+```
+```lua
+Game.IfAnyMissionCompleted("L1M1", "L1M2", "L1M3")
+
+	-- Only add this stage if the player has completed L1M1, L1M2 or L1M3
 	Game.AddStage()
 		-- ...
 	Game.CloseStage()

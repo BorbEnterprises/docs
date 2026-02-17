@@ -8,18 +8,27 @@ Hacks are a feature of the Mod Launcher that patch the game with new and expande
 
 This page documents all of the hacks that exist and what version of the Mod Launcher introduced them.
 
+# General
+These are general hacks.
+
+| Hack               | Added In Version |
+|--------------------|------------------|
+| [[Multiplayer.md]] | 1.27             |
+| [[Trainer.md]]     | 1.27             |
+
 # Always Enabled Hacks
 These hacks are always enabled when using the Mod Launcher.
 
-| Hack                             | Added In Version |
-|----------------------------------|------------------|
-| [[CustomSaveData.md]]            | 1.17             |
-| [[DebugCommunication.md]]        | 1.17.1           |
-| [[HackSupport.md]]               | Before 1.2       |
-| [[InterprocessCommunication.md]] | 1.17.1           |
-| [[ModernComputerSupport.md]]     | 1.2              |
-| [[ModernResolutionSupport.md]]   | 1.10             |
-| [[TextBinarySearch.md]]          | 1.26             |
+| Hack                                       | Added In Version |
+|--------------------------------------------|------------------|
+| [[CustomSaveData.md]]                      | 1.17             |
+| [[DebugCommunication.md]]                  | 1.17.1           |
+| [[HackSupport.md]]                         | Before 1.2       |
+| [[IgnoreUnsupportedDirectInputDevices.md]] | 1.27             |
+| [[InterprocessCommunication.md]]           | 1.17.1           |
+| [[ModernComputerSupport.md]]               | 1.2              |
+| [[ModernResolutionSupport.md]]             | 1.10             |
+| [[TextBinarySearch.md]]                    | 1.26             |
 
 # Mod Requirable Hacks
 These hacks can be required by mods that wish to make use of their functionality.
@@ -34,6 +43,7 @@ These hacks can be required by mods that wish to make use of their functionality
 | [[CustomBonusMissionSupport.md]]           | 1.14             | Yes          |
 | [[CustomCarSupport.md]]                    | 1.6              | Yes          |
 | [[CustomCharacterSupport.md]]              | 1.17             | Yes          |
+| [[CustomCollectorCardSupport.md]]          | 1.27             | Yes          |
 | [[CustomDialogueCharacterCodes.md]]        | 1.12             | Yes          |
 | [[CustomDutchAngleNPCCameraTilt.md]]       | 1.27             | Yes          |
 | [[CustomFiles/Intro.md]]                   | Before 1.2       | Yes          |
@@ -42,6 +52,7 @@ These hacks can be required by mods that wish to make use of their functionality
 | [[CustomLicenseScreenTime.md]]             | 1.5              | Yes          |
 | [[CustomLimits.md]]                        | 1.14             | Yes          |
 | [[CustomMissionSkipFailCounts.md]]         | 1.5              | Yes          |
+| [[CustomRewardQuestSupport.md]]            | 1.27             | Yes          |
 | [[CustomRoadBehaviour.md]]                 | 1.16             | Yes          |
 | [[CustomShopSupport.md]]                   | 1.18             | Yes          |
 | [[CustomSkinPreviewAnimations.md]]         | Before 1.2       | Yes          |
@@ -81,6 +92,7 @@ These hacks can be required by mods that wish to make use of their functionality
 | [[UnlockAllVehicles.md]]                   | 1.14             | No           |
 | [[UnlockBonusGame.md]]                     | 1.14             | No           |
 | [[VideoTextureSupport.md]]                 | 1.19             | No           |
+| [[WalkerCameraDataSupport.md]]             | 1.27             | No           |
 
 # Setting Hacks
 These hacks mainly contain various small setting-like features. 
@@ -89,6 +101,7 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 
 | Hack                                     | Added In Version |
 |------------------------------------------|------------------|
+| [[AnalogueSpeedometer.md]]               | 1.27             |
 | [[Antialiasing.md]]                      | 1.21             |
 | [[AspectRatioSupport.md]]                | 1.15             |
 | [[Borderless.md]]                        | 1.13.1           |
@@ -101,6 +114,8 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[DynamicTreeNodeEntityLimits.md]]       | 1.22             |
 | [[FlippableCars.md]]                     | 1.12             |
 | [[FrameLimiter.md]]                      | 1.10             |
+| [[FrameRateCounter.md]]                  | 1.27             |
+| [[FreeCamera.md]]                        | 1.27             |
 | [[FreeRoam.md]]                          | 1.21             |
 | [[HoverCarRefraction.md]]                | 1.23.4           |
 | [[InteriorJumping.md]]                   | 1.10             |
@@ -113,10 +128,14 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[MultipleInstanceSupport.md]]           | Before 1.2       |
 | [[NoAutomaticSavedGameLoad.md]]          | 1.12             |
 | [[NoCheats.md]]                          | 1.5              |
+| [[NoCoins.md]]                           | 1.27             |
 | [[NoCursorUntilMouseMove.md]]            | 1.18             |
+| [[NoExplosionExitDelay.md]]              | 1.27             |
 | [[NoFastCarReset.md]]                    | 1.4              |
+| [[NoGags.md]]                            | 1.27             |
 | [[NoGoToObjectiveCameraFocus.md]]        | 1.20             |
 | [[NoHitAndRunMusic.md]]                  | 1.23.6           |
+| [[NoHitAndRuns.md]]                      | 1.27             |
 | [[NoInactiveDynamicObjectCollisions.md]] | 1.16             |
 | [[NoIntroductionMovies.md]]              | 1.15             |
 | [[NoJumpLimit.md]]                       | 1.4              |
@@ -125,10 +144,12 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[NoMuteOnDefocus.md]]                   | 1.18             |
 | [[NoNeitherRoadArrowProcessing.md]]      | 1.21             |
 | [[NoPauseOnDefocus.md]]                  | 1.18             |
+| [[NoPedestrians.md]]                     | 1.27             |
 | [[NoRenderer.md]]                        | 1.23.2           |
 | [[NoSavedGames.md]]                      | 1.21             |
 | [[NoSuppressedDrivers.md]]               | 1.18             |
 | [[NoTimeLimits.md]]                      | 1.12             |
+| [[NoTraffic.md]]                         | 1.27             |
 | [[NoWrenches.md]]                        | 1.20             |
 | [[OrbitCamera.md]]                       | 1.26             |
 | [[OneTapPlayerCarDeath.md]]              | 1.20             |
@@ -136,6 +157,7 @@ They can be enabled by the user on the "Settings" page of the Mods List.
 | [[RebindableMenuGamepadInputs.md]]       | 1.23.9           |
 | [[ReplayableBonusMissions.md]]           | 1.12             |
 | [[ResizableWindow.md]]                   | 1.16             |
+| [[RestoreWaspDestroyDialog.md]]          | 1.27             |
 | [[Screenshots.md]]                       | 1.4              |
 | [[SkipMainMenu.md]]                      | 1.18             |
 | [[SkippableFMVs.md]]                     | 1.26             |
@@ -155,6 +177,7 @@ These hacks may be useful for mod developers.
 | [[DebugHashes.md]]                   | 1.17             |
 | [[DebugTest.md]]                     | 1.17             |
 | [[DebugText.md]]                     | 1.17             |
+| [[DeveloperKeys.md]]                 | 1.27             |
 | [[ForceMissionSelectLevelReload.md]] | 1.18             |
 | [[TextNames.md]]                     | 1.27             |
 
@@ -163,12 +186,14 @@ These hacks are internal hacks that contain shared functionality used by multipl
 
 | Hack                                 | Added In Version |
 |--------------------------------------|------------------|
+| [[AmbientCarSupport.md]]             | 1.27             |
 | [[AnalogueMouseInput.md]]            | 1.26             |
 | [[CustomAudioFormatSupport.md]]      | 1.18             |
 | [[CustomControllerSupport.md]]       | 1.23             |
 | [[CustomMainMenuItems.md]]           | 1.21             |
 | [[CustomModSaveData.md]]             | 1.27             |
 | [[CustomSaveData.md]]                | 1.17             |
+| [[DearImgui.md]]                     | 1.17             |
 | [[DebugHashes.md]]                   | 1.17             |
 | [[InterprocessCommunication.md]]     | 1.17.1           |
 | [[LoadManagerThreadCoordination.md]] | 1.23.2           |

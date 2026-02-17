@@ -14,7 +14,7 @@ This hack adds a number of key binds that do various things that are effectively
 
 # Settings
 ## Keybinds
-* **Allow Key Repeats**: If enabled, most cheat keys will perform their action every frame.
+* **Allow Key Repeats**: If enabled, most cheat keys will perform their action every frame while held down.
 	* **Defaults to Disabled.**
 
 ### General
@@ -82,9 +82,6 @@ This hack adds a number of key binds that do various things that are effectively
 * **Force Allow Cheat Keys**: Allows you to bypass various safety checks to use various cheat keys when they would otherwise be blocked.
 	* You probably shouldn't enable this.
 	* **Defaults to Disabled.**
-
-# Command Line Arguments
-This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
 
 # Version History
 ## Version 1.27

@@ -22,4 +22,5 @@ RequiredHack=NoHitAndRuns
 ```
 
 # Notes
-This was previously part of the [[Multiplayer.md]] hack, but is now a standalone hack it requires.
+* This was previously part of the [[Multiplayer.md]] hack, but is now a standalone hack it requires.
+* As a consequence of the method this hack uses to disable Hit & Runs, it also disables getting coins from most sources.

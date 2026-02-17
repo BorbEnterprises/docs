@@ -31,9 +31,9 @@ To configure this hack, create a file named `CustomDutchAngleNPCCameraTilt.xml` 
 		Defaults to ~10 degrees.
 
 	<Level>
-		Index: The index of the level (zero-based).
+		Index: The index of the level. 0-6.
 		 OR
-		Number: The number of the level (one-based).
+		Number: The number of the level. 1-7.
 
 		DutchCameraTilt: Whether to enable dutch camera tilt when standing near NPCs in this level.
 			Defaults to true for Level 7 and false for all other levels.

@@ -10,7 +10,7 @@ initialVersion:
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
 
-This hack adds additional quest reward types.
+This hack expands base game reward quest types, adds several new ones and more.
 
 # Requiring This Hack
 To require this hack, add this line to your mod's Meta.ini:
@@ -298,12 +298,30 @@ The reward will **remain unlocked** if the player falls below this amount of coi
 # Phonebooth Messages
 This hack enables mods to show how to unlock a `car` reward in the phone booth.
 
-TODO: explain this further!
+To use this functionality, a mod must make manual changes to `art\frontend\ingame.p3d`.
+
+Inside the [[/Pure3DFiles/ChunkTypes/FrontendProject.md]], navigate to:
+* `Phonebooth.pag` ([[/Pure3DFiles/ChunkTypes/FrontendPage.md]])
+	* `Foreground` ([[/Pure3DFiles/ChunkTypes/FrontendLayer.md]])
+		* `Locked` ([[/Pure3DFiles/ChunkTypes/FrontendGroup.md]])
+
+And, inside the `Locked` group, add a new [[/Pure3DFiles/ChunkTypes/FrontendMultiText.md]] named `CompleteQuest`. This chunk controls the position, justification, color and more of the text and how you set this up is up to you.
+
+Then, inside the `Complete` quest multi text, add a new [[/Pure3DFiles/ChunkTypes/FrontendStringTextBible.md]] with the string identifier `COMPLETE_QUEST`.
+
+In [[/LucasPure3DEditor/Intro.md]], your P3D file should look something like this:
+
+![phonebooth message frontend changes in Lucas' Pure3D Editor 4](/img/LucasSimpsonsHitAndRunModLauncher/Hacks/CustomRewardQuestSupport/PhoneboothMessage.png)
+
+This message can then be customized by also requiring the [[CustomText.md]] hack and declaring one of the following strings:
+
+* `COMPLETE_QUEST_` followed by the reward's name.
+	* For example, unlocking `elect_v` would lookup `QUEST_COMPLETE_ELECT_V`.
 
 # Skin Shop Messages
 This hack enables mods to show how to unlock a `skin` reward in a skin shop.
 
-TODO: explain this further!
+TODO: explain this further! https://discord.com/channels/189042029307756544/1461406884224438534/1473080316032712895
 
 # Unlock Messages
 Upon unlocking a reward, this hack will trigger a popup message similar to the one shown when completing all level gags or destroying all wasps in the base game.
