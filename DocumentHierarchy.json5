@@ -84,9 +84,11 @@
 													name: "The Simpsons: Hit & Run",
 													children:
 													[
+														"Pure3DFiles/ChunkTypes/AnimDynaPhys.md",
 														"Pure3DFiles/ChunkTypes/ATC.md",
 														"Pure3DFiles/ChunkTypes/CollisionEffect.md",
 														"Pure3DFiles/ChunkTypes/Fence.md",
+														"Pure3DFiles/ChunkTypes/FollowCameraData.md",
 														"Pure3DFiles/ChunkTypes/InstStatPhys.md",
 														"Pure3DFiles/ChunkTypes/Intersect.md",
 														"Pure3DFiles/ChunkTypes/Intersection.md",
@@ -424,6 +426,7 @@
 										"TheSimpsonsHitAndRun/DynaLoadData.md",
 										"TheSimpsonsHitAndRun/Events.md",
 										"TheSimpsonsHitAndRun/MainMenuCameraAnimation.md",
+										"TheSimpsonsHitAndRun/PersistentObjects.md",
 										"TheSimpsonsHitAndRun/Softlocks.md",
 										"TheSimpsonsHitAndRun/VehicleBehaviours.md",
 									],

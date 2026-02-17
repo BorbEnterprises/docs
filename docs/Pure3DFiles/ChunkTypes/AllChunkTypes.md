@@ -44,9 +44,11 @@ These chunks are found exclusively in The Simpsons: Road Rage.
 
 # The Simpsons: Hit & Run
 These chunks are found exclusively in The Simpsons: Hit & Run.
+* [[AnimDynaPhys.md]]
 * [[ATC.md]]
 * [[CollisionEffect.md]]
 * [[Fence.md]]
+* [[FollowCameraData.md]]
 * [[InstStatPhys.md]]
 * [[Intersect.md]]
 * [[Intersection.md]]
