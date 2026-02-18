@@ -425,7 +425,15 @@
 										"TheSimpsonsHitAndRun/Softlocks.md",
 										"TheSimpsonsHitAndRun/VehicleBehaviours.md",
 									],
-								}
+								},
+								{
+									type: "Group",
+									name: "Tutorials",
+									children:
+									[
+										"TheSimpsonsHitAndRun/Tutorials/UsingReShade.md",
+									],
+								},
 							],
 						},
 					],
