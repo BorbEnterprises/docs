@@ -128,6 +128,7 @@
 											name: "Console Commands",
 											children:
 											[
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AllCommands.md",
 												{
 													type: "Group",
 													name: "CON Commands",
@@ -181,7 +182,6 @@
 																	[
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagBegin.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagEnd.md",
-
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetInterior.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPersist.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPosition.md",
@@ -206,6 +206,14 @@
 																},
 																{
 																	type: "Group",
+																	name: "Bonus Mission NPCs",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
+																	],
+																},
+																{
+																	type: "Group",
 																	name: "Chase Manager",
 																	children:
 																	[
@@ -217,19 +225,11 @@
 																},
 																{
 																	type: "Group",
-																	name: "NPCs",
-																	children:
-																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
-																	],
-																},
-																{
-																	type: "Group",
 																	name: "Ped Groups",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddPed.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md",
 																	],
 																},
@@ -238,8 +238,8 @@
 																	name: "Traffic Groups",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md",
 																	],
 																},
@@ -250,9 +250,8 @@
 															name: "Mission Initialisation",
 															children:
 															[
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
-
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDynaLoadData.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetForcedCar.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetInitialWalk.md",
@@ -267,12 +266,11 @@
 																	name: "Stages",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
-
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetFadeOut.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
@@ -289,13 +287,12 @@
 																			name: "Objectives",
 																			children:
 																			[
-																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
-																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
-
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjectiveNPCWaypoint.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindCollectibleTo.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetTalkToTarget.md",
 																			],
