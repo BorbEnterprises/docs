@@ -106,3 +106,6 @@ You can reference a Mod Bakery project branch version inline as follows:
 Because project branch version references use IDs, they will never break and they will also show the version's version number formatted in the same way as Mod Bakery.
 
 If the project, branch, or version is not published, this will instead display the text "Invalid Project Branch Version".
+
+## License
+[MIT](https://github.com/donutteam/docs/blob/main/LICENSE.md)
