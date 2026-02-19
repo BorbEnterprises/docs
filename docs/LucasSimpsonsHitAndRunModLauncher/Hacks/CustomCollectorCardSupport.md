@@ -155,11 +155,11 @@ Doing so requires adding custom sprites and including them in specific [[/Pure3D
 		* `ViewCard` ([[/Pure3DFiles/ChunkTypes/FrontendLayer.md]])
 			* `Quotes` ([[/Pure3DFiles/ChunkTypes/FrontendGroup.md]])
 				* `Quote2` ([[/Pure3DFiles/ChunkTypes/FrontendGroup.md]])
-					`Quote2` ([[/Pure3DFiles/ChunkTypes/FrontendMultiSprite.md]])
+					* `Quote2` ([[/Pure3DFiles/ChunkTypes/FrontendMultiSprite.md]])
 				* `Quote1` ([[/Pure3DFiles/ChunkTypes/FrontendGroup.md]])
-					`Quote1` ([[/Pure3DFiles/ChunkTypes/FrontendMultiSprite.md]])
+					* `Quote1` ([[/Pure3DFiles/ChunkTypes/FrontendMultiSprite.md]])
 				* `Quote0` ([[/Pure3DFiles/ChunkTypes/FrontendGroup.md]])
-					`Quote0` ([[/Pure3DFiles/ChunkTypes/FrontendMultiSprite.md]])
+					* `Quote0` ([[/Pure3DFiles/ChunkTypes/FrontendMultiSprite.md]])
 
 Adding additional characters requires modifying both frontend files:
 * Add a [[/Pure3DFiles/ChunkTypes/Sprite.md]] chunk inside file above the [[/Pure3DFiles/ChunkTypes/FrontendProject.md]].
