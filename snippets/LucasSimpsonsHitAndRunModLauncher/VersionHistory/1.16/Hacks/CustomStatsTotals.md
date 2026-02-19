@@ -1,1 +1,1 @@
-Made the "Clothes" and "Vehicles" menus get disabled in the scrapbook if there aren't any clothes or vehicles registered respectively.
+Made the **Clothes** and **Vehicles** menus get disabled in the scrapbook if there aren't any clothes or vehicles registered respectively.

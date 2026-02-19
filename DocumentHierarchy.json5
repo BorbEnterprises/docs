@@ -135,6 +135,7 @@
 											name: "Console Commands",
 											children:
 											[
+												"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AllCommands.md",
 												{
 													type: "Group",
 													name: "CON Commands",
@@ -188,7 +189,6 @@
 																	[
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagBegin.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagEnd.md",
-
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetInterior.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPersist.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagSetPosition.md",
@@ -213,6 +213,14 @@
 																},
 																{
 																	type: "Group",
+																	name: "Bonus Mission NPCs",
+																	children:
+																	[
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
+																	],
+																},
+																{
+																	type: "Group",
 																	name: "Chase Manager",
 																	children:
 																	[
@@ -224,19 +232,11 @@
 																},
 																{
 																	type: "Group",
-																	name: "NPCs",
-																	children:
-																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPCCharacterBonusMission.md",
-																	],
-																},
-																{
-																	type: "Group",
 																	name: "Ped Groups",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddPed.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreatePedGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ClosePedGroup.md",
 																	],
 																},
@@ -245,8 +245,8 @@
 																	name: "Traffic Groups",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddTrafficModel.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CreateTrafficGroup.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseTrafficGroup.md",
 																	],
 																},
@@ -257,9 +257,8 @@
 															name: "Mission Initialisation",
 															children:
 															[
-																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseMission.md",
-
+																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SelectMission.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDynaLoadData.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetForcedCar.md",
 																"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetInitialWalk.md",
@@ -274,12 +273,11 @@
 																	name: "Stages",
 																	children:
 																	[
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
-																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
-
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/ActivateVehicle.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStage.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageTime.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddStageVehicle.md",
+																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseStage.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/RESET_TO_HERE.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetFadeOut.md",
 																		"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetHUDIcon.md",
@@ -296,13 +294,12 @@
 																			name: "Objectives",
 																			children:
 																			[
-																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
-																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
-
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddDriver.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddNPC.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjective.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/AddObjectiveNPCWaypoint.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/BindCollectibleTo.md",
+																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/CloseObjective.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetDurationTime.md",
 																				"TheSimpsonsHitAndRun/Scripting/ConsoleCommands/SetTalkToTarget.md",
 																			],
@@ -1132,8 +1129,57 @@
 							[
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/AllVersions.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.27.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.26.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.26.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.25.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.25.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.24.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.12.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.11.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.10.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.9.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.8.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.7.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.6.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.5.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.4.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.3.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.23.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.22.4.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.22.3.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.22.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.22.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.22.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.21.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.20.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.20.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.20.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.19.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.18.3.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.18.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.18.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.18.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.17.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.17.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.17.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.16.3.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.16.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.16.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.16.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.15.3.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.15.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.15.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.15.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.14.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.13.2.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.13.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.13.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.12.1.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.12.md",
 							],
-						}
+						},
 					],
 				},
 			],

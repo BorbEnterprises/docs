@@ -2,6 +2,10 @@
 title: "Override Shader Parameters"
 description: "This hack allows mods to override shader parameter values globally or for specific shaders."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 385 # 1.20.1
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/MustBeRequiredByMod.md }}
@@ -91,6 +95,3 @@ To configure this hack, create a file named `OverrideShaderParameters.xml` and a
 
 ## Version 1.20.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.2/Hacks/OverrideShaderParameters.md }}
-
-## Version 1.20.1
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.20.1/Hacks/OverrideShaderParameters.md }}

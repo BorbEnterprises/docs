@@ -1,1 +1,0 @@
-Added this hack to replace the previously included mod of the same name.

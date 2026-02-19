@@ -113,8 +113,14 @@ For more detailed information, see [[LuaScripting.md]].
 ## Version 1.23.8
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.8/Hacks/CustomFiles.md }}
 
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/CustomFiles.md }}
+
 ## Version 1.19
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.19/Hacks/CustomFiles.md }}
+
+## Version 1.15.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.2/Hacks/CustomFiles.md }}
 
 ## Version 1.13.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.13.2/Hacks/CustomFiles.md }}

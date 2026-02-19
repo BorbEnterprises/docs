@@ -1,1 +1,0 @@
-Removed this hack as it has been replaced by [[/LucasSimpsonsHitAndRunModLauncher/Hacks/AspectRatioSupport.md]].

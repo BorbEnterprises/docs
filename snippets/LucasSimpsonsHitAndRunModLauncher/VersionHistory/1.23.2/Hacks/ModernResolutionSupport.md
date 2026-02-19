@@ -1,1 +1,2 @@
-Added the `-noenumresolutions` command line argument. This stops the Mod Launcher and the hack from getting resolutions from your graphics card.
+* Added the `-noenumresolutions` command line argument. This stops the Mod Launcher and the hack from getting resolutions from your graphics card.
+* Fixed an issue when your graphics card reports 5 resolutions or less where the ingame resolution picker would have invalid resolutions and there would be asserts when the game loaded a frontend file containing one when using the -testing command line argument.

@@ -1,0 +1,1 @@
+Fixed an issue where the [ExitProcess](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) hook wasn't included in the count of hacks installed by Hack Support on this hack's Debug Text page.

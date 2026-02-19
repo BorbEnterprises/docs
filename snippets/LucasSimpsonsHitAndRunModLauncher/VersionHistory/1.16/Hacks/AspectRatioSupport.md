@@ -1,0 +1,1 @@
+Made the translucent black polygon in the background of the phonebooth handle different aspect ratios better.

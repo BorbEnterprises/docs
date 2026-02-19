@@ -209,5 +209,8 @@ FixRelativeAnimatedCamCameraChange=1
 ## Version 1.18.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.2/Hacks/BugFixes.md }}
 
+## Version 1.18
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/BugFixes.md }}
+
 ## Version 1.17
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17/Hacks/BugFixes.md }}

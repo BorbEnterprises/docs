@@ -2,6 +2,10 @@
 title: "No Introduction Movies"
 description: "This hack disables the movies seen following the license screen and when starting a new game."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 368 # 1.15
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -26,6 +30,3 @@ RequiredHack=NoIntroductionMovies
 
 ## Versions 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoIntroductionMovies.md }}
-
-## Versions 1.15
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15/Hacks/NoIntroductionMovies.md }}

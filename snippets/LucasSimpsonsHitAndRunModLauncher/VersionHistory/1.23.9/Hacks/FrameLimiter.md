@@ -1,1 +1,1 @@
-Removed the "Experimental" title from the **Load Files While Waiting** setting.
+Removed the **Experimental** title from the **Load Files While Waiting** setting.

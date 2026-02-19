@@ -2,6 +2,10 @@
 title: "No Mission Start Cameras"
 description: "This hack disables mission start cameras as well as the character walking to a location at the start of a mission."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 372 # 1.16
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -23,6 +27,3 @@ RequiredHack=NoMissionStartCameras
 
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoMissionStartCameras.md }}
-
-## Version 1.16
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/NoMissionStartCameras.md }}

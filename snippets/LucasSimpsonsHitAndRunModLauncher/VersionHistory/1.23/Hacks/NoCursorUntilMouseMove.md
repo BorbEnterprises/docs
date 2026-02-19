@@ -1,2 +1,3 @@
 * Added a description to this hack.
-* Added the "Tolerance" setting.
+* Made this hack only show the cursor if it moves more than 5 pixels on either axis. This tolerance is customisable in the hack's settings (0 meaning any movement and -1 meaning the old behaviour where it will show up any time the window receives a mouse move event even if the cursor's position doesn't change).
+	* Also added the **Tolerance** setting to customise this.

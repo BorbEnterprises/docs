@@ -99,6 +99,9 @@ This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Laun
 ## Version 1.19
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.19/Hacks/DebugText.md }}
 
+## Version 1.18.3
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.3/Hacks/DebugText.md }}
+
 ## Version 1.18.2
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18.2/Hacks/DebugText.md }}
 

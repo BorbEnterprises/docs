@@ -63,5 +63,20 @@ This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Laun
 ## Version 1.23.3
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.3/Hacks/DebugChecks.md }}
 
+## Version 1.22.4
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.4/Hacks/DebugChecks.md }}
+
+## Version 1.22.3
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22.3/Hacks/DebugChecks.md }}
+
+## Version 1.22
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.22/Hacks/DebugChecks.md }}
+
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/DebugChecks.md }}
+
+## Version 1.17.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17.2/Hacks/DebugChecks.md }}
+
+## Version 1.17.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17.1/Hacks/DebugChecks.md }}

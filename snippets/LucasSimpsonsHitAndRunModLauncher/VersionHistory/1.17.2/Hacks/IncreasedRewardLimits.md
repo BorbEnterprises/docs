@@ -1,0 +1,1 @@
+Increased the limit of car attributes registered with SetCarAttributes from 50 to infinity.

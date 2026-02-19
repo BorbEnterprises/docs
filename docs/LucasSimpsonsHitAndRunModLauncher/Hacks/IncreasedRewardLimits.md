@@ -64,3 +64,6 @@ SkinLimit=64
 
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/IncreasedRewardLimits.md }}
+
+## Version 1.17.2
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.17.2/Hacks/IncreasedRewardLimits.md }}

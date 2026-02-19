@@ -1,0 +1,2 @@
+* Made it so this hack uses Discord RPC as a DLL instead of using the version embedded into Hacks.dll if such a DLL file (discord-rpc.dll) inexplicably exists in the DLLs folder.
+	* The `-discordrpc` command line argument opts out of this inexplicable behaviour.

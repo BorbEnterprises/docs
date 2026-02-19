@@ -1,1 +1,2 @@
-Made it so this hack does not assert if a locator is missing if Missing Locator Detection is enabled in Debug Checks.
+* Fixed a crash when cancelling a mission or failing a mission and choosing "no" when the player is inside some types of disabled triggers.
+* Made it so this hack does not assert if a locator is missing if Missing Locator Detection is enabled in Debug Checks.

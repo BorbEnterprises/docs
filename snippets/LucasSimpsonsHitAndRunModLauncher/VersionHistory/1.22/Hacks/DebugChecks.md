@@ -1,0 +1,4 @@
+* Added **Experimental Missing Detection > Composite Drawable** to detect when a composite drawable is missing in cases where that matters.
+* Moved **Experimental Missing Locator Detection** to the new **Experimental Missing Detection** group and renamed it accordingly.
+* Made exceeding tree node entity limits get detected immediately instead of the next frame (when the game may have already crashed) and made the limit get increased on the fly instead of corrupting the game.
+    * If multiple limits are exceeded during a set of zones being loaded (such as when hitting a load zone or selecting/restarting a mission), a single message is shown by default though this can be disabled by unticking **Combine Zone Tree Node Exceeded Messages**.

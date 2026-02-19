@@ -1,0 +1,1 @@
+Made compiling an encrypted mod not require loading all the data of the mod to memory.

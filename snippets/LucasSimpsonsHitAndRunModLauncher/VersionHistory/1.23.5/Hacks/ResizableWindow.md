@@ -1,0 +1,1 @@
+Made it so crashes in the resizing timer callback save a crash dump before terminating the game.

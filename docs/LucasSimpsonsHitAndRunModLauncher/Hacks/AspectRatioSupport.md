@@ -46,5 +46,8 @@ TODO
 ## Version 1.16.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16.1/Hacks/AspectRatioSupport.md }}
 
+## Version 1.16
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/AspectRatioSupport.md }}
+
 ## Version 1.15.1
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.15.1/Hacks/AspectRatioSupport.md }}

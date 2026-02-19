@@ -5,7 +5,7 @@ authors: [ 2 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main
-  projectBranchVersion_id: 393 # 1.23
+  projectBranchVersion_id: 387 # 1.21
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -24,3 +24,7 @@ The level of anti-aliasing to use.
 
 # Command Line Arguments
 This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Launcher.
+
+# Version History
+## Version 1.23
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23/Hacks/Antialiasing.md }}

@@ -1,0 +1,1 @@
+Fixed a bug where disabling **Combine Zone Tree Node Exceeded Messages** didn't do anything.

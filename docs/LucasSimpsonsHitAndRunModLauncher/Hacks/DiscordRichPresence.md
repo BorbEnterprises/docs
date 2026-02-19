@@ -143,6 +143,9 @@ This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Laun
 ## Version 1.27
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/DiscordRichPresence.md }}
 
+## Version 1.26
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/DiscordRichPresence.md }}
+
 ## Version 1.23.10
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.10/Hacks/DiscordRichPresence.md }}
 

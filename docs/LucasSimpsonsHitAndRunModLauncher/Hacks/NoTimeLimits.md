@@ -2,6 +2,10 @@
 title: "No Time Limits"
 description: "This hack stops timers from counting down."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 362 # Version 1.12
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -30,6 +34,3 @@ Set whether or not the timer for "timer" objectives will be frozen.
 
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoTimeLimits.md }}
-
-## Version 1.12
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/NoTimeLimits.md }}

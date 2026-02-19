@@ -2,6 +2,10 @@
 title: "No Inactive Dynamic Object Collisions"
 description: "This hack prevents inactive dynamic objects from colliding with each other."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 372 # 1.16
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -20,6 +24,3 @@ RequiredHack=NoInactiveDynamicObjectCollisions
 # Version History
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoInactiveDynamicObjectCollisions.md }}
-
-## Version 1.16
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.16/Hacks/NoInactiveDynamicObjectCollisions.md }}

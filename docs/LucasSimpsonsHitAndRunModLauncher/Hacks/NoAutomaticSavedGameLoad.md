@@ -2,6 +2,10 @@
 title: "No Automatic Saved Game Load"
 description: "This hack makes it so the game does not automatically load the most recent saved game at startup."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 362 # 1.12
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -20,6 +24,3 @@ RequiredHack=NoAutomaticSavedGameLoad
 # Version History
 ## Version 1.18
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.18/Hacks/NoAutomaticSavedGameLoad.md }}
-
-## Version 1.12
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.12/Hacks/NoAutomaticSavedGameLoad.md }}

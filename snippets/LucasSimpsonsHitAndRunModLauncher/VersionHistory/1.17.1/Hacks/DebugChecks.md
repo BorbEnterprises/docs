@@ -1,0 +1,1 @@
+Updated this hack to not be enabled by default and not be hidden by default.

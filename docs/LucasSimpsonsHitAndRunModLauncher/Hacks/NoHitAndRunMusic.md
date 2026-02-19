@@ -2,6 +2,10 @@
 title: "No Hit & Run Music"
 description: "This hack makes it so there is no special music during a Hit & Run."
 authors: [ 2 ]
+initialVersion:
+  project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
+  projectBranch_id: 46 # Main
+  projectBranchVersion_id: 399 # 1.23.6
 ---
 
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/CanBeEnabledOnSettingsPage.md }}
@@ -16,7 +20,3 @@ To require this hack, add this line to your mod's Meta.ini:
 ```ini
 RequiredHack=NoHitAndRunMusic
 ```
-
-# Version History
-## Version 1.23.6
-{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.23.6/Hacks/NoHitAndRunMusic.md }}
