@@ -178,7 +178,7 @@ In addition to this, the following changes were made:
 * Added the ability to destroy each other's cars.
 	* Husks are not currently supported and are fully disabled.
 * No longer requires the No Wrenches hack.
-* Now requires the new No Explosion Exit Dely hack.
+* Now requires the new No Explosion Exit Delay hack.
 * Added " (Beta)" to the end of the hack's title to indicate this is still very much a work-in-progress.
 * Now requires the Unlock All Outfits hack.
 * Now requires the Unlock All Vehicles hack.
