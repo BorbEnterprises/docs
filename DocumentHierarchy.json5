@@ -489,7 +489,6 @@
 						"LucasRadcoreCementLibraryBuilder/Intro.md",
 						"LucasRadcoreCementLibraryBuilder/CommandLineArguments.md",
 						"LucasRadcoreCementLibraryBuilder/Tutorials.md",
-					],
 						{
 							type: "Group",
 							name: "Version History",
@@ -499,6 +498,7 @@
 								"LucasRadcoreCementLibraryBuilder/VersionHistory/Version_1.0.md",
 							],
 						},
+					],
 				},
 				{
 					type: "Group",
