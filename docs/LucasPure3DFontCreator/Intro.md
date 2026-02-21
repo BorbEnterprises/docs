@@ -11,4 +11,4 @@ Lucas' Pure3D Font Creator is a tool that allows you to easily generate Texture 
 This tool is available on Mod Bakery: [Project:10]
 
 # Version History
-See [[VersionHistory.md]].
+See [[VersionHistory/AllVersions.md]].

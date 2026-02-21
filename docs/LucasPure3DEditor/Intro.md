@@ -12,4 +12,4 @@ The tool primarily focuses on support for Pure3D files and chunks found in The S
 This tool is available on Mod Bakery: [Project:9]
 
 # Version History
-See [[VersionHistory.md]].
+See [[VersionHistory/AllVersions.md]].

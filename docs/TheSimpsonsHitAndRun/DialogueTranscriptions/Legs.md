@@ -6,6 +6,7 @@ authors: [ 104 ]
 
 This page has transcriptions of Leg's dialogue.
 
+# legs Folder
 | File                           | Transcription                                    |
 |--------------------------------|--------------------------------------------------|
 | legs/p_hitbyc_leg_giggle.rsd   | What are you, on the giggle juice?               |

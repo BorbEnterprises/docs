@@ -6,10 +6,13 @@ authors: [ 104 ]
 
 This page has transcriptions of Lenny Leonard's dialogue.
 
-| File                                    | Transcription                                                                 |
-|-----------------------------------------|-------------------------------------------------------------------------------|
-| lenny/c_churro2_1_convinit_len_l1m3.rsd | Hey Homer, how 'bout a breakfast churro?                                      |
-| lenny/c_churro2_3_convinit_len_l1m3.rsd | Yeah, I think I saw him at the Kwik-E-Mart. More breakfast churros for Lenny! |
+# conversations Folder
+| File                                            | Transcription                                                                 |
+|-------------------------------------------------|-------------------------------------------------------------------------------|
+| conversations/c_churro2_1_convinit_len_l1m3.rsd | Hey Homer, how 'bout a breakfast churro?                                      |
+| conversations/c_churro2_3_convinit_len_l1m3.rsd | Yeah, I think I saw him at the Kwik-E-Mart. More breakfast churros for Lenny! |
+
+# lenny Folder
 | lenny/p_hitbyc_len_eye.rsd              | My eye!                                                                       |
 | lenny/p_hitbyc_len_scream.rsd           | Ah! More pain for Lenny!                                                      |
 | lenny/p_hitbyc_len_war.rsd              | Who would do this to a war hero?                                              |

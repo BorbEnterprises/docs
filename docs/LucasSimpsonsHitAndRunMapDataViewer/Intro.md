@@ -10,3 +10,6 @@ It especially helps with finding specific instances of chunk types that don't st
 
 # Download
 This tool is available on Mod Bakery: [Project:5]
+
+# Version History
+See [[VersionHistory/AllVersions.md]].

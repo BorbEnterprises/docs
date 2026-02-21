@@ -20,4 +20,4 @@ For available command line arguments, see [[CommandLineArguments.md]].
 For tutorials on how to use the tool, see [[Tutorials.md]].
 
 # Version History
-See [[VersionHistory.md]].
+See [[VersionHistory/AllVersions.md]].

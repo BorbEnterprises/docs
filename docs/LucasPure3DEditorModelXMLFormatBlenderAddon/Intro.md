@@ -12,4 +12,4 @@ As of Version 1.1.3, the addon is supported in Blender versions 2.63 through 2.8
 This tool is available on Mod Bakery: [Project:8]
 
 # Version History
-See [[VersionHistory.md]].
+See [[VersionHistory/AllVersions.md]].

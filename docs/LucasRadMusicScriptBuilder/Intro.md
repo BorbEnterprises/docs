@@ -16,3 +16,6 @@ This tool is available on Mod Bakery: [Project:12]
 # Useful Pages
 * [[CommandLineArguments.md]]: Learn about all the command line arguments the tool has.
 * [[XMLFormat.md]]: Learn all about the XML format the tool creates and reads.
+
+# Version History
+See [[VersionHistory/AllVersions.md]].

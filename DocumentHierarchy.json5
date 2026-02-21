@@ -429,7 +429,15 @@
 										"TheSimpsonsHitAndRun/Softlocks.md",
 										"TheSimpsonsHitAndRun/VehicleBehaviours.md",
 									],
-								}
+								},
+								{
+									type: "Group",
+									name: "Tutorials",
+									children:
+									[
+										"TheSimpsonsHitAndRun/Tutorials/UsingReShade.md",
+									],
+								},
 							],
 						},
 					],
@@ -447,7 +455,27 @@
 					children:
 					[
 						"LucasPure3DEditor/Intro.md",
-						"LucasPure3DEditor/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasPure3DEditor/VersionHistory/AllVersions.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.5.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.4.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.3.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.2.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.2.1.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.4.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.3.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.1.1.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.0.2.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.0.1.md",
+								"LucasPure3DEditor/VersionHistory/Version_4.0.md",
+							],
+						},
 					],
 				},
 				{
@@ -456,7 +484,19 @@
 					children:
 					[
 						"LucasPure3DEditorModelXMLFormatBlenderAddon/Intro.md",
-						"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/AllVersions.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.3.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.2.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.1.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.1.md",
+								"LucasPure3DEditorModelXMLFormatBlenderAddon/VersionHistory/Version_1.0.md",
+							],
+						},
 					],
 				},
 				{
@@ -465,7 +505,15 @@
 					children:
 					[
 						"LucasPure3DFontCreator/Intro.md",
-						"LucasPure3DFontCreator/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasPure3DFontCreator/VersionHistory/AllVersions.md",
+								"LucasPure3DFontCreator/VersionHistory/Version_1.0.md",
+							],
+						},
 					],
 				},
 				{
@@ -476,7 +524,15 @@
 						"LucasRadcoreCementLibraryBuilder/Intro.md",
 						"LucasRadcoreCementLibraryBuilder/CommandLineArguments.md",
 						"LucasRadcoreCementLibraryBuilder/Tutorials.md",
-						"LucasRadcoreCementLibraryBuilder/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasRadcoreCementLibraryBuilder/VersionHistory/AllVersions.md",
+								"LucasRadcoreCementLibraryBuilder/VersionHistory/Version_1.0.md",
+							],
+						},
 					],
 				},
 				{
@@ -496,7 +552,17 @@
 								"LucasRadMusicScriptBuilder/Tutorials/ConvertingXMLToRMS.md",
 							],
 						},
-						"LucasRadMusicScriptBuilder/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasRadMusicScriptBuilder/VersionHistory/AllVersions.md",
+								"LucasRadMusicScriptBuilder/VersionHistory/Version_1.1.1.md",
+								"LucasRadMusicScriptBuilder/VersionHistory/Version_1.1.md",
+								"LucasRadMusicScriptBuilder/VersionHistory/Version_1.0.md",
+							],
+						},
 					],
 				},
 				{
@@ -505,7 +571,16 @@
 					children:
 					[
 						"LucasSimpsonsHitAndRunCarShadowAdjuster/Intro.md",
-						"LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory/AllVersions.md",
+								"LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory/Version_1.0.2.md",
+								"LucasSimpsonsHitAndRunCarShadowAdjuster/VersionHistory/Version_1.0.1.md",
+							],
+						},
 					],
 				},
 				{
@@ -514,7 +589,17 @@
 					children:
 					[
 						"LucasSimpsonsHitAndRunMapDataViewer/Intro.md",
-						"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory.md",
+						{
+							type: "Group",
+							name: "Lucas' Simpsons Hit & Run Map Data Viewer",
+							children:
+							[
+								"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory/AllVersions.md",
+								"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory/Version_1.0.2.md",
+								"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory/Version_1.0.1.md",
+								"LucasSimpsonsHitAndRunMapDataViewer/VersionHistory/Version_1.0.md",
+							],
+						},
 					],
 				},
 				{

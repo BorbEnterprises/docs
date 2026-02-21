@@ -6,6 +6,7 @@ authors: [ 104 ]
 
 This page has transcriptions of Louie's dialogue.
 
+# louie Folder
 | File                            | Transcription                                             | Notes                      |
 |---------------------------------|-----------------------------------------------------------|----------------------------|
 | louie/p_hitbyc_lou_01.rsd       | What am I, a clown to you?                                |                            |
