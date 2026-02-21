@@ -6,6 +6,7 @@ authors: [ 104 ]
 
 This page has transcriptions of Gil Gunderson's dialogue.
 
+# gil Folder
 | File                    | Transcription                                     |
 |-------------------------|---------------------------------------------------|
 | gil/p_hitbyc_gil_01.rsd | Old Gil's gonna sue! I'm gonna be on easy street! |

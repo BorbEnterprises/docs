@@ -6,6 +6,7 @@ authors: [ 104 ]
 
 This page has transcriptions of Lou the Cop's dialogue.
 
+# loecop Folder
 | File                             | Transcription                                                |
 |----------------------------------|--------------------------------------------------------------|
 | loecop/p_hitbyc_loe_bruise.rsd   | Someone call a cop!                                          |

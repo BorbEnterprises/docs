@@ -6,6 +6,7 @@ authors: [ 104 ]
 
 This page has transcriptions of Bumblebee Man's dialogue.
 
+# bumblebee Folder
 | File                               | Transcription                            |
 |------------------------------------|------------------------------------------|
 | bumblebee/p_hitbyc_bee_01.rsd      | Ay, que lastima!                         |
