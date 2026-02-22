@@ -11,7 +11,7 @@ initialVersion:
 Set the name of the camera and multi controller to use for a [[../MissionObjectives/camera.md]].
 
 # Scope
-{{ snippet hitandrun/command-contexts/mission-init-stage-objective }}
+{{ Snippet:TheSimpsonsHitAndRun/Scripting/ConsoleCommands/Scopes/MissionInitStageObjective.md }}
 
 # Syntax
 {{ tabs }}
