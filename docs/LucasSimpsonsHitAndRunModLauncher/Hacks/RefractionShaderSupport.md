@@ -29,4 +29,4 @@ This hack is affected by certain [[../CommandLineArguments.md]] for the Mod Laun
 
 # Version History
 ## Version 1.26
-{{ snippet lucasmodlauncher/versions/1.26/hack_refraction-shader-support }}
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.26/Hacks/RefractionShaderSupport.md }}
