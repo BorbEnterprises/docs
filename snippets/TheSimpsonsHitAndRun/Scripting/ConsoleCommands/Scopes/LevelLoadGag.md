@@ -1,0 +1,1 @@
+This command should be called between calls to [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagBegin.md]] and [[/TheSimpsonsHitAndRun/Scripting/ConsoleCommands/GagEnd.md]] in a level's load script.
