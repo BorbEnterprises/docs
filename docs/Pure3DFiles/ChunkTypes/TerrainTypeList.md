@@ -22,6 +22,7 @@ TODO
 ## Types
 **1 byte**
 | Name   | Value |
+|--------|-------|
 | Road   | 0     |
 | Grass  | 1     |
 | Sand   | 2     |
