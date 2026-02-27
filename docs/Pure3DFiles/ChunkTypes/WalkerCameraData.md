@@ -10,10 +10,10 @@ TODO
 | Property     | Data Type | Description              |
 |--------------|-----------|--------------------------|
 | Index        | uint32    | The index of the camera. |
-| MinMagnitude | float     |                          |
-| MaxMagnitude | float     |                          |
-| Elevation    | float     |                          |
-| TargetOffset | Vector3   |                          |
+| MinMagnitude | float     | TODO                     |
+| MaxMagnitude | float     | TODO                     |
+| Elevation    | float     | TODO                     |
+| TargetOffset | Vector3   | TODO                     |
 
 # Parents
 No valid parents.
