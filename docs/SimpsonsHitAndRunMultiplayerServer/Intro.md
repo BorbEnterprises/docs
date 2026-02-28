@@ -1,0 +1,38 @@
+---
+title: "Simpsons Hit & Run Multiplayer (SHAR MP) Server"
+title_hierarchy: "Introduction"
+description: "The Simpsons Hit & Run Multiplayer Server allows you to play The Simpsons: Hit & Run with your friends, enemies and anyone in between!"
+authors: [ 2 ]
+---
+
+The SHAR MP Server allows you to play The Simpsons: Hit & Run with your friends, enemies and anyone in between!
+
+This software is used in conjunction with the [[/LucasSimpsonsHitAndRunModLauncher/Hacks/Multiplayer.md]] hack included with Version 1.27 and newer of [[/LucasSimpsonsHitAndRunModLauncher/Intro.md]].
+
+# Download
+This tool is available on Mod Bakery: [Project:124]
+
+# Configuration
+See [[Configuration.md]].
+
+# Command Line Arguments.
+See [[CommandLineArguments.md]].
+
+# System Requirements
+{{ tabs }}
+{{ tab Windows }}
+* **Operating System**: Windows 8 or newer (64-bit)
+* **Processor**: 64-bit
+* **Memory**: 1 GB
+* **Runtime**: [Microsoft .NET Desktop Runtime 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+{{ endtab }}
+{{ tab Linux }}
+* **Operating System**: 64-bit
+* **Processor**: 64-bit
+* **Memory**: 1 GB
+* **Runtime**: [Microsoft .NET Desktop Runtime 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+{{ endtab }}
+{{ endtabs }}
+
+# Version History
+See [[VersionHistory/AllVersions.md]].

@@ -1268,6 +1268,25 @@
 						},
 					],
 				},
+				{
+					type: "Group",
+					name: "Simpsons Hit & Run Multiplayer Server",
+					children:
+					[
+						"SimpsonsHitAndRunMultiplayerServer/Intro.md",
+						"SimpsonsHitAndRunMultiplayerServer/Configuration.md",
+						"SimpsonsHitAndRunMultiplayerServer/CommandLineArguments.md",
+						{
+							type: "Group",
+							name: "Version History",
+							children:
+							[
+								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/AllVersions.md",
+								"SimpsonsHitAndRunMultiplayerServer/VersionHistory/Version_1.0.md",
+							],
+						},
+					],
+				}
 			],
 		},
 	],
