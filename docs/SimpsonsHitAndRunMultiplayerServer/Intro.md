@@ -15,7 +15,7 @@ This tool is available on Mod Bakery: [Project:124]
 # Configuration
 See [[Configuration.md]].
 
-# Command Line Arguments.
+# Command Line Arguments
 See [[CommandLineArguments.md]].
 
 # System Requirements
