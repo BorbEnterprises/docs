@@ -1,7 +1,7 @@
 ---
 title: "Multiplayer (Beta)"
 description: "This hack makes the game have online multiplayer."
-authors: [ 2 ]
+authors: [ 2, 1 ]
 initialVersion:
   project_id: 6 # Lucas' Simpsons Hit & Run Mod Launcher
   projectBranch_id: 46 # Main
@@ -39,7 +39,9 @@ The port to connect to on the host.
 The password for the server, if required.
 
 ### Low Bandwidth
-TODO
+Requests the server to send data at a lower rate.
+
+**Defaults to Off.**
 
 ## Keybinds
 ### User Interface
