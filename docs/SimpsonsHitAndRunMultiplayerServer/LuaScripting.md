@@ -8,8 +8,8 @@ The Simpsons Hit & Run Multiplayer (SHAR MP) Server has a Lua Scripting componen
 
 Mods define an entry point Lua script that is executed as soon as the mod is loaded. This script can then define functions that will be executed when certain events are fired on the server.
 
-# Allowed Functions/Variables
-For a list of all of the stock Lua functions and variables that are allowed with this hack, see [[AllowedLuaFunctionsAndVariables.md]].
+# Blocked Functions/Variables
+For a list of all of the stock Lua functions and variables that are blocked in Simpsons Hit & Run Multiplayer Server, see [[BlockedLuaFunctionsAndVariables.md]].
 
 # Additional Functionality
 
