@@ -85,3 +85,12 @@ Disables this message logged to the console on startup about paying for this sof
 ```sh
 ./SHARMPServer --shut-up-i-am-not-being-scammed
 ```
+
+## --generate-docs
+**Added in Version 1.0.**
+
+Generates a Lua Scripting API Reference document.
+
+```sh
+./SHARMPServer --generate-docs
+```
