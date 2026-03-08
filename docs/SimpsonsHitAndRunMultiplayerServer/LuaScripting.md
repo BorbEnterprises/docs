@@ -46,6 +46,6 @@ In some cases, functions may return data structures that represent certain conce
 
 | Return Type                        | Description                                   |
 |------------------------------------|-----------------------------------------------|
-| [[ReturnTypes/Configuration.md]]   | Data representing the server's configuration. |
-| [[ReturnTypes/Player.md]]          | Data representing a player on the server.     |
-| [[ReturnTypes/PlayerCharacter.md]] | Data representing a player's character.       |
+| [[DataStructures/Configuration.md]]   | Data representing the server's configuration. |
+| [[DataStructures/Player.md]]          | Data representing a player on the server.     |
+| [[DataStructures/PlayerCharacter.md]] | Data representing a player's character.       |

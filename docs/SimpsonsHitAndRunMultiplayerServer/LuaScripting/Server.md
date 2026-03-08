@@ -13,7 +13,7 @@ The `Server` table provides information about the server and the players connect
 ## Variables
 | Variable Name | Type                                | Description                          |
 |---------------|-------------------------------------|--------------------------------------|
-| `Config`      | [[../ReturnTypes/Configuration.md]] | The server's configuration settings. |
+| `Config`      | [[../DataStructures/Configuration.md]] | The server's configuration settings. |
 
 ## Methods
 | Function Name                     | Description                                                                   |

@@ -19,7 +19,7 @@ Server.Players.GetPlayers()
 No arguments.
 
 ## Return Values
-* (table): A table of all connected [[../../ReturnTypes/Player.md]] objects.
+* (table): A table of all connected [[../../DataStructures/Player.md]] objects.
 
 # Examples
 ```lua
