@@ -18,6 +18,9 @@ See [[Configuration.md]].
 # Command Line Arguments
 See [[CommandLineArguments.md]].
 
+# Modding
+See [[LuaScripting.md]] to learn how to create Lua scripts for SHAR MP Server.
+
 # System Requirements
 {{ tabs }}
 {{ tab Windows }}

@@ -1276,6 +1276,220 @@
 						"SimpsonsHitAndRunMultiplayerServer/Intro.md",
 						"SimpsonsHitAndRunMultiplayerServer/Configuration.md",
 						"SimpsonsHitAndRunMultiplayerServer/CommandLineArguments.md",
+						"SimpsonsHitAndRunMultiplayerServer/LuaScripting.md",
+						{
+							type: "Group",
+							name: "Lua API Reference",
+							children:
+							[
+								"SimpsonsHitAndRunMultiplayerServer/BlockedLuaFunctionsAndVariables.md",
+								{
+									type: "Group",
+									name: "Data Structures",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/DataStructures/Configuration.md",
+										"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player.md",
+										{
+											type: "Group",
+											name: "Player Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/ChangeSession.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/Kick.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendCreateExplosion.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendCreateMissionRadarIcon.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendDeleteMissionRadarIcon.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGameChatMessage.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerCharacterJump.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerKick.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGamePlayerSetNameAndRole.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SendGameResync.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SetDynaloadData.md",
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/Player/SetPosition.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/DataStructures/PlayerCharacter.md",
+										{
+											type: "Group",
+											name: "PlayerCharacter Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/DataStructures/PlayerCharacter/GetPosition.md",
+											],
+										},
+									],
+								},	
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Cryptography.md",
+								{
+									type: "Group",
+									name: "Cryptography Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Cryptography/SHA256.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime.md",
+								{
+									type: "Group",
+									name: "DateTime Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/date.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/now.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB.md",
+								{
+									type: "Group",
+									name: "DB Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/Connect.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/Disconnect.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/Execute.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB/LastInsertId.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory.md",
+								{
+									type: "Group",
+									name: "Directory Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Create.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Delete.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Exists.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Directory/Scan.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.md",
+								{
+									type: "Group",
+									name: "Engine Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Quaternion.md",
+										{
+											type: "Group",
+											name: "Engine.Quaternion Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Quaternion/create.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3.md",
+										{
+											type: "Group",
+											name: "Engine.Vector3 Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/create.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Add.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Angle.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/ClampMagnitude.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Cross.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Distance.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Dot.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Lerp.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/LerpUnclamped.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Max.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Min.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Normalize.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.Vector3/Set.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil.md",
+										{
+											type: "Group",
+											name: "Engine.VectorUtil Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/GetDistance2D.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InArea.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InBox.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InCircle.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/InSphere.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Engine.VectorUtil/WithinDistance.md",
+											],
+										},
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File.md",
+								{
+									type: "Group",
+									name: "File Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Delete.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Exists.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadAll.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Require.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/RequireOnce.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Write.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.md",
+								{
+									type: "Group",
+									name: "Server Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server/AddEventListener.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server/RemoveEventListener.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server/TriggerEvent.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Commands.md",
+										{
+											type: "Group",
+											name: "Server.Commands Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Commands/Register.md",
+											],
+										},
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players.md",
+										{
+											type: "Group",
+											name: "Server.Players Functions",
+											children:
+											[
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players/GetPlayer.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players/GetPlayers.md",
+												"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.Players/GetPlayersWhere.md",
+											],
+										},
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Session.md",
+								{
+									type: "Group",
+									name: "Session Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Session/GetMainMods.md",
+									],
+								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String.md",
+								{
+									type: "Group",
+									name: "String Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/GUID.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/IsEmpty.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Random.md",
+									],
+								},
+								{
+									type: "Group",
+									name: "Global Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/print_r.md",
+									],
+								},
+							],
+						},					
 						{
 							type: "Group",
 							name: "Version History",

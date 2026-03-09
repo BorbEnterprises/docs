@@ -1,0 +1,21 @@
+---
+title: "String"
+description: "Provides information about the String table available in Simpsons Hit & Run Multiplayer Server mods."
+authors: [ 1 ]
+initialVersion:
+  project_id: 124 # Simpsons Hit & Run Multiplayer (SHAR MP) Server
+  projectBranch_id: 165 # Main Branch
+  projectBranchVersion_id: 441 # 1.0
+---
+
+The `String` table provides functions for working with strings.;
+
+## Variables
+This table does not have any variables.
+
+## Methods
+| Function Name         | Description                                                                                   |
+|-----------------------|-----------------------------------------------------------------------------------------------|
+| [[String/GUID.md]]    | Generates a globally unique identifier (GUID) as a string.                                    |
+| [[String/Random.md]]  | Generates a random string of a specified length, optionally using a custom set of characters. |
+| [[String/IsEmpty.md]] | Checks if a string is empty or nil.                                                           |
