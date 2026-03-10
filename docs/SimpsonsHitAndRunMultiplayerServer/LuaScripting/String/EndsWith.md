@@ -12,20 +12,20 @@ Checks if a string ends with a specified substring.
 
 # Syntax
 ```lua
-String.EndsWith( input, substring, [ ignoreCase ] )
+String.EndsWith( input, substring, [ comparisonType ] )
 ```
 
 ## Arguments
 * `input` (string): The string to be checked.
 * `substring` (string): The substring to check for at the end of the string.
-* `ignoreCase` (boolean, optional): Whether to ignore case when checking. Defaults to `false`.
+* `comparisonType` ([[StringComparison.md]], optional): The type of string comparison to perform. Defaults to `Ordinal`.
 
 ## Return Values
 * (boolean): `true` if the string ends with the specified substring, `false` otherwise.
 
 # Examples
 ```lua
-local result = String.EndsWith("Hello, world!", "world!")
+local result = String.EndsWith("Hello, world!", "World!", String.StringComparison.OrdinalIgnoreCase)
 if result then
     print("The string ends with 'world!'")
 else

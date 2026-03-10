@@ -12,20 +12,20 @@ Checks if a string starts with a specified substring.
 
 # Syntax
 ```lua
-String.StartsWith( input, substring, [ ignoreCase ] )
+String.StartsWith( input, substring, [ comparisonType ] )
 ```
 
 ## Arguments
 * `input` (string): The string to be checked.
 * `substring` (string): The substring to check for at the start of the string.
-* `ignoreCase` (boolean, optional): Whether to ignore case when checking. Defaults to `false`.
+* `comparisonType` ([[StringComparison.md]], optional): The type of string comparison to perform. Defaults to `Ordinal`.
 
 ## Return Values
 * (boolean): `true` if the string starts with the specified substring, `false` otherwise.
 
 # Examples
 ```lua
-local result = String.StartsWith("Hello, world!", "Hello")
+local result = String.StartsWith("Hello, world!", "hello", String.StringComparison.OrdinalIgnoreCase)
 if result then
     print("The string starts with 'Hello'")
 else

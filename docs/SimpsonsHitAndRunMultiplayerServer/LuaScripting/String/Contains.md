@@ -12,13 +12,13 @@ Checks if a string contains a specified substring.
 
 # Syntax
 ```lua
-String.Contains( input, substring, [ ignoreCase ] )
+String.Contains( input, substring, [ comparisonType ] )
 ```
 
 ## Arguments
 * `input` (string): The string to be checked.
 * `substring` (string): The substring to check for within the string.
-* `ignoreCase` (boolean, optional): Whether to ignore case when checking. Defaults to `false`.
+* `comparisonType` ([[StringComparison.md]], optional): The type of string comparison to perform. Defaults to `Ordinal`.
 
 ## Return Values
 * (boolean): `true` if the string contains the specified substring, `false` otherwise.

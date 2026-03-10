@@ -1475,6 +1475,14 @@
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String.md",
 								{
 									type: "Group",
+									name: "String Enumerations",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StringComparison.md",
+									]
+								},
+								{
+									type: "Group",
 									name: "String Functions",
 									children:
 									[

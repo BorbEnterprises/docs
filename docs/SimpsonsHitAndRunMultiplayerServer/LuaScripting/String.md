@@ -11,7 +11,9 @@ initialVersion:
 The `String` table provides functions for working with strings.;
 
 ## Variables
-This table does not have any variables.
+| Variable Name                  | Description                                            |
+|--------------------------------|--------------------------------------------------------|
+| [[String/StringComparison.md]] | An enumeration for specifying string comparison types. |
 
 ## Methods
 | Function Name            | Description                                                                                   |
