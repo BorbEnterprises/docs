@@ -1489,6 +1489,15 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Trim.md",
 									],
 								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/System.md",
+								{
+									type: "Group",
+									name: "System Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/System/Sleep.md",
+									],
+								},
 								{
 									type: "Group",
 									name: "Global Functions",

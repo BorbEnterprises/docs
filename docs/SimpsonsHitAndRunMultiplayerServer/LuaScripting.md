@@ -31,6 +31,7 @@ The Lua Scripting component also provides some additional functionality that mod
 | [[LuaScripting/Server.Players.md]]    | Provides functions for working with players on the server.      |
 | [[LuaScripting/Session.md]]           | Provides functions for working with multiplayer sessions.       |
 | [[LuaScripting/String.md]]            | Provides functions for working with strings.                    |
+| [[LuaScripting/System.md]]            | Provides structural functions.                                  |
 
 ## Global Functions
 
