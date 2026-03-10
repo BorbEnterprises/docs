@@ -1336,8 +1336,8 @@
 									name: "DateTime Functions",
 									children:
 									[
-										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/date.md",
-										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/now.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/Date.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DateTime/Now.md",
 									],
 								},
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/DB.md",
@@ -1425,6 +1425,7 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Delete.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Exists.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadAll.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/ReadOffset.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Require.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/RequireOnce.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/File/Write.md",

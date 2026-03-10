@@ -17,5 +17,5 @@ This table does not have any variables.
 
 | Function Name        | Description                                                                                        |
 |----------------------|----------------------------------------------------------------------------------------------------|
-| [[DateTime/now.md]]  | Returns the current date and time.                                                                 |
-| [[DateTime/date.md]] | Returns a formatted date string based on the provided format string and the current date and time. |
+| [[DateTime/Now.md]]  | Returns the current date and time.                                                                 |
+| [[DateTime/Date.md]] | Returns a formatted date string based on the provided format string and the current date and time. |
