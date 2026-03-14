@@ -132,6 +132,22 @@ MaxY=120
 MaxZ=120
 ```
 {{ endtab }}
+{{ tab Per Interior Jumping/Kicking/Sprinting Example }}
+```ini
+[Interior]
+Name=ExampleFightClubinterior
+
+Level=4
+
+; ...
+
+; Allow Jumping, Kicking and Sprinting in here!
+;	(you can just allow some or none (the default) too)
+AllowJumping=1
+AllowKicking=1
+AllowSprinting=1
+```
+{{ endtab }}
 {{ tab Default Interiors }}
 ```ini
 [Interior]
