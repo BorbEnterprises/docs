@@ -1,7 +1,7 @@
 ---
 title: "Known Issues"
 description: "Known issues in Lucas' Simpsons Hit & Run Mod Launcher and their status."
-authors: [ 2 ]
+authors: [ 2, 6310 ]
 ---
 
 This page documents known issues in Lucas' Simpsons Hit & Run Mod Launcher.
@@ -12,7 +12,7 @@ The known issues here are reflective of the current version of the Mod Launcher.
 ## About Window
 * The ampersand is missing from the title of the program on this window.
 	* **Introduced**: Version 1.27
-	* **Status**: Investigating
+	* **Status**: Fixed in Future Update
 
 # Hacks
 ## Aspect Ratio Support
