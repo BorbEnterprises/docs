@@ -34,7 +34,7 @@ The known issues here are reflective of the current version of the Mod Launcher.
 ## Dear Imgui
 * Certain elements or text, such as the chat box in the Multiplayer hack, may overflow ImGui related containers slightly in Direct3D 8.
 	* **Introduced**: Version 1.27
-	* **Status**: Investigating
+	* **Status**: Fixed in Future Update
 
 ## Discord Rich Presence
 * The game will crash on startup if you have a main mod enabled that does not have a `Title` set in its Meta.ini
