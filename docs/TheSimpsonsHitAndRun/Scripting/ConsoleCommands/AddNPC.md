@@ -46,3 +46,6 @@ Game.CloseObjective()
 ```
 {{ endtab }}
 {{ endtabs }}
+
+# Notes
+This command can be called up to four times per objective.
