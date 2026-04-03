@@ -13,7 +13,7 @@ authors: [ 1 ]
 
 ## New Features
 - Added the ability to broadcast your server to a Donut Team server browser.
-    - The first iteration of the server browser will only be available in from launcher.donutteam.com. We will be adding it directly into the Mod Launcher in a future update.
+    - The first iteration of the server browser will only be available on launcher.donutteam.com. We will be adding it directly into the Mod Launcher in a future update.
     - In order for your server to be listed on the server browser, it will need to be able to communicate with launcher.donutteam.com and will also need to be able to listen for incoming TCP connections on the same port that your game server is running on. If your server is behind a NAT, you will likely need to set up port forwarding in order for it to be listed on the server browser.
 - Added the `/broadcast-server <true|false>` command, which allows server operators to enable or disable broadcasting their server to the Donut Team server browser.    
 - Added the `HTTP` Lua module, allowing scripts to make HTTP requests from the server. Servers must enable the `WebRequests` permission in their Server.yaml file in order for HTTP requests to be allowed.
