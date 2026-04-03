@@ -17,7 +17,8 @@ authors: [ 1 ]
     - In order for your server to be listed on the server browser, it will need to be able to communicate with launcher.donutteam.com and will also need to be able to listen for incoming TCP connections on the same port that your game server is running on. If your server is behind a NAT, you will likely need to set up port forwarding in order for it to be listed on the server browser.
 - Added the `/broadcast-server <true|false>` command, which allows server operators to enable or disable broadcasting their server to the Donut Team server browser.    
 - Added the `HTTP` Lua module, allowing scripts to make HTTP requests from the server. Servers must enable the `WebRequests` permission in their Server.yaml file in order for HTTP requests to be allowed.
-- Added the `String.ToJSON` Lua function, which allows scripts to convert a Lua table to a JSON string.
+- Added the `JSON.Encode` Lua function, which allows scripts to convert a Lua table into a JSON string.
+- Added the `JSON.Decode` Lua function, which allows scripts to convert a JSON string into a Lua table.
 - Added the `MessageReceived` event to the server Lua API, which allows scripts to handle incoming chat messages from players.
 
 ## Bug Fixes

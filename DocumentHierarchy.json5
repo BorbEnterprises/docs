@@ -1592,6 +1592,16 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/HTTP/Request.md",
 									],
 								},
+								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/JSON.md",
+								{
+									type: "Group",
+									name: "JSON Functions",
+									children:
+									[
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/JSON/Decode.md",
+										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/JSON/Encode.md",
+									],
+								},
 								"SimpsonsHitAndRunMultiplayerServer/LuaScripting/Server.md",
 								{
 									type: "Group",
@@ -1655,7 +1665,6 @@
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Random.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Split.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/StartsWith.md",
-										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/ToJSON.md",
 										"SimpsonsHitAndRunMultiplayerServer/LuaScripting/String/Trim.md",
 									],
 								},
