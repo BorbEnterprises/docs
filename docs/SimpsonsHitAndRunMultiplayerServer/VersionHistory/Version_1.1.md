@@ -32,5 +32,6 @@ authors: [ 1 ]
 - Added a migration to add a username and discriminator field to the banned users table.
 - Added the `/unban` command, which allows server operators to unban a previously banned user by specifying their username and discriminator.
 - Added the `/countdown` command, which allows players to set a countdown timer that will be visible to all players in your session. This can be useful for coordinating the start of a race.
+- Added the `/whois` command, which allows server operators to look up the IP address associated with a player's username and discriminator.
 - Fixed an issue where the `/ban` command required quotes for the reason parameter, so that banning a user with a reason containing spaces would fail unless the reason was wrapped in quotes.
 - Fixed an issue where the `/kick` command required quotes for the reason parameter, so that kicking a user with a reason containing spaces would fail unless the reason was wrapped in quotes.
