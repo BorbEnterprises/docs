@@ -1,0 +1,1 @@
+Fixed a crash on startup if you had a main mod enabled that did not have a `Title` set in its `Meta.ini`.

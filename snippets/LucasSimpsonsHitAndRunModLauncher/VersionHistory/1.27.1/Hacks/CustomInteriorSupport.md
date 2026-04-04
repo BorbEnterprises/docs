@@ -1,0 +1,1 @@
+Made it so `ResetAmbientCharacter` is ignored if the **Free Roam** hack is enabled.

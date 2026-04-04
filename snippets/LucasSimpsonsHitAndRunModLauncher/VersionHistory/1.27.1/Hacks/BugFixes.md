@@ -1,0 +1,1 @@
+Fixed an issue where the **Time Skip** setting was enforcing an overly strict minimum simulation delta, resulting in slowdowns.

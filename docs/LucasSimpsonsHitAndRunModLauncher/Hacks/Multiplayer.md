@@ -112,3 +112,7 @@ To configure this hack from a mod when its enabled, create a file named `Multipl
 This hack was previously distributed as part of separate "SHAR MP" builds of the Mod Launcher.
 
 It also previously only had a single server, hosted by Donut Team, but this server has since been shuttered and users can now self-host their own server instead.
+
+# Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/Multiplayer.md }}

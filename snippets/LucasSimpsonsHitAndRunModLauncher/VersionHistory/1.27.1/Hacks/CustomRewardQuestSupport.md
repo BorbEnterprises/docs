@@ -1,0 +1,1 @@
+Fixed an issue where shops sometimes loaded rewards from the wrong level.

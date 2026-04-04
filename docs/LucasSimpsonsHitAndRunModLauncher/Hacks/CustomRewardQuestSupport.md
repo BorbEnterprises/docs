@@ -391,3 +391,7 @@ For rewards unlocked via the `gags` or `wasps` quest types, this message will ta
 
 # Notes
 If you're making a mod that adds additional rewards, you will most likely also want to use the [[CustomStatsTotals.md]] hack to adjust stats totals and potentially also the [[IncreasedRewardLimits.md]] hack if your added rewards exceed the base game's limitations.
+
+# Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/CustomRewardQuestSupport.md }}
