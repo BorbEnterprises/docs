@@ -1424,6 +1424,17 @@
 					children:
 					[
 						"SimpsonsHitAndRunMultiplayerServer/Intro.md",
+						{
+							type: "Group",
+							name: "Tutorials",
+							children:
+							[
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/SettingUpOnWindows.md",
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/SettingUpOnLinux.md",
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/BroadcastingToServerListing.md",
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/CreatingYourFirstMod.md",
+							],
+						},
 						"SimpsonsHitAndRunMultiplayerServer/Configuration.md",
 						"SimpsonsHitAndRunMultiplayerServer/CommandLineArguments.md",
 						"SimpsonsHitAndRunMultiplayerServer/LuaScripting.md",
