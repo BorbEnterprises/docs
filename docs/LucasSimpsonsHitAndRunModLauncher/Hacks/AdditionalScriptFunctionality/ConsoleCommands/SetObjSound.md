@@ -37,12 +37,12 @@ Game.SetObjSound( sound )
 {{ tabs }}
 {{ tab MFK }}
 ```js
-SetCondSound( sound, event, [time_between, start_delay] );
+SetObjSound( sound, event, [time_between, start_delay] );
 ```
 {{ endtab }}
 {{ tab Lua }}
 ```lua
-Game.SetCondSound( sound, event, [time_between, start_delay] )
+Game.SetObjSound( sound, event, [time_between, start_delay] )
 ```
 {{ endtab }}
 {{ endtabs }}
