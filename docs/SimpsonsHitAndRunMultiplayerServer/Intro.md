@@ -12,6 +12,12 @@ This software is used in conjunction with the [[/LucasSimpsonsHitAndRunModLaunch
 # Download
 This tool is available on Mod Bakery: [Project:124]
 
+# Tutorials
+* [[Tutorials/SettingUpOnWindows.md]]
+* [[Tutorials/SettingUpOnLinux.md]]
+* [[Tutorials/BroadcastingToServerListing.md]]
+* [[Tutorials/CreatingYourFirstMod.md]]
+
 # Configuration
 See [[Configuration.md]].
 

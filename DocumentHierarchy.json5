@@ -1373,6 +1373,7 @@
 							children:
 							[
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/AllVersions.md",
+								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.27.1.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.27.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.26.1.md",
 								"LucasSimpsonsHitAndRunModLauncher/VersionHistory/Version_1.26.md",
@@ -1434,6 +1435,17 @@
 					children:
 					[
 						"SimpsonsHitAndRunMultiplayerServer/Intro.md",
+						{
+							type: "Group",
+							name: "Tutorials",
+							children:
+							[
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/SettingUpOnWindows.md",
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/SettingUpOnLinux.md",
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/BroadcastingToServerListing.md",
+								"SimpsonsHitAndRunMultiplayerServer/Tutorials/CreatingYourFirstMod.md",
+							],
+						},
 						"SimpsonsHitAndRunMultiplayerServer/Configuration.md",
 						"SimpsonsHitAndRunMultiplayerServer/CommandLineArguments.md",
 						"SimpsonsHitAndRunMultiplayerServer/LuaScripting.md",

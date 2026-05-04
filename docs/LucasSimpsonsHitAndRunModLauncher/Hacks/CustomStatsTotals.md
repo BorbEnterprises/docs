@@ -79,6 +79,9 @@ IncludeMovieInTotal=0
 ```
 
 # Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/CustomStatsTotals.md }}
+
 ## Version 1.27
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomStatsTotals.md }}
 

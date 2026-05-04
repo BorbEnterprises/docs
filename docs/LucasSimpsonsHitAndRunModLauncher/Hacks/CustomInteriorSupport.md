@@ -271,6 +271,9 @@ MirrorWW=1.0
 {{ endtabs }}
 
 # Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/CustomInteriorSupport.md }}
+
 ## Version 1.27
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/CustomInteriorSupport.md }}
 

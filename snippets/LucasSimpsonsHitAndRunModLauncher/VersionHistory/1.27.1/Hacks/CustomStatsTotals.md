@@ -1,0 +1,1 @@
+Fixed a bug that could cause all missions to be unlocked.

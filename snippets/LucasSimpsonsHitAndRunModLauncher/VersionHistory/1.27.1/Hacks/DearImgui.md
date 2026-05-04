@@ -1,0 +1,1 @@
+Fixed text overflow issues when using Direct3D 8.

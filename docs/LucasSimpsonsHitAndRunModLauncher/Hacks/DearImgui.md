@@ -11,3 +11,7 @@ initialVersion:
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/Hacks/Headers/Advanced.md }}
 
 This advanced hack provides other hacks the ability to render stuff on top of the game using [DearImgui](https://github.com/ocornut/imgui).
+
+# Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/DearImgui.md }}

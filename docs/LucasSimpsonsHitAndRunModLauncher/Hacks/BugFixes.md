@@ -179,6 +179,9 @@ FixRelativeAnimatedCamCameraChange=1
 * Any bug fixes forced on or off with a configuration file will override any user settings for this hack if they have it enabled.
 
 # Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/BugFixes.md }}
+
 ## Version 1.27
 {{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27/Hacks/BugFixes.md }}
 

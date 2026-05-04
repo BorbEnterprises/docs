@@ -66,3 +66,7 @@ When **Background** is set to **Rectangle**, this controls the opacity of the re
 
 # Notes
 This was previously distributed as a standalone test hack for previous versions of the Mod Launcher.
+
+# Version History
+## Version 1.27.1
+{{ Snippet:LucasSimpsonsHitAndRunModLauncher/VersionHistory/1.27.1/Hacks/FrameRateCounter.md }}
